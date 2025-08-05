@@ -12,20 +12,7 @@
         --card-bg: #ffffff;
     }
     
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
-        background-color: #f5f5f5;
-        color: var(--dark);
-        line-height: 1.6;
-        padding: 2rem;
-    }
-    
+   
     .container {
         max-width: 1200px;
         margin: 0 auto;
