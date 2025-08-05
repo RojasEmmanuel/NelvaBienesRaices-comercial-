@@ -11,7 +11,7 @@
     
     .social-container {
         padding: 40px 20px;
-        background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+        background: #f5f5f5;
         min-height: calc(100vh - 120px); /* Ajusta según altura de tu navbar/footer */
     }
     
@@ -174,7 +174,7 @@
     /* Estilos mejorados para la sección de noticias */
     .news-section {
         padding: 80px 20px;
-        background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        background: #f5f5f5;
     }
     
     .news-container {
