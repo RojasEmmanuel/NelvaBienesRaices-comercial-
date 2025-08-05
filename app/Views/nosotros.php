@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Nosotros - Bienes Raíces</title>
 
+<!-- Asi se incrusta la sección del navbar y se le da el titulo a la pagina -->
+<?= view('templates/navbar', ['title' => 'Nelva Bienes Raíces']) ?>
 
     <style>
         /* Estilos para el contenido de la página Nosotros */
@@ -292,6 +293,7 @@
                     <div class="member-info">
                         <h4>Nelson Valencia Juárez</h4>
                         <p>Director General</p>
+                        <p>Es el líder y fundador de NELVA Bienes Raíces. Ha jugado un papel fundamental en el crecimiento y consolidación de la empresa, que se ha convertido en un referente en la costa Oaxaqueña. Su visión se ha centrado en ayudar a las familias locales y nacionales a establecer sus hogares en las hermosas playas de Oaxaca, siempre buscando un enfoque de bienestar y sustentabilidad.</p>
                     </div>
                 </div>
                 
@@ -317,6 +319,7 @@
                     <div class="member-info">
                         <h4>Hermilo Valencia Santiago</h4>
                         <p>Gestor de Propiedades</p>
+                        <p>Es responsable de gestionar las propiedades dentro de la empresa. Su rol implica coordinar la administración de los bienes raíces y asegurarse de que todos los aspectos relacionados con las propiedades estén en orden, lo que contribuye al crecimiento y buen funcionamiento de NELVA Bienes Raíces.</p>
                     </div>
                 </div>
 
@@ -327,6 +330,7 @@
                     <div class="member-info">
                         <h4>Williams Hernández Gómez</h4>
                         <p>Servicios Administrativos Istmo</p>
+                        <p>Está a cargo de los servicios administrativos en la región del Istmo de Tehuantepec. Su rol incluye la supervisión y coordinación de las actividades administrativas en esta área clave para la expansión de la empresa, contribuyendo al éxito de NELVA en el mercado inmobiliario.</p>
                     </div>
                 </div>
                 
@@ -413,5 +417,10 @@
         </div>
     </div>
 </section>
+
+
+<!-- Asi se incrusta la sección del footer -->
+<?= view('templates/footer') ?>
+
 </body>
 </html>
