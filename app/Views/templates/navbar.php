@@ -103,9 +103,51 @@
             width: auto;
         }
         
+        .nav-main-content {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        
         .nav-links {
             display: flex;
             gap: 25px;
+        }
+        
+        .social-linksNavbar{
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        .social-linksNavbar a {
+            color: #022F4A;
+            font-size: 18px;
+            transition: all 0.3s;
+        }
+        
+        .social-linksNavbar a:hover {
+            transform: translateY(-2px);
+        }
+        
+        .social-linksNavbar .fa-whatsapp:hover {
+            color: #25D366;
+        }
+        
+        .social-linksNavbar .fa-facebook-f:hover {
+            color: #1877F2;
+        }
+        
+        .social-linksNavbar .fa-instagram:hover {
+            color: #E4405F;
+        }
+        
+        .social-linksNavbars .fa-tiktok:hover {
+            color: #000000;
+        }
+        
+        .social-linksNavbar .fa-youtube:hover {
+            color: #FF0000;
         }
         
         .nav-links a {
@@ -165,6 +207,10 @@
             .nav-links {
                 gap: 15px;
             }
+            
+            .nav-main-content {
+                gap: 20px;
+            }
         }
         
         @media (max-width: 850px) {
@@ -184,6 +230,19 @@
             
             .address {
                 text-align: center;
+            }
+            
+            .social-links {
+                display: none;
+            }
+            
+            .mobile-social-links {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                padding: 15px 0;
+                background-color: #f0f0f0;
+                width: 100%;
             }
         }
         
@@ -205,16 +264,15 @@
                 justify-content: space-between;
             }
             
-            .nav-links {
+            .nav-main-content {
+                flex-direction: column;
                 position: fixed;
                 top: 80px;
                 left: -100%;
                 width: 100%;
                 background-color: #f8f8f8;
-                flex-direction: column;
-                align-items: center;
                 gap: 0;
-                padding: 15px 0;
+                padding: 0;
                 border-bottom: 1px solid #e7e7e7;
                 transition: left 0.3s ease;
                 box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -222,9 +280,15 @@
                 overflow-y: auto;
             }
             
-            .nav-links.active {
+            .nav-main-content.active {
                 left: 0;
                 display: flex;
+            }
+            
+            .nav-links {
+                flex-direction: column;
+                width: 100%;
+                gap: 0;
             }
             
             .nav-links a {
@@ -246,6 +310,10 @@
             .nav-links a:after {
                 display: none;
             }
+            
+            .mobile-social-links {
+                display: flex;
+            }
         }
         
         @media (max-width: 480px) {
@@ -261,8 +329,12 @@
                 font-size: 20px;
             }
             
-            .nav-links {
+            .nav-main-content {
                 top: 70px;
+            }
+            
+            .mobile-social-links a {
+                font-size: 20px;
             }
         }
 
@@ -274,6 +346,10 @@
         .container {
             max-width: 1200px;
             margin: 0 auto;
+        }
+        
+        .mobile-social-links {
+            display: none;
         }
     </style>
 </head>
@@ -309,14 +385,24 @@
                 <i class="fas fa-bars"></i>
             </div>
             
-            <div class="nav-links" id="navLinks">
-                <a href="/">Inicio</a>
-                <a href="/nosotros">Nosotros</a>
-                <a href="/servicios">Servicios</a>
-                <a href="/contacto">Contacto</a>
-                <a href="/mas">Mas</a>
-                <a href="#">Atractivos</a>
-                <a href="#">Mapa Interactivo 一</a>
+            <div class="nav-main-content" id="navMainContent">
+                <div class="nav-links" id="navLinks">
+                    <a href="/">Inicio</a>
+                    <a href="/nosotros">Nosotros</a>
+                    <a href="/servicios">Servicios</a>
+                    <a href="/contacto">Contacto</a>
+                    <a href="/mas">Mas</a>
+                    <a href="/atractivos">Atractivos</a>
+                </div>
+                
+                <!-- Redes sociales para desktop -->
+                <div class="social-linksNavbar">
+                    <a href="https://api.whatsapp.com/send/?phone=9581199171&text&type=phone_number&app_absent=0" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100063637222584" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/nelvabienesraices/l" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://tiktok.com/@tuperfil" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@NELVABIENESRAICES" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
             </div>
         </div>
     </nav>
@@ -327,16 +413,16 @@
         // JavaScript mejorado para el menú hamburguesa
         document.addEventListener('DOMContentLoaded', function() {
             const hamburger = document.getElementById('hamburger');
-            const navLinks = document.getElementById('navLinks');
+            const navMainContent = document.getElementById('navMainContent');
             
             // Toggle del menú al hacer clic en el icono hamburguesa
             hamburger.addEventListener('click', function(e) {
                 e.stopPropagation(); // Evita que el evento se propague
-                navLinks.classList.toggle('active');
+                navMainContent.classList.toggle('active');
                 
                 // Cambiar el icono entre hamburguesa y X
                 const icon = hamburger.querySelector('i');
-                if (navLinks.classList.contains('active')) {
+                if (navMainContent.classList.contains('active')) {
                     icon.classList.remove('fa-bars');
                     icon.classList.add('fa-times');
                 } else {
@@ -348,7 +434,7 @@
             // Cerrar el menú al hacer clic en un enlace
             document.querySelectorAll('.nav-links a').forEach(link => {
                 link.addEventListener('click', function() {
-                    navLinks.classList.remove('active');
+                    navMainContent.classList.remove('active');
                     const icon = hamburger.querySelector('i');
                     icon.classList.remove('fa-times');
                     icon.classList.add('fa-bars');
@@ -357,8 +443,8 @@
             
             // Cerrar el menú al hacer clic fuera de él
             document.addEventListener('click', function(event) {
-                if (!navLinks.contains(event.target)) {
-                    navLinks.classList.remove('active');
+                if (!navMainContent.contains(event.target)) {
+                    navMainContent.classList.remove('active');
                     const icon = hamburger.querySelector('i');
                     icon.classList.remove('fa-times');
                     icon.classList.add('fa-bars');
