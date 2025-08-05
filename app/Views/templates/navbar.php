@@ -315,7 +315,7 @@
                 <a href="/servicios">Servicios</a>
                 <a href="#">Contacto</a>
                 <a href="/mas">Mas</a>
-                <a href="#">Atractivos</a>
+                <a href="/atractivos">Atractivos</a>
                 <a href="#">Mapa Interactivo 一</a>
             </div>
         </div>
