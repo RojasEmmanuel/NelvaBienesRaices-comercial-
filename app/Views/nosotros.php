@@ -35,7 +35,7 @@
         
         /* Sección Nosotros */
         .about-section {
-            padding: 80px 5%;
+            padding: 40px 5%;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -95,7 +95,7 @@
         /* Equipo */
         .team-section {
             background-color: #f9f9f9;
-            padding: 80px 5%;
+            padding: 40px 5%;
         }
         
         .team-container {
@@ -152,14 +152,14 @@
         }
         
         .member-info p {
-            color: #e74c3c;
+            color: #0c1149ff;
             font-weight: 500;
             margin-bottom: 15px;
         }
         
         /* Valores */
         .values-section {
-            padding: 80px 5%;
+            padding: 40px 5%;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -352,39 +352,43 @@
                     <i class="fas fa-handshake"></i>
                 </div>
                 <h4>Confianza</h4>
-                <p>Construimos relaciones basadas en la honestidad y transparencia en cada transacción.</p>
+                <p>Para nuestro equipo deTalento Humano es indispensable actuar de manera ética, con calidad y absoluta transparencia.</p>
             </div>
             
             <div class="value-card">
                 <div class="value-icon">
                     <i class="fas fa-star"></i>
                 </div>
-                <h4>Excelencia</h4>
-                <p>Nos esforzamos por superar las expectativas en cada servicio que ofrecemos.</p>
+                <h4>Honestidad</h4>
+                <p>En nuestra organización nos comprometemos a tener conductas adecuadas y sinceras con nuestros inversionistas.</p>
             </div>
             
             <div class="value-card">
                 <div class="value-icon">
                     <i class="fas fa-heart"></i>
                 </div>
-                <h4>Pasión</h4>
-                <p>Amamos lo que hacemos y eso se refleja en nuestro compromiso con cada cliente.</p>
+                <h4>La Familia</h4>
+                <p>Nuestro éxito se debe al cuidado que le demos a tus inversiones con nuestras acciones procuramos el bienestar de los tuyos.</p>
             </div>
             
             <div class="value-card">
                 <div class="value-icon">
                     <i class="fas fa-lightbulb"></i>
                 </div>
-                <h4>Innovación</h4>
-                <p>Utilizamos tecnología de punta para ofrecer soluciones creativas y eficientes.</p>
+                <h4>Tranquilidad</h4>
+                <p>Entraras en tranquilidad al saber que NELVA tiene unas finanzas sanas, lo que garantiza que tus propiedades tengan una alta plusvalía.</p>
+            </div>
+
+
+            <div class="value-card">
+                <div class="value-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h4>Responsabilidad</h4>
+                <p>En NELVA estamos comprometidos con la satisfacción de nuestros inversionistas, con la sociedad y el medio ambiente.</p>
             </div>
         </div>
     </section>
-
-    <!-- Sección Valores (existente) -->
-<section class="values-section">
-    <!-- ... contenido actual de valores ... -->
-</section>
 
 <!-- Nueva sección Filosofía (agregar esto justo después de values-section) -->
 <section class="philosophy-section" style="background-color: #f8f9fa; padding: 80px 5%;">
