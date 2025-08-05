@@ -311,7 +311,7 @@
             
             <div class="nav-links" id="navLinks">
                 <a href="/">Inicio</a>
-                <a href="#">Nosotros</a>
+                <a href="/nosotros">Nosotros</a>
                 <a href="/servicios">Servicios</a>
                 <a href="#">Contacto</a>
                 <a href="#">Mas</a>
