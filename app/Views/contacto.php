@@ -298,56 +298,30 @@
             <!-- Información de Contacto -->
             <div style="flex: 1; min-width: 300px;">
                 <div style="margin-bottom: 30px;">
-                    <h2 style="font-size: 24px; color: #2c3e50; margin-bottom: 15px; text-transform: uppercase;">Contacta con nosotros para cualquier consulta.</h2>
+                    <h2 style="font-size: 24px; color: #2c3e50; margin-bottom: 15px; text-transform: uppercase;">Contacta con nuestros asesores</h2>
                     <p style="color: #555; line-height: 1.6;">
-                        Si tienes alguna duda o necesitas más información, estamos aquí para ayudarte. Puedes llenar el formulario con tus detalles, contarnos cómo podemos ayudarte, o dejarnos una nota para que te contactemos. También puedes obtener una cotización personalizada para tu próximo proyecto inmobiliario.
+                        Si deseas una atención más personalizada, no dudes en ponerte en contacto con cualquiera de nuestros asesores, ya sea del área de Costa o del Istmo. Están disponibles para brindarte toda la información que necesites, resolver tus dudas y acompañarte en cada paso del proceso. Tu satisfacción es nuestra prioridad.
                     </p>
                 </div>
+
+                <!-- Sección del botón de contacto -->
+                    <div style="text-align: center; padding: 40px 0; background-color: #f9f9f9; margin-bottom: 40px;">
+                        <a href="/asesores" style="
+                            display: inline-block;
+                            padding: 15px 40px;
+                            background-color: #333edaff;
+                            color: white;
+                            text-decoration: none;
+                            border-radius: 30px;
+                            font-size: 18px;
+                            font-weight: 600;
+                            transition: all 0.3s ease;
+                            box-shadow: 0 4px 15px rgba(51, 62, 218, 0.2);">
+                            Contáctanos
+                        </a>
+                    </div>
                 
-                <!-- Sección de pasos de contacto -->
-<section class="contact-steps" style="padding: 60px 5%; background-color: #fff;">
-    <div style="max-width: 600px; margin: 0 auto;">
-        <h2 style="font-size: 32px; color: #2c3e50; text-align: center; margin-bottom: 40px;">¿Cómo podemos ayudarte?</h2>
-        
-        <div style="display: flex; flex-direction: column; gap: 20px;">
-            <!-- Paso 1 -->
-            <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; display: flex; align-items: center; gap: 20px; transition: all 0.3s ease; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
-                <div style="background: #333edaff; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">1</div>
-                <div>
-                    <h3 style="color: #2c3e50; margin-bottom: 5px; font-size: 20px;">Rellena tus detalles</h3>
-                    <p style="color: #666; line-height: 1.5; margin: 0;">Compártenos tu información básica para poder contactarte.</p>
-                </div>
-            </div>
 
-            <!-- Paso 2 -->
-            <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; display: flex; align-items: center; gap: 20px; transition: all 0.3s ease; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
-                <div style="background: #333edaff; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">2</div>
-                <div>
-                    <h3 style="color: #2c3e50; margin-bottom: 5px; font-size: 20px;">Cuéntanos en qué te podemos ayudar</h3>
-                    <p style="color: #666; line-height: 1.5; margin: 0;">Describe el tipo de propiedad que buscas o el servicio que necesitas.</p>
-                </div>
-            </div>
-
-            <!-- Paso 3 -->
-            <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; display: flex; align-items: center; gap: 20px; transition: all 0.3s ease; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
-                <div style="background: #333edaff; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">3</div>
-                <div>
-                    <h3 style="color: #2c3e50; margin-bottom: 5px; font-size: 20px;">Déjanos un mensaje</h3>
-                    <p style="color: #666; line-height: 1.5; margin: 0;">Comparte cualquier información adicional que consideres relevante.</p>
-                </div>
-            </div>
-
-            <!-- Paso 4 -->
-            <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; display: flex; align-items: center; gap: 20px; transition: all 0.3s ease; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
-                <div style="background: #333edaff; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">4</div>
-                <div>
-                    <h3 style="color: #2c3e50; margin-bottom: 5px; font-size: 20px;">Obtén cotizaciones</h3>
-                    <p style="color: #666; line-height: 1.5; margin: 0;">Recibe información detallada sobre precios y opciones disponibles.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
             </div>
 
@@ -363,63 +337,6 @@
                     allowfullscreen="" 
                     loading="lazy">
                 </iframe>
-
-                                        <!-- Formulario de Contacto -->
-            <div style="flex: 1; min-width: 300px; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
-                <h3 style="font-size: 24px; color: #2c3e50; margin-bottom: 20px;">Contáctanos</h3>
-                
-                <form action="" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
-                    <div style="display: flex; flex-direction: column;">
-                        <label for="nombre" style="color: #2c3e50; margin-bottom: 5px;">Nombre Completo *</label>
-                        <input type="text" id="nombre" name="nombre" required 
-                            style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
-                    </div>
-
-                    <div style="display: flex; flex-direction: column;">
-                        <label for="email" style="color: #2c3e50; margin-bottom: 5px;">Correo electrónico *</label>
-                        <input type="email" id="email" name="email" required 
-                            style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
-                    </div>
-
-                    <div style="display: flex; flex-direction: column;">
-                        <label for="asunto" style="color: #2c3e50; margin-bottom: 5px;">Asunto *</label>
-                        <select id="asunto" name="asunto" required 
-                                style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
-                            <option value="">Seleccione una opción</option>
-                            <option value="compra">Compra</option>
-                            <option value="venta">Venta</option>
-                            <option value="renta">Alquiler de </option>
-                            <option value="informacion">Información General</option>
-                        </select>
-                    </div>
-
-                    <div style="display: flex; flex-direction: column;">
-                        <label for="telefono" style="color: #2c3e50; margin-bottom: 5px;">Número de teléfono *</label>
-                        <input type="tel" id="telefono" name="telefono" required 
-                            style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
-                    </div>
-
-                    <div style="display: flex; flex-direction: column;">
-                        <label for="mensaje" style="color: #2c3e50; margin-bottom: 5px;">Mensaje *</label>
-                        <textarea id="mensaje" name="mensaje" rows="4" required 
-                                style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px; resize: vertical;"></textarea>
-                    </div>
-
-                    <button type="submit" 
-                            style="background-color: #333edaff; color: white; padding: 12px 24px; border: none; 
-                                border-radius: 4px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;">
-                        Enviar
-                    </button>
-                </form>
-            </div>
-
-
-            </div>
-
-
-
-            
-
 
         </div>
     </div>

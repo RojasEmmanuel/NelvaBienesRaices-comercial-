@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
 
 <!-- Asi se incrusta la sección del navbar y se le da el titulo a la pagina -->
 <?= view('templates/navbar', ['title' => 'Nelva Bienes Raíces']) ?>
@@ -240,7 +237,7 @@
     <section class="about-section">
         <div class="section-title">
             <h2>Nuestra Historia</h2>
-            <p>Más de 5 años ayudando a las personas a encontrar su hogar ideal</p>
+            <p>Más de 6 años ayudando a las personas a encontrar su hogar ideal</p>
         </div>
         
         <div class="about-content">
@@ -352,7 +349,7 @@
                     <i class="fas fa-handshake"></i>
                 </div>
                 <h4>Confianza</h4>
-                <p>Para nuestro equipo deTalento Humano es indispensable actuar de manera ética, con calidad y absoluta transparencia.</p>
+                <p>Para nuestro equipo de Talento Humano es indispensable actuar de manera ética, con calidad y absoluta transparencia.</p>
             </div>
             
             <div class="value-card">
@@ -415,9 +412,9 @@
             </div>
         </div>
         
-        <div style="background: #333edaff; color: white; padding: 20px; border-radius: 8px; display: inline-block;">
+        <div style="background: #333edaff; color: white; padding: 20px; border-radius: 24px; display: inline-block;">
             <h3 style="font-size: 24px; margin-bottom: 10px;">FILOSOFÍA NELVA</h3>
-            <p style="font-size: 18px; font-weight: bold;">+5 Años de experiencia</p>
+            <p style="font-size: 18px; font-weight: bold;">6+ Años de experiencia</p>
         </div>
     </div>
 </section>
