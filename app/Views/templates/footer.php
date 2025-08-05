@@ -215,7 +215,7 @@
                 <div class="newsletter-social">
                     <p class="social-title">Síguenos en redes</p>
                     <div class="social-links">
-                        <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=9581199171&text&type=phone_number&app_absent=0" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                         <a href="https://www.facebook.com/profile.php?id=100063637222584" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.instagram.com/nelvabienesraices/" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.youtube.com/@NELVABIENESRAICES?themeRefresh=1" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
