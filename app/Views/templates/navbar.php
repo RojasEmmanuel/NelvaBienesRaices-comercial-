@@ -313,7 +313,7 @@
                 <a href="/">Inicio</a>
                 <a href="/nosotros">Nosotros</a>
                 <a href="/servicios">Servicios</a>
-                <a href="#">Contacto</a>
+                <a href="/contacto">Contacto</a>
                 <a href="/mas">Mas</a>
                 <a href="/atractivos">Atractivos</a>
                 <a href="#">Mapa Interactivo 一</a>
