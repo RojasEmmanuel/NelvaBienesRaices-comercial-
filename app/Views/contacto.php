@@ -246,7 +246,7 @@
         <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
             <!-- Bloque 1: Ubicación -->
             <div style="flex: 1; min-width: 250px; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center;">
-                <div style="color: #e74c3c; font-size: 30px; margin-bottom: 15px;">
+                <div style="color: #333edaff; font-size: 30px; margin-bottom: 15px;">
                     <i class="fas fa-map-marker-alt"></i>
                 </div>
                 <h3 style="font-size: 20px; color: #2c3e50; margin-bottom: 15px; text-transform: uppercase;">ENCUÉNTRANOS AQUÍ</h3>
@@ -259,7 +259,7 @@
             
             <!-- Bloque 2: Contacto -->
             <div style="flex: 1; min-width: 250px; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center;">
-                <div style="color: #e74c3c; font-size: 30px; margin-bottom: 15px;">
+                <div style="color: #333edaff; font-size: 30px; margin-bottom: 15px;">
                     <i class="fas fa-phone-alt"></i>
                 </div>
                 <h3 style="font-size: 20px; color: #2c3e50; margin-bottom: 15px; text-transform: uppercase;">CONTÁCTANOS</h3>
@@ -271,7 +271,7 @@
             
             <!-- Bloque 3: Horarios -->
             <div style="flex: 1; min-width: 250px; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center;">
-                <div style="color: #e74c3c; font-size: 30px; margin-bottom: 15px;">
+                <div style="color: #333edaff; font-size: 30px; margin-bottom: 15px;">
                     <i class="fas fa-clock"></i>
                 </div>
                 <h3 style="font-size: 20px; color: #2c3e50; margin-bottom: 15px; text-transform: uppercase;">NUESTROS HORARIOS</h3>
@@ -288,7 +288,7 @@
 
 
 
-<section class="contact-section" style="padding: 80px 5%; background-color: #ffffff;">
+<section class="contact-section" style="padding: 20px 5%; background-color: #ffffff;">
     <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
         <h1 style="font-size: 42px; color: #2c3e50; margin-bottom: 20px; text-transform: uppercase;">CONTÁCTA CON NOSOTROS</h1>
         <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 50px;">Nos encantaría saber de usted.</p>
@@ -312,7 +312,7 @@
         <div style="display: flex; flex-direction: column; gap: 20px;">
             <!-- Paso 1 -->
             <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; display: flex; align-items: center; gap: 20px; transition: all 0.3s ease; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
-                <div style="background: #e74c3c; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">1</div>
+                <div style="background: #333edaff; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">1</div>
                 <div>
                     <h3 style="color: #2c3e50; margin-bottom: 5px; font-size: 20px;">Rellena tus detalles</h3>
                     <p style="color: #666; line-height: 1.5; margin: 0;">Compártenos tu información básica para poder contactarte.</p>
@@ -321,7 +321,7 @@
 
             <!-- Paso 2 -->
             <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; display: flex; align-items: center; gap: 20px; transition: all 0.3s ease; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
-                <div style="background: #e74c3c; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">2</div>
+                <div style="background: #333edaff; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">2</div>
                 <div>
                     <h3 style="color: #2c3e50; margin-bottom: 5px; font-size: 20px;">Cuéntanos en qué te podemos ayudar</h3>
                     <p style="color: #666; line-height: 1.5; margin: 0;">Describe el tipo de propiedad que buscas o el servicio que necesitas.</p>
@@ -330,7 +330,7 @@
 
             <!-- Paso 3 -->
             <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; display: flex; align-items: center; gap: 20px; transition: all 0.3s ease; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
-                <div style="background: #e74c3c; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">3</div>
+                <div style="background: #333edaff; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">3</div>
                 <div>
                     <h3 style="color: #2c3e50; margin-bottom: 5px; font-size: 20px;">Déjanos un mensaje</h3>
                     <p style="color: #666; line-height: 1.5; margin: 0;">Comparte cualquier información adicional que consideres relevante.</p>
@@ -339,7 +339,7 @@
 
             <!-- Paso 4 -->
             <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; display: flex; align-items: center; gap: 20px; transition: all 0.3s ease; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
-                <div style="background: #e74c3c; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">4</div>
+                <div style="background: #333edaff; color: white; min-width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 20px;">4</div>
                 <div>
                     <h3 style="color: #2c3e50; margin-bottom: 5px; font-size: 20px;">Obtén cotizaciones</h3>
                     <p style="color: #666; line-height: 1.5; margin: 0;">Recibe información detallada sobre precios y opciones disponibles.</p>
@@ -363,7 +363,60 @@
                     allowfullscreen="" 
                     loading="lazy">
                 </iframe>
+
+                                        <!-- Formulario de Contacto -->
+            <div style="flex: 1; min-width: 300px; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <h3 style="font-size: 24px; color: #2c3e50; margin-bottom: 20px;">Contáctanos</h3>
+                
+                <form action="" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="nombre" style="color: #2c3e50; margin-bottom: 5px;">Nombre Completo *</label>
+                        <input type="text" id="nombre" name="nombre" required 
+                            style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="email" style="color: #2c3e50; margin-bottom: 5px;">Correo electrónico *</label>
+                        <input type="email" id="email" name="email" required 
+                            style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="asunto" style="color: #2c3e50; margin-bottom: 5px;">Asunto *</label>
+                        <select id="asunto" name="asunto" required 
+                                style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
+                            <option value="">Seleccione una opción</option>
+                            <option value="compra">Compra</option>
+                            <option value="venta">Venta</option>
+                            <option value="renta">Alquiler de </option>
+                            <option value="informacion">Información General</option>
+                        </select>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="telefono" style="color: #2c3e50; margin-bottom: 5px;">Número de teléfono *</label>
+                        <input type="tel" id="telefono" name="telefono" required 
+                            style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;">
+                        <label for="mensaje" style="color: #2c3e50; margin-bottom: 5px;">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required 
+                                style="padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px; resize: vertical;"></textarea>
+                    </div>
+
+                    <button type="submit" 
+                            style="background-color: #333edaff; color: white; padding: 12px 24px; border: none; 
+                                border-radius: 4px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;">
+                        Enviar
+                    </button>
+                </form>
             </div>
+
+
+            </div>
+
+
 
             
 

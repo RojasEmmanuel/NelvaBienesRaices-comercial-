@@ -185,7 +185,7 @@
         
         .value-icon {
             font-size: 40px;
-            color: #e74c3c;
+            color: #333edaff;
             margin-bottom: 20px;
         }
         
@@ -400,22 +400,22 @@
         
         <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-bottom: 40px;">
             <div style="background: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); width: 300px; text-align: left;">
-                <h3 style="color: #e74c3c; margin-bottom: 15px; font-size: 22px;">✓ Los Mejores Precios</h3>
+                <h3 style="color: #333edaff; margin-bottom: 15px; font-size: 22px;">✓ Los Mejores Precios</h3>
                 <p style="color: #555;">Garantizamos las mejores opciones del mercado con excelente relación calidad-precio.</p>
             </div>
             
             <div style="background: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); width: 300px; text-align: left;">
-                <h3 style="color: #e74c3c; margin-bottom: 15px; font-size: 22px;">✓ Agencia Confiable</h3>
+                <h3 style="color: #333edaff; margin-bottom: 15px; font-size: 22px;">✓ Agencia Confiable</h3>
                 <p style="color: #555;">Más de 5 años de experiencia respaldan nuestra seriedad y profesionalismo.</p>
             </div>
             
             <div style="background: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); width: 300px; text-align: left;">
-                <h3 style="color: #e74c3c; margin-bottom: 15px; font-size: 22px;">✓ Precios Accesibles</h3>
+                <h3 style="color: #333edaff; margin-bottom: 15px; font-size: 22px;">✓ Precios Accesibles</h3>
                 <p style="color: #555;">Opciones para todos los presupuestos sin comprometer calidad o ubicación.</p>
             </div>
         </div>
         
-        <div style="background: #e74c3c; color: white; padding: 20px; border-radius: 8px; display: inline-block;">
+        <div style="background: #333edaff; color: white; padding: 20px; border-radius: 8px; display: inline-block;">
             <h3 style="font-size: 24px; margin-bottom: 10px;">FILOSOFÍA NELVA</h3>
             <p style="font-size: 18px; font-weight: bold;">+5 Años de experiencia</p>
         </div>
