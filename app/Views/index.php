@@ -889,7 +889,7 @@
     <div class="parallax-content">
         <h1>TODO LO QUE NECESITAS PARA <span class="highlight">TUS PROYECTOS</span> EN UN SOLO LUGAR</h1>
         <p>Ya sea que busques INVERTIR en terrenos cerca de los destinos turísticos más hermosos de Oaxaca, servicios profesionales de topografía o renta de equipo de maquinaria especializada, estamos aquí para ayudarte.</p>
-        <a href="#contact" class="btn">Contactar con un asesor</a>
+        <a href="/asesores" class="btn">Contactar con un asesor</a>
     </div>
 </section>
 
