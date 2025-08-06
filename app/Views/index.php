@@ -981,31 +981,109 @@
                 </div>
             </div>
             
-            <!-- Proyecto 2 -->
             <div class="project-card">
                 <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/zull.png') ?>" alt="Residencial Zull">
+                    <img src="<?= base_url('images/inicio/nura.png') ?>" alt="nura">
                 </div>
                 <div class="project-location">
                     <i class="fas fa-map-marker-alt"></i>
                     <span>Mazunte, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="#" class="btn">Ver detalles</a>
+                    <a href="/nura" class="btn">Ver detalles</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-logo">
+                    <img src="<?= base_url('images/inicio/andromeda.png') ?>" alt="Andromeda">
+                </div>
+                <div class="project-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Santa María Tonameca, Oaxaca</span>
+                </div>
+                <div class="project-overlay">
+                    <a href="/andromeda" class="btn">Ver detalles</a>
+                </div>
+            </div>
+            
+            <!-- Proyecto 2 -->
+            <div class="project-card">
+                <div class="project-logo">
+                    <img src="<?= base_url('images/inicio/jicaro.png') ?>" alt="El Jicaro">
+                </div>
+                <div class="project-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Santa María Tonameca, Oaxaca</span>
+                </div>
+                <div class="project-overlay">
+                    <a href="/el-jicaro" class="btn">Ver detalles</a>
                 </div>
             </div>
             
             <!-- Proyecto 3 -->
             <div class="project-card">
                 <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/OCEANICA.png') ?>" alt="Oceanica">
+                    <img src="<?= base_url('images/inicio/oceanica.png') ?>" alt="Oceanica">
                 </div>
                 <div class="project-location">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Salina Cruz, Oaxaca</span>
+                    <span>PLAYA GUAPINOLE, STA. MARÍA TONAMECA, OAX. </span>
                 </div>
                 <div class="project-overlay">
-                    <a href="#" class="btn">Ver detalles</a>
+                    <a href="/oceanica" class="btn">Ver detalles</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-logo">
+                    <img src="<?= base_url('images/inicio/Santuario.png') ?>" alt="El Santuario de las Tortugas">
+                </div>
+                <div class="project-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Escobilla, Sta. María tonameca, oax.</span>
+                </div>
+                <div class="project-overlay">
+                    <a href="/el-santuario-tortugas" class="btn">Ver detalles</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-logo">
+                    <img src="<?= base_url('images/inicio/nyssa.png') ?>" alt="Nyssa">
+                </div>
+                <div class="project-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>La unión del palmar, santa maría tonameca.</span>
+                </div>
+                <div class="project-overlay">
+                    <a href="/nyssa" class="btn">Ver detalles</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-logo">
+                    <img src="<?= base_url('images/inicio/sicaru.png') ?>" alt="Sicarú">
+                </div>
+                <div class="project-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Guelaguechi, Salina Cruz, Oaxaca</span>
+                </div>
+                <div class="project-overlay">
+                    <a href="/sicaru" class="btn">Ver detalles</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-logo">
+                    <img src="<?= base_url('images/inicio/zull.png') ?>" alt="Zull">
+                </div>
+                <div class="project-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Dunas playa azul, salina cruz, oaxacaa</span>
+                </div>
+                <div class="project-overlay">
+                    <a href="/zull" class="btn">Ver detalles</a>
                 </div>
             </div>
         </div>
