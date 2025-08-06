@@ -977,7 +977,7 @@
                     <span>Santa María Tonameca, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="#" class="btn">Ver detalles</a>
+                    <a href="/real-campestre" class="btn">Ver detalles</a>
                 </div>
             </div>
             
