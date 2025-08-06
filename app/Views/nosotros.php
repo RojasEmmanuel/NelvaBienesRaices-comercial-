@@ -10,14 +10,24 @@
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/nosotros/nelva.jpg');
             background-size: cover;
             background-position: center;
+            background-attachment: fixed; /* Esto agrega el efecto parallax */
             height: 60vh;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             color: white;
-            margin-top: 80px;
+            margin-top: 0px;
+            position: relative; /* Asegura que el contenido se mantenga por encima */
+            z-index: 1; /* Asegura que la sección esté por encima de otros elementos */
         }
+
+/* Mejora la responsividad del parallax */
+@media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll; /* Deshabilita parallax en móviles para mejor rendimiento */
+    }
+}
         
         .hero-content h1 {
             font-size: 48px;
@@ -98,6 +108,7 @@
         .team-container {
             max-width: 1200px;
             margin: 0 auto;
+            
         }
         
         .team-members {
@@ -112,7 +123,7 @@
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            width: 280px;
+            width: 340px;
             text-align: center;
             transition: transform 0.3s;
             display: flex; /* Agregamos display flex */
@@ -125,9 +136,10 @@
         
         /* Modifica estos estilos en la sección de CSS */
         .member-image {
-            height: 380px; /* Aumentamos la altura para imágenes verticales */
+            height: 390px; /* Aumentamos la altura para imágenes verticales */
             overflow: hidden;
             position: relative; /* Agregamos posición relativa */
+            padding: 20px;
         }
         
         .member-image img {
@@ -139,26 +151,29 @@
         }
         
         .member-info {
-            padding: 20px;
+            padding: 2px;
         }
-        
+
         .member-info h4 {
             font-size: 20px;
-            color: #2c3e50;
+            color: #1e3042ff;
             margin-bottom: 5px;
         }
-        
+
         .member-info p {
             color: #0c1149ff;
             font-weight: 500;
             margin-bottom: 15px;
+            padding: 0 15px;
         }
-        
-        /* Valores */
-        .values-section {
-            padding: 40px 5%;
-            max-width: 1200px;
-            margin: 0 auto;
+
+        /* Agregar esta regla específica para el párrafo de descripción */
+        .member-info p:last-child {
+            text-align: justify;
+            color: #555; /* Un color más suave para el texto largo */
+            font-weight: normal; /* Peso normal para mejor legibilidad */
+            line-height: 1.6; /* Mejor espaciado entre líneas */
+            
         }
         
         .values-grid {
@@ -219,6 +234,45 @@
                 font-size: 30px;
             }
         }
+
+        /* Agregar estos estilos en la sección de CSS */
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+            padding: 0 20px 20px;
+        }
+
+        .social-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .social-button i {
+            margin-right: 8px;
+        }
+
+        .facebook-btn {
+            background-color: #1877f2;
+        }
+
+        .whatsapp-btn {
+            background-color: #25d366;
+        }
+
+        .social-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
@@ -291,12 +345,24 @@
                         <h4>Nelson Valencia Juárez</h4>
                         <p>Director General</p>
                         <p>Es el líder y fundador de NELVA Bienes Raíces. Ha jugado un papel fundamental en el crecimiento y consolidación de la empresa, que se ha convertido en un referente en la costa Oaxaqueña. Su visión se ha centrado en ayudar a las familias locales y nacionales a establecer sus hogares en las hermosas playas de Oaxaca, siempre buscando un enfoque de bienestar y sustentabilidad.</p>
+                        
                     </div>
+                        <div class="social-buttons">
+                            <a href="https://www.facebook.com/profile.php?id=61565124028229" target="_blank" class="social-button facebook-btn">
+                                <i class="fab fa-facebook-f"></i>
+                                Facebook
+                            </a>
+                            <a href="https://wa.me/529581130282?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20los%20terrenos%20disponibles." target="_blank" class="social-button whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i>
+                                WhatsApp
+                            </a>
+                        </div>
                 </div>
                 
             </div>
             
             <div class="team-members">
+                
                 
                 <div class="team-member">
                     <div class="member-image">
@@ -306,7 +372,18 @@
                         <h4>Victoria López García</h4>
                         <p>Servicios Administrativos Costa</p>
                         <p>Se encarga de los servicios administrativos en la zona costera de Oaxaca. Su labor es esencial para garantizar la organización y eficiencia de las operaciones en esta región, asegurando que todos los procesos sean adecuados y gestionados de forma efectiva.</p>
+                        
                     </div>
+                        <div class="social-buttons">
+                            <a href="https://www.facebook.com/profile.php?id=61563572601730" target="_blank" class="social-button facebook-btn">
+                                <i class="fab fa-facebook-f"></i>
+                                Facebook
+                            </a>
+                            <a href="https://wa.me/529581071940?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20los%20terrenos%20disponibles." target="_blank" class="social-button whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i>
+                                WhatsApp
+                            </a>
+                        </div>
                 </div>
                 
                 <div class="team-member">
@@ -317,7 +394,18 @@
                         <h4>Hermilo Valencia Santiago</h4>
                         <p>Gestor de Propiedades</p>
                         <p>Es responsable de gestionar las propiedades dentro de la empresa. Su rol implica coordinar la administración de los bienes raíces y asegurarse de que todos los aspectos relacionados con las propiedades estén en orden, lo que contribuye al crecimiento y buen funcionamiento de NELVA Bienes Raíces.</p>
+                        
                     </div>
+                        <div class="social-buttons">
+                            <a href="https://www.facebook.com/profile.php?id=61558112995090" target="_blank" class="social-button facebook-btn">
+                                <i class="fab fa-facebook-f"></i>
+                                Facebook
+                            </a>
+                            <a href="https://wa.me/529581071940?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20los%20terrenos%20disponibles." target="_blank" class="social-button whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i>
+                                WhatsApp
+                            </a>
+                        </div>
                 </div>
 
                 <div class="team-member">
@@ -328,7 +416,18 @@
                         <h4>Williams Hernández Gómez</h4>
                         <p>Servicios Administrativos Istmo</p>
                         <p>Está a cargo de los servicios administrativos en la región del Istmo de Tehuantepec. Su rol incluye la supervisión y coordinación de las actividades administrativas en esta área clave para la expansión de la empresa, contribuyendo al éxito de NELVA en el mercado inmobiliario.</p>
+
                     </div>
+                        <div class="social-buttons">
+                            <a href="https://www.facebook.com/profile.php?id=61560542818881" target="_blank" class="social-button facebook-btn">
+                                <i class="fab fa-facebook-f"></i>
+                                Facebook
+                            </a>
+                            <a href="https://wa.me/529582721463?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20los%20terrenos%20disponibles." target="_blank" class="social-button whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i>
+                                WhatsApp
+                            </a>
+                        </div>
                 </div>
                 
                 
@@ -412,10 +511,25 @@
             </div>
         </div>
         
-        <div style="background: #333edaff; color: white; padding: 20px; border-radius: 24px; display: inline-block;">
-            <h3 style="font-size: 24px; margin-bottom: 10px;">FILOSOFÍA NELVA</h3>
-            <p style="font-size: 18px; font-weight: bold;">6+ Años de experiencia</p>
-        </div>
+    <div style="text-align: center;">
+        <a href="<?= base_url('files/FILOSOFIA-NELVA-2024.pdf') ?>" download style="
+            background: #333edaff;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 24px;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(51, 62, 218, 0.2);"
+            onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(51, 62, 218, 0.3)'"
+            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(51, 62, 218, 0.2)'">
+            <div>
+                <h3 style="font-size: 24px; margin-bottom: 10px;">FILOSOFÍA NELVA</h3>
+                <p style="font-size: 18px; font-weight: bold; margin: 0;">6+ Años de experiencia</p>
+            </div>
+        </a>
+    </div>
     </div>
 </section>
 
