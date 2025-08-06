@@ -42,7 +42,7 @@
         
         /* Sección Nosotros */
         .about-section {
-            padding: 40px 5%;
+            padding: 0px 5%;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -102,7 +102,7 @@
         /* Equipo */
         .team-section {
             background-color: #f9f9f9;
-            padding: 40px 5%;
+            padding: 0px 5%;
         }
         
         .team-container {
@@ -235,7 +235,6 @@
             }
         }
 
-        /* Agregar estos estilos en la sección de CSS */
         .social-buttons {
             display: flex;
             justify-content: center;
@@ -307,12 +306,12 @@
         <div class="about-content">
             <div class="about-text">
                 <h3>Misión</h3>
-                <p>Nos apasiona crear historias para que tú y tu familia cuenten con soluciones inmobiliarias efectivas, con garantía y alta plusvalía en las playas más importantes del estado de Oaxaca. Nos enfocamos en brindarte un servicio confiable y seguro, ayudándote a hacer realidad el hogar de tus sueños.</p>
+                <p>Nos apasiona crear historias para que tú y tu familia cuenten con soluciones inmobiliarias efectivas, con garantía y alta plusvalía en las playas más importantes del estado de Oaxaca.</p>
             </div>
 
             <div class="about-text">
                 <h3>Visión</h3>
-                <p>Consolidarnos como una empresa líder e innovadora en el estado de Oaxaca, capaz de brindarte soluciones inmobiliarias integrales que generen bienestar económico, social y ambiental para ti y tu familia. Buscamos ser una referencia en el sector inmobiliario, comprometidos con el desarrollo sostenible y la satisfacción de nuestros clientes.</p>
+                <p>Consolidarnos como una empresa líder e innovadora en el estado de Oaxaca, capaz de brindarte soluciones inmobiliarias integrales que generen bienestar económico, social y ambiental para ti y tu familia.</p>
             </div>
 
         </div>
@@ -487,7 +486,7 @@
     </section>
 
 <!-- Nueva sección Filosofía (agregar esto justo después de values-section) -->
-<section class="philosophy-section" style="background-color: #f8f9fa; padding: 80px 5%;">
+<section class="philosophy-section" style="background-color: #f8f9fa; padding: 20px 5%;">
     <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
         <h2 style="font-size: 36px; color: #2c3e50; margin-bottom: 20px;">La mejor agencia inmobiliaria que puedes encontrar</h2>
         <p style="font-size: 18px; color: #555; max-width: 800px; margin: 0 auto 40px;">

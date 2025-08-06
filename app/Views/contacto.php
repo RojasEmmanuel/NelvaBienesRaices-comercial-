@@ -241,7 +241,7 @@
         }
     </style>
 
-    <section class="contact-info-section" style="padding: 60px 5%; background-color: #f9f9f9;">
+<section class="contact-info-section" style="padding: 60px 5%; background-color: #f9f9f9;">
     <div style="max-width: 1200px; margin: 0 auto;">
         <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
             <!-- Bloque 1: Ubicación -->
