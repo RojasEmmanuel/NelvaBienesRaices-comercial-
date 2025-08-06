@@ -528,12 +528,12 @@
             font-size: 2.5rem;
         }
         
-        .map-container {
+        .map-container2 {
             grid-template-columns: 1fr;
             gap: 30px;
         }
         
-        .map-content {
+        .map-content2 {
             padding-right: 0;
             text-align: center;
         }
