@@ -426,8 +426,31 @@
             height: 200px;
         }
     }
-</style>
 
+        /* Personalización del botón de cierre de Lightbox */
+    .lb-close {
+        background: rgba(0,0,0,0.8) !important;
+        border-radius: 50% !important;
+        width: 40px !important;
+        height: 40px !important;
+        line-height: 40px !important;
+        text-align: center !important;
+        font-size: 24px !important;
+        color: white !important;
+        transition: all 0.3s ease !important;
+    }
+
+    .lb-close:hover {
+        background: rgba(230, 50, 50, 0.9) !important;
+        transform: rotate(90deg) !important;
+    }
+
+    /* Asegurar que el overlay ocupe toda la pantalla */
+    .lightboxOverlay {
+        background-color: rgba(0, 0, 0, 0.9) !important;
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
 
 <section class="hero">
     <div class="hero-content">
@@ -642,17 +665,19 @@
             <div class="modal-gallery">
                 <div class="carousel" id="topografia-carousel">
                     <div class="carousel-inner">
+                        
                         <div class="carousel-item active">
-                            <a href="images/Servicios/topografia1.jpg" data-lightbox="topografia" data-title="Equipo de topografía en acción">
-                                <img src="images/Servicios/topografia1.png" alt="Equipo de topografía">
+                            <a href="<?= base_url('images/Servicios/topografia1.png') ?>" data-lightbox="topografia" data-title="Equipo de topografía en acción">
+                                <img src="<?= base_url('images/Servicios/topografia1.png') ?>" alt="Equipo de topografía">
                             </a>
                             <div class="carousel-caption">Equipo profesional trabajando</div>
                         </div>
-                        <div class="carousel-item">
-                            <a href="images/Servicios/topografia2.jpg" data-lightbox="topografia" data-title="Mediciones precisas con tecnología avanzada">
-                                <img src="images/Servicios/topografia2.png" alt="Tecnología de medición">
+
+                        <div class="carousel-item active">
+                            <a href="<?= base_url('images/Servicios/topografia2.png') ?>" data-lightbox="topografia" data-title="Equipo de topografía en acción">
+                                <img src="<?= base_url('images/Servicios/topografia2.png') ?>" alt="Equipo de topografía">
                             </a>
-                            <div class="carousel-caption">Tecnología de punta</div>
+                            <div class="carousel-caption">Equipo profesional trabajando</div>
                         </div>
                         <div class="carousel-item">
                             <a href="images/Servicios/topografia3.jpg" data-lightbox="topografia" data-title="Informes detallados y profesionales">
@@ -701,30 +726,36 @@
             <div class="modal-gallery">
                 <div class="carousel" id="maquinaria-carousel">
                     <div class="carousel-inner">
+
                         <div class="carousel-item active">
-                            <a href="images/Servicios/maquinaria1.jpg" data-lightbox="maquinaria" data-title="Retroexcavadora en perfecto estado">
-                                <img src="images/Servicios/maquinaria1.png" alt="Retroexcavadora">
+                            <a href="<?= base_url('images/Servicios/maquinaria1.png') ?>" data-lightbox="topografia" data-title="Equipo de topografía en acción">
+                                <img src="<?= base_url('images/Servicios/maquinaria1.png') ?>" alt="Equipo de topografía">
                             </a>
-                            <div class="carousel-caption">Retroexcavadora CAT</div>
+                            <div class="carousel-caption">Retroexcavadora CA</div>
                         </div>
-                        <div class="carousel-item">
-                            <a href="images/Servicios/maquinaria2.jpg" data-lightbox="maquinaria" data-title="Bulldozer para movimiento de tierra">
-                                <img src="images/Servicios/maquinaria2.png" alt="Bulldozer">
+
+                        <div class="carousel-item active">
+                            <a href="<?= base_url('images/Servicios/maquinaria2.png') ?>" data-lightbox="topografia" data-title="Equipo de topografía en acción">
+                                <img src="<?= base_url('images/Servicios/maquinaria2.png') ?>" alt="Equipo de topografía">
                             </a>
-                            <div class="carousel-caption">Retroexcavadora CAT</div>
+                            <div class="carousel-caption">Retroexcavadora CA</div>
                         </div>
-                        <div class="carousel-item">
-                            <a href="images/Servicios/maquinaria3.jpg" data-lightbox="maquinaria" data-title="Equipos de compactación">
-                                <img src="images/Servicios/maquinaria3.png" alt="Compactadores">
+
+                        <div class="carousel-item active">
+                            <a href="<?= base_url('images/Servicios/maquinaria3.png') ?>" data-lightbox="topografia" data-title="Equipo de topografía en acción">
+                                <img src="<?= base_url('images/Servicios/maquinaria3.png') ?>" alt="Equipo de topografía">
                             </a>
                             <div class="carousel-caption">Volteo</div>
                         </div>
-                        <div class="carousel-item">
-                            <a href="images/Servicios/maquinaria4.jpg" data-lightbox="maquinaria" data-title="Camiones de volteo para transporte">
-                                <img src="images/Servicios/maquinaria4.png" alt="Camiones de volteo">
+
+                        <div class="carousel-item active">
+                            <a href="<?= base_url('images/Servicios/maquinaria4.png') ?>" data-lightbox="topografia" data-title="Equipo de topografía en acción">
+                                <img src="<?= base_url('images/Servicios/maquinaria4.png') ?>" alt="Equipo de topografía">
                             </a>
                             <div class="carousel-caption">Retroexcavadora</div>
                         </div>
+
+
                     </div>
                     <div class="carousel-controls">
                         <button class="carousel-control prev" onclick="moveSlide('maquinaria-carousel', -1)">&#10094;</button>
@@ -834,9 +865,13 @@
             'resizeDuration': 200,
             'wrapAround': true,
             'showImageNumberLabel': true,
-            'disableScrolling': true
+            'disableScrolling': true,
+            'alwaysShowNavOnTouchDevices': true, // Para asegurar que los controles sean visibles
+            'fadeDuration': 300,
+            'imageFadeDuration': 300,
+            'positionFromTop': 100 // Posición desde la parte superior
         });
-        
+
         // Auto-advance carousels
         setInterval(() => {
             if (document.getElementById('modal-topografia').style.display === 'block') {
@@ -851,7 +886,7 @@
 
 <div id="footer-container"></div>
 <script src="template.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
 
 <!-- Asi se incrusta la sección del footer -->
