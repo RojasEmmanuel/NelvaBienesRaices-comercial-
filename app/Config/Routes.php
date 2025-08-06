@@ -12,3 +12,6 @@ $routes->get('nosotros', 'NosotrosController::index');
 $routes->get('mas', 'MasController::index');
 $routes->get('contacto', 'ContactoController::index');
 $routes->get('asesores', 'AsesoresController::index');
+
+
+$routes->get('real-campestre', 'RealCampestreController::index');
