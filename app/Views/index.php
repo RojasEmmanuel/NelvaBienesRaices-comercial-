@@ -1057,7 +1057,7 @@
                     <span>Sta. María Tonameca, Oax.</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/nyssa" class="btn">Ver</a>
+                    <a href="/NYSSA" class="btn">Ver</a>
                 </div>
             </div>
 
