@@ -20,3 +20,4 @@ $routes->get('Andromeda', 'AndromedaController::index');
 $routes->get('ElJicaro', 'ElJicaroController::index');
 $routes->get('Oceanica', 'OceanicaController::index');
 $routes->get('ElSantuarioDeLasTortugas', 'ElSantuarioDeLasTortugasController::index');
+$routes->get('NYSSA', 'NYSSAController::index');
