@@ -1,4 +1,4 @@
-<?= view('templates/navbar', ['title' => 'Andromeda - Nelva Bienes Raíces']) ?>
+<?= view('templates/navbar', ['title' => 'El Jícaro - Nelva Bienes Raíces']) ?>
 
 <style>
     :root {
@@ -117,7 +117,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/ElJicaro/parallax.png') ?>') center/cover no-repeat;
         background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
         background-blend-mode: multiply; /* Mezcla los colores para el efecto de oscurecimiento */
         z-index: 1;
@@ -617,8 +617,8 @@
 <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-content">
-        <h1>FRACCIONAMIENTO ANDROMEDA</h1>
-        <span class="price">$300,000.00</span>
+        <h1>FRACCIONAMIENTO EL JÍCARO</h1>
+        <span class="price">$130,000.00</span>
         <p>Exclusivos lotes residenciales desde 200 mtrs</p>
         <p>Santa María Tonameca, Oaxaca</p>
         <div class="hero-buttons">
@@ -631,9 +631,9 @@
 <!-- Info Grid Mejorada -->
 <section class="section">
     <div class="container">
-        <h2 class="section-title">Descubre Fraccionamiento Andromeda</h2>
+        <h2 class="section-title">Descubre Fraccionamiento El Jícaro</h2>
         <p class="text-center mb-30" style="max-width: 800px; margin-left: auto; margin-right: auto;">
-            Fraccionamiento Andrómeda es una comunidad planeada para quienes desean vivir en un entorno tranquilo, rodeado de belleza natural y con una alta proyección de plusvalía. Su diseño y ubicación lo convierten en una excelente opción para disfrutar de un estilo de vida relajado cerca del mar, ya sea como residencia permanente o como inversión.
+            Fraccionamiento El Jícaro es un desarrollo pensado para quienes buscan un estilo de vida relajado, en armonía con la naturaleza y lejos del ritmo acelerado de la ciudad. Rodeado de vegetación exuberante y tranquilidad, ofrece un entorno ideal para vivir o descansar, con la confianza de estar realizando una inversión con gran potencial de crecimiento.
         </p>
         
         <div class="info-grid">
@@ -750,7 +750,7 @@
     <div class="container">
         <h2 class="section-title">Plano del Fraccionamiento</h2>
         <div style="max-width: 480px; margin: auto; box-shadow: var(--shadow-lg); border-radius: 12px; overflow: hidden;">
-            <img src="<?= base_url('images/Andromeda/plano.webp') ?>" alt="Plano de Andromeda" style="width: 100%; height: auto; display: block;">
+            <img src="<?= base_url('images/ElJicaro/plano.webp') ?>" alt="Plano de El Jícaro" style="width: 100%; height: auto; display: block;">
         </div>
         <p class="text-center" style="margin-top: 20px; font-size: 1.1rem; color: var(--gray);">
             Diseño urbanístico pensado para maximizar espacios y privacidad, con amplias áreas verdes y distribución estratégica.
@@ -765,11 +765,11 @@
         <div class="map-container2">
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
-                <p>Ubicado en una de las zonas más atractivas de la costa oaxaqueña, Andrómeda ofrece acceso rápido a las principales playas de Oaxaca y a servicios básicos que garantizan comodidad y funcionalidad. Su excelente ubicación combina el valor de estar cerca del mar con el potencial de crecimiento y desarrollo en una región de alta demanda.</p>
+                <p>Con una ubicación privilegiada en una zona natural cercana a los principales atractivos turísticos de Oaxaca, El Jícaro ofrece fácil acceso a servicios básicos y conexión con puntos clave de la región. Su entorno natural y estratégico lo convierten en una opción inteligente para quienes valoran tanto la belleza del paisaje como la plusvalía de su inversión.</p>
                 <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d532.5379816486387!2d-96.57814264768842!3d15.701101750866627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754586414767!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193.7614987068797!2d-96.54773804424232!3d15.73907877024001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754589400320!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
@@ -811,7 +811,7 @@
 <!-- Contact CTA Mejorado -->
 <section class="contact-cta">
     <div class="container">
-        <h2>¿Listo para ser parte de Fraccionamiento Andrómeda?</h2>
+        <h2>¿Listo para ser parte de Fraccionamiento El Jícaro?</h2>
         <p>Contáctanos hoy mismo para recibir información detallada, precios especiales y asesoría personalizada sin compromiso.</p>
         <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
     </div>

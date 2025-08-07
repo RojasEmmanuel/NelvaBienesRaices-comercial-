@@ -1017,7 +1017,7 @@
                     <span>Sta. María Tonameca, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/el-jicaro" class="btn">Ver</a>
+                    <a href="/ElJicaro" class="btn">Ver</a>
                 </div>
             </div>
             

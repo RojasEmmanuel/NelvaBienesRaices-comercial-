@@ -117,7 +117,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/RealCampestre/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Nura/parallax.png') ?>') center/cover no-repeat;
         background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
         background-blend-mode: multiply; /* Mezcla los colores para el efecto de oscurecimiento */
         z-index: 1;
@@ -766,7 +766,7 @@
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
                 <p>Ubicado en Mazunte, Oaxaca, Nura Campestre goza de una ubicación privilegiada a solo minutos de la playa y de algunos de los paisajes más impresionantes de la región. Su cercanía con atractivos turísticos clave permite disfrutar de vistas espectaculares y una conexión constante con la naturaleza, sin alejarse de los servicios esenciales.</p>
-                <a href="#contact-form" class="btn btn-secondary">Solicitar información</a>
+                <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1843.6237535366145!2d-96.5764569647838!3d15.712219848986274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754508964487!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
@@ -809,7 +809,7 @@
     <div class="container">
         <h2>¿Listo para ser parte de Fraccionamiento Nura?</h2>
         <p>Contáctanos hoy mismo para recibir información detallada, precios especiales y asesoría personalizada sin compromiso.</p>
-        <a href="#contact-form" class="btn btn-secondary">Solicitar información</a>
+        <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
     </div>
 </section>
 
