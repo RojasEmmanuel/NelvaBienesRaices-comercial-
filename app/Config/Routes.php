@@ -19,3 +19,4 @@ $routes->get('Nura', 'NuraController::index');
 $routes->get('Andromeda', 'AndromedaController::index');
 $routes->get('ElJicaro', 'ElJicaroController::index');
 $routes->get('Oceanica', 'OceanicaController::index');
+$routes->get('ElSantuarioDeLasTortugas', 'ElSantuarioDeLasTortugasController::index');
