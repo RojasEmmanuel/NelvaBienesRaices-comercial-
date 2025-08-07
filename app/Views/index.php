@@ -974,10 +974,10 @@
                 </div>
                 <div class="project-location">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Santa María Tonameca, Oaxaca</span>
+                    <span>Sta. María Tonameca, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/real-campestre" class="btn">Ver detalles</a>
+                    <a href="/real-campestre" class="btn">Ver</a>
                 </div>
             </div>
             
@@ -990,7 +990,7 @@
                     <span>Mazunte, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/Nura" class="btn">Ver detalles</a>
+                    <a href="/nura" class="btn">Ver</a>
                 </div>
             </div>
             
@@ -1000,10 +1000,10 @@
                 </div>
                 <div class="project-location">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Santa María Tonameca, Oaxaca</span>
+                    <span>Sta. María Tonameca, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/andromeda" class="btn">Ver detalles</a>
+                    <a href="/andromeda" class="btn">Ver</a>
                 </div>
             </div>
             
@@ -1014,10 +1014,10 @@
                 </div>
                 <div class="project-location">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Santa María Tonameca, Oaxaca</span>
+                    <span>Sta. María Tonameca, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/el-jicaro" class="btn">Ver detalles</a>
+                    <a href="/el-jicaro" class="btn">Ver</a>
                 </div>
             </div>
             
@@ -1028,10 +1028,10 @@
                 </div>
                 <div class="project-location">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>PLAYA GUAPINOLE, STA. MARÍA TONAMECA, OAX. </span>
+                    <span>Guapinole, Sta. María Tonameca, Oax. </span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/oceanica" class="btn">Ver detalles</a>
+                    <a href="/oceanica" class="btn">Ver</a>
                 </div>
             </div>
 
@@ -1041,10 +1041,10 @@
                 </div>
                 <div class="project-location">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Escobilla, Sta. María tonameca, oax.</span>
+                    <span>Escobilla, Sta. María Tonameca, Oax.</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/el-santuario-tortugas" class="btn">Ver detalles</a>
+                    <a href="/el-santuario-tortugas" class="btn">Ver</a>
                 </div>
             </div>
 
@@ -1054,10 +1054,10 @@
                 </div>
                 <div class="project-location">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>La unión del palmar, santa maría tonameca.</span>
+                    <span>Sta. María Tonameca, Oax.</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/nyssa" class="btn">Ver detalles</a>
+                    <a href="/nyssa" class="btn">Ver</a>
                 </div>
             </div>
 
@@ -1070,7 +1070,7 @@
                     <span>Guelaguechi, Salina Cruz, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/sicaru" class="btn">Ver detalles</a>
+                    <a href="/sicaru" class="btn">Ver</a>
                 </div>
             </div>
 
@@ -1080,10 +1080,10 @@
                 </div>
                 <div class="project-location">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Dunas playa azul, salina cruz, oaxacaa</span>
+                    <span>Dunas Playa Azul, Salina Cruz, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/zull" class="btn">Ver detalles</a>
+                    <a href="/zull" class="btn">Ver</a>
                 </div>
             </div>
         </div>
