@@ -1,4 +1,4 @@
-<?= view('templates/navbar', ['title' => 'El Santuario de las Tortugas - Nelva Bienes Raíces']) ?>
+<?= view('templates/navbar', ['title' => 'Sicaru - Nelva Bienes Raíces']) ?>
 
 <style>
     :root {
@@ -117,7 +117,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/ElSantuarioDeLasTortugas/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Sicaru/parallax.png') ?>') center/cover no-repeat;
         background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
         background-blend-mode: multiply; /* Mezcla los colores para el efecto de oscurecimiento */
         z-index: 1;
@@ -226,7 +226,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/ElSantuarioDeLasTortugas/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Sicaru/parallax.png') ?>') center/cover no-repeat;
         opacity: 0.1;
         z-index: 0;
     }
@@ -299,7 +299,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/ElSantuarioDeLasTortugas/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Sicaru/parallax.png') ?>') center/cover no-repeat;
         opacity: 0.3;
         z-index: 0;
     }
@@ -449,7 +449,7 @@
     
     /* Contact CTA Mejorado */
     .contact-cta {
-        background: url('<?= base_url('images/ElSantuarioDeLasTortugas/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Sicaru/parallax.png') ?>') center/cover no-repeat;
         position: relative;
         text-align: center;
         padding: 100px 20px;
@@ -617,10 +617,10 @@
 <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-content">
-        <h1>FRACCIONAMIENTO EL SANTUARIO DE LAS TORTUGAS</h1>
-        <span class="price">$220,000.00</span>
+        <h1>FRACCIONAMIENTO SICARÚ</h1>
+        <span class="price">$130,000.00</span>
         <p>Exclusivos lotes residenciales desde 200 mtrs</p>
-        <p>Escobilla, Sta. María tonameca, oax.</p>
+        <p>Emiliano zapata, guelaguechi, salina cruz, oaxaca, mexico.</p>
         <div class="hero-buttons">
             <a href="#contact" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>
@@ -631,9 +631,9 @@
 <!-- Info Grid Mejorada -->
 <section class="section">
     <div class="container">
-        <h2 class="section-title">Descubre Fraccionamiento El Santuario de las Tortugas</h2>
+        <h2 class="section-title">Descubre Fraccionamiento SICARÚ</h2>
         <p class="text-center mb-30" style="max-width: 800px; margin-left: auto; margin-right: auto;">
-            El Fraccionamiento El Santuario de las Tortugas es un desarrollo único que combina tranquilidad, naturaleza y cercanía al mar. Pensado para quienes desean vivir en un entorno relajado, ofrece una experiencia inigualable rodeada de paisajes naturales, ideal tanto para residencia como para descanso.
+            Fraccionamiento Sicarú es un desarrollo exclusivo ubicado en Salina Cruz, Oaxaca, pensado para quienes desean vivir cerca del mar, rodeados de tranquilidad y naturaleza. Con un diseño que privilegia el confort y la armonía con el entorno, Sicarú es el lugar ideal para construir un hogar o disfrutar de un refugio junto al océano.
         </p>
         
         <div class="info-grid">
@@ -750,7 +750,7 @@
     <div class="container">
         <h2 class="section-title">Plano del Fraccionamiento</h2>
         <div style="max-width: 480px; margin: auto; box-shadow: var(--shadow-lg); border-radius: 12px; overflow: hidden;">
-            <img src="<?= base_url('images/ElSantuarioDeLasTortugas/plano.webp') ?>" alt="Plano de El Santuario de las Tortugas" style="width: 100%; height: auto; display: block;">
+            <img src="<?= base_url('images/Sicaru/plano.webp') ?>" alt="Plano de El Santuario de las Tortugas" style="width: 100%; height: auto; display: block;">
         </div>
         <p class="text-center" style="margin-top: 20px; font-size: 1.1rem; color: var(--gray);">
             Diseño urbanístico pensado para maximizar espacios y privacidad, con amplias áreas verdes y distribución estratégica.
@@ -765,11 +765,11 @@
         <div class="map-container2">
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
-                <p>Ubicado en La Escobilla, Oaxaca, a solo 1 km de la playa y la laguna, El Santuario de las Tortugas cuenta con una localización privilegiada que permite disfrutar de vistas espectaculares al océano y una conexión directa con la naturaleza. Su entorno ofrece la mezcla perfecta entre belleza escénica y acceso a zonas turísticas de alto valor.</p>
+                <p>A solo minutos de la playa, Sicarú cuenta con una ubicación privilegiada que permite disfrutar de vistas espectaculares y un estilo de vida relajado. Su cercanía con zonas turísticas y naturales lo convierte en una opción ideal para quienes buscan conectarse con la naturaleza sin renunciar a la comodidad y el bienestar diario.</p>
                 <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193.76773201784457!2d-96.74479139958932!3d15.732537157036269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8dff39e38c51b%3A0x12a0b0907417ff76!2sFraccionamiento%20El%20Santuario%20de%20las%20Tortugas!5e1!3m2!1ses!2smx!4v1754596938577!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193.7754187704124!2d-96.62163067874447!3d15.724466561845038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8d94cb9ac8f6f%3A0x8a55de140cc65156!2sFRACCIONAMIENTO%20NYSSA!5e1!3m2!1ses!2smx!4v1754599685158!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
@@ -784,19 +784,15 @@
         <div class="gallery-container">
             
             <div class="gallery-item">
-                <img src="<?= base_url('images/ElSantuarioDeLasTortugas/Galeria/imagen1.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/NYSSA/Galeria/nyssa1.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/ElSantuarioDeLasTortugas/Galeria/imagen2.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/NYSSA/Galeria/nyssa2.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/ElSantuarioDeLasTortugas/Galeria/imagen3.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
-            </div>
-            <div class="gallery-item">
-                <img src="<?= base_url('images/ElSantuarioDeLasTortugas/Galeria/imagen4.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/NYSSA/Galeria/nyssa3.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
         </div>
@@ -807,7 +803,7 @@
 <!-- Contact CTA Mejorado -->
 <section class="contact-cta">
     <div class="container">
-        <h2>¿Listo para ser parte de Fraccionamiento El Santuario de las Tortugas?</h2>
+        <h2>¿Listo para ser parte de Fraccionamiento Sicarú?</h2>
         <p>Contáctanos hoy mismo para recibir información detallada, precios especiales y asesoría personalizada sin compromiso.</p>
         <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
     </div>

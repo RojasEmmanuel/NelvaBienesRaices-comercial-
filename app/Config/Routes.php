@@ -21,3 +21,4 @@ $routes->get('ElJicaro', 'ElJicaroController::index');
 $routes->get('Oceanica', 'OceanicaController::index');
 $routes->get('ElSantuarioDeLasTortugas', 'ElSantuarioDeLasTortugasController::index');
 $routes->get('NYSSA', 'NYSSAController::index');
+$routes->get('Sicaru', 'SicaruController::index');
