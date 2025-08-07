@@ -1003,7 +1003,7 @@
                     <span>Sta. María Tonameca, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/andromeda" class="btn">Ver</a>
+                    <a href="/Andromeda" class="btn">Ver</a>
                 </div>
             </div>
             

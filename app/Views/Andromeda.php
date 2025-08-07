@@ -1,4 +1,4 @@
-<?= view('templates/navbar', ['title' => 'Nura Campestre - Nelva Bienes Raíces']) ?>
+<?= view('templates/navbar', ['title' => 'Andromeda - Nelva Bienes Raíces']) ?>
 
 <style>
     :root {
@@ -617,10 +617,10 @@
 <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-content">
-        <h1>FRACCIONAMIENTO NURA CAMPESTRE</h1>
-        <span class="price">$319,000.00</span>
+        <h1>FRACCIONAMIENTO ANDROMEDA</h1>
+        <span class="price">$300,000.00</span>
         <p>Exclusivos lotes residenciales desde 200 mtrs</p>
-        <p>MCWP+59 Mazunte, Oaxaca</p>
+        <p>Santa María Tonameca, Oaxaca</p>
         <div class="hero-buttons">
             <a href="#contact" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>
@@ -631,9 +631,9 @@
 <!-- Info Grid Mejorada -->
 <section class="section">
     <div class="container">
-        <h2 class="section-title">Descubre Nura Campestre</h2>
+        <h2 class="section-title">Descubre Fraccionamiento Andromeda</h2>
         <p class="text-center mb-30" style="max-width: 800px; margin-left: auto; margin-right: auto;">
-            Nura Campestre es un desarrollo residencial pensado para quienes desean un estilo de vida tranquilo y en armonía con la naturaleza. Rodeado de un entorno natural único, este proyecto ofrece una experiencia excepcional, ideal tanto para vivir como para disfrutar de estancias vacacionales en un ambiente relajado y lleno de belleza.
+            Fraccionamiento Andrómeda es una comunidad planeada para quienes desean vivir en un entorno tranquilo, rodeado de belleza natural y con una alta proyección de plusvalía. Su diseño y ubicación lo convierten en una excelente opción para disfrutar de un estilo de vida relajado cerca del mar, ya sea como residencia permanente o como inversión.
         </p>
         
         <div class="info-grid">
@@ -750,7 +750,7 @@
     <div class="container">
         <h2 class="section-title">Plano del Fraccionamiento</h2>
         <div style="max-width: 480px; margin: auto; box-shadow: var(--shadow-lg); border-radius: 12px; overflow: hidden;">
-            <img src="<?= base_url('images/Nura/plano.webp') ?>" alt="Plano de Nura Campestre" style="width: 100%; height: auto; display: block;">
+            <img src="<?= base_url('images/Andromeda/plano.webp') ?>" alt="Plano de Andromeda" style="width: 100%; height: auto; display: block;">
         </div>
         <p class="text-center" style="margin-top: 20px; font-size: 1.1rem; color: var(--gray);">
             Diseño urbanístico pensado para maximizar espacios y privacidad, con amplias áreas verdes y distribución estratégica.
@@ -765,7 +765,7 @@
         <div class="map-container2">
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
-                <p>Ubicado en Mazunte, Oaxaca, Nura Campestre goza de una ubicación privilegiada a solo minutos de la playa y de algunos de los paisajes más impresionantes de la región. Su cercanía con atractivos turísticos clave permite disfrutar de vistas espectaculares y una conexión constante con la naturaleza, sin alejarse de los servicios esenciales.</p>
+                <p>Ubicado en una de las zonas más atractivas de la costa oaxaqueña, Andrómeda ofrece acceso rápido a las principales playas de Oaxaca y a servicios básicos que garantizan comodidad y funcionalidad. Su excelente ubicación combina el valor de estar cerca del mar con el potencial de crecimiento y desarrollo en una región de alta demanda.</p>
                 <a href="#contact-form" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
@@ -784,19 +784,23 @@
         <div class="gallery-container">
             
             <div class="gallery-item">
-                <img src="<?= base_url('images/Nura/Galeria/nura1.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/Andromeda/Galeria/andromeda1.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Nura/Galeria/nura2.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/Andromeda/Galeria/andromeda2.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Nura/Galeria/nura3.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/Andromeda/Galeria/andromeda3.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Nura/Galeria/nura4.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/Andromeda/Galeria/andromeda4.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista aérea del terreno</div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?= base_url('images/Andromeda/Galeria/andromeda5.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
         </div>
@@ -807,7 +811,7 @@
 <!-- Contact CTA Mejorado -->
 <section class="contact-cta">
     <div class="container">
-        <h2>¿Listo para ser parte de Real Campestre?</h2>
+        <h2>¿Listo para ser parte de Fraccionamiento Andrómeda?</h2>
         <p>Contáctanos hoy mismo para recibir información detallada, precios especiales y asesoría personalizada sin compromiso.</p>
         <a href="#contact-form" class="btn btn-secondary">Solicitar información</a>
     </div>
