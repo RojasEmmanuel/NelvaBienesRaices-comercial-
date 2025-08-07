@@ -983,14 +983,14 @@
             
             <div class="project-card">
                 <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/nura.png') ?>" alt="nura">
+                    <img src="<?= base_url('images/inicio/nura.png') ?>" alt="Nura">
                 </div>
                 <div class="project-location">
                     <i class="fas fa-map-marker-alt"></i>
                     <span>Mazunte, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/nura" class="btn">Ver</a>
+                    <a href="/Nura" class="btn">Ver</a>
                 </div>
             </div>
             
