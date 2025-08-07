@@ -769,7 +769,7 @@
                 <a href="#contact-form" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1843.6237535366145!2d-96.5764569647838!3d15.712219848986274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754508964487!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d532.5379816486387!2d-96.57814264768842!3d15.701101750866627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754586414767!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>

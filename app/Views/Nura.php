@@ -817,6 +817,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193.80273607760813!2d-96.564890718694!3d15.695752417064634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754586677742!5m2!1ses!2smx" rel="stylesheet">
 
 <?= view('templates/footer') ?>
