@@ -1070,7 +1070,7 @@
                     <span>Guelaguechi, Salina Cruz, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/sicaru" class="btn">Ver</a>
+                    <a href="/Sicaru" class="btn">Ver</a>
                 </div>
             </div>
 
