@@ -990,7 +990,7 @@
                     <span>Mazunte, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/nura" class="btn">Ver detalles</a>
+                    <a href="/Nura" class="btn">Ver detalles</a>
                 </div>
             </div>
             
