@@ -226,7 +226,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/RealCampestre/real1.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/ElJicaro/parallax.png') ?>') center/cover no-repeat;
         opacity: 0.1;
         z-index: 0;
     }

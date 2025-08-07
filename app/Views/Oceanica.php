@@ -1,4 +1,4 @@
-<?= view('templates/navbar', ['title' => 'Andromeda - Nelva Bienes Raíces']) ?>
+<?= view('templates/navbar', ['title' => 'Oceánica - Nelva Bienes Raíces']) ?>
 
 <style>
     :root {
@@ -117,7 +117,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Oceanica/parallax.png') ?>') center/cover no-repeat;
         background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
         background-blend-mode: multiply; /* Mezcla los colores para el efecto de oscurecimiento */
         z-index: 1;
@@ -226,7 +226,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Oceanica/parallax.png') ?>') center/cover no-repeat;
         opacity: 0.1;
         z-index: 0;
     }
@@ -299,7 +299,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Oceanica/parallax.png') ?>') center/cover no-repeat;
         opacity: 0.3;
         z-index: 0;
     }
@@ -446,9 +446,10 @@
         height: 100%;
         border: none;
     }
+    
     /* Contact CTA Mejorado */
     .contact-cta {
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Oceanica/parallax.png') ?>') center/cover no-repeat;
         position: relative;
         text-align: center;
         padding: 100px 20px;
@@ -616,10 +617,10 @@
 <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-content">
-        <h1>FRACCIONAMIENTO ANDROMEDA</h1>
-        <span class="price">$300,000.00</span>
+        <h1>FRACCIONAMIENTO OCEÁNICA</h1>
+        <span class="price">$400,000.00</span>
         <p>Exclusivos lotes residenciales desde 200 mtrs</p>
-        <p>Santa María Tonameca, Oaxaca</p>
+        <p>PLAYA GUAPINOLE, STA. MARÍA TONAMECA, OAX. NELVA</p>
         <div class="hero-buttons">
             <a href="#contact" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>
@@ -630,9 +631,9 @@
 <!-- Info Grid Mejorada -->
 <section class="section">
     <div class="container">
-        <h2 class="section-title">Descubre Fraccionamiento Andromeda</h2>
+        <h2 class="section-title">Descubre Fraccionamiento Oceanica</h2>
         <p class="text-center mb-30" style="max-width: 800px; margin-left: auto; margin-right: auto;">
-            Fraccionamiento Andrómeda es una comunidad planeada para quienes desean vivir en un entorno tranquilo, rodeado de belleza natural y con una alta proyección de plusvalía. Su diseño y ubicación lo convierten en una excelente opción para disfrutar de un estilo de vida relajado cerca del mar, ya sea como residencia permanente o como inversión.
+            Fraccionamiento Oceánica es un desarrollo exclusivo diseñado para quienes sueñan con vivir cerca del mar, en un entorno de paz, privacidad y belleza natural. Con una propuesta enfocada en la comodidad y el bienestar, Oceánica es el lugar perfecto para construir un nuevo hogar o disfrutar de una escapada permanente junto a la costa.
         </p>
         
         <div class="info-grid">
@@ -673,8 +674,8 @@
                 <div class="feature-icon">
                     <i class="fas fa-clock"></i>
                 </div>
-                <h3>3 MIN</h3>
-                <p>Playa Ventanilla</p>
+                <h3>5 MIN</h3>
+                <p>DEL CENTRO ECOTURÍSTICO ESCOBILLA</p>
             </div>
             <div class="feature-item">
                 <div class="feature-icon">
@@ -749,7 +750,7 @@
     <div class="container">
         <h2 class="section-title">Plano del Fraccionamiento</h2>
         <div style="max-width: 480px; margin: auto; box-shadow: var(--shadow-lg); border-radius: 12px; overflow: hidden;">
-            <img src="<?= base_url('images/Andromeda/plano.webp') ?>" alt="Plano de Andromeda" style="width: 100%; height: auto; display: block;">
+            <img src="<?= base_url('images/Oceanica/plano.webp') ?>" alt="Plano de Oceanica" style="width: 100%; height: auto; display: block;">
         </div>
         <p class="text-center" style="margin-top: 20px; font-size: 1.1rem; color: var(--gray);">
             Diseño urbanístico pensado para maximizar espacios y privacidad, con amplias áreas verdes y distribución estratégica.
@@ -764,11 +765,11 @@
         <div class="map-container2">
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
-                <p>Ubicado en una de las zonas más atractivas de la costa oaxaqueña, Andrómeda ofrece acceso rápido a las principales playas de Oaxaca y a servicios básicos que garantizan comodidad y funcionalidad. Su excelente ubicación combina el valor de estar cerca del mar con el potencial de crecimiento y desarrollo en una región de alta demanda.</p>
+                <p>Ubicado a solo minutos de las playas más hermosas de Oaxaca, Oceánica cuenta con una ubicación privilegiada que ofrece acceso rápido a servicios esenciales y atractivos turísticos. Su localización estratégica no solo proporciona una excelente calidad de vida, sino también un alto potencial de retorno de inversión, convirtiéndolo en una opción inteligente y segura.</p>
                 <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d532.5379816486387!2d-96.57814264768842!3d15.701101750866627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754586414767!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387.5317452493876!2d-96.77795124394959!3d15.734488794015514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8e1223c760b2d%3A0x6365d6f37044f1f2!2sFRACCIONAMIENTO%20OCEANICA!5e1!3m2!1ses!2smx!4v1754595224830!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
@@ -783,23 +784,15 @@
         <div class="gallery-container">
             
             <div class="gallery-item">
-                <img src="<?= base_url('images/Andromeda/Galeria/andromeda1.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/Oceanica/Galeria/oceanica1.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Andromeda/Galeria/andromeda2.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/Oceanica/Galeria/oceanica2.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Andromeda/Galeria/andromeda3.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
-            </div>
-            <div class="gallery-item">
-                <img src="<?= base_url('images/Andromeda/Galeria/andromeda4.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
-            </div>
-            <div class="gallery-item">
-                <img src="<?= base_url('images/Andromeda/Galeria/andromeda5.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/Oceanica/Galeria/oceanica3.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
         </div>
