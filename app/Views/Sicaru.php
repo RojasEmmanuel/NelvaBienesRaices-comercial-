@@ -769,7 +769,7 @@
                 <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193.7754187704124!2d-96.62163067874447!3d15.724466561845038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8d94cb9ac8f6f%3A0x8a55de140cc65156!2sFRACCIONAMIENTO%20NYSSA!5e1!3m2!1ses!2smx!4v1754599685158!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.5541496627555!2d-95.29570318507234!3d16.12421085433824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85bfe900528a5b3f%3A0x34d05952cd0f7e6!2sFraccionamiento%20SICAR%C3%9A!5e0!3m2!1ses!2smx!4v1754669472842!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
@@ -784,15 +784,15 @@
         <div class="gallery-container">
             
             <div class="gallery-item">
-                <img src="<?= base_url('images/NYSSA/Galeria/nyssa1.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/Sicaru/Galeria/nyssa1.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/NYSSA/Galeria/nyssa2.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/Sicaru/Galeria/nyssa2.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/NYSSA/Galeria/nyssa3.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/Sicaru/Galeria/nyssa3.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
         </div>
