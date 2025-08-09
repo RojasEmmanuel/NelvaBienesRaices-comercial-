@@ -959,7 +959,7 @@
 </section>
 
 <!-- Sección de Proyectos Modificada -->
-<section class="projects-section" style="background-color: #f5f7fa;">
+<section class="projects-section"  id="pro-section"style="background-color: #f5f7fa;">
     <div class="container">
         <div class="projects-header">
             <h2>Nuestros Fraccionamientos</h2>
