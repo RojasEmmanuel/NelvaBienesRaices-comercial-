@@ -1,6 +1,8 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\fraccionamientos;
+
+use App\Controllers\BaseController;
 
 class AndromedaController extends BaseController
 {

@@ -14,11 +14,11 @@ $routes->get('contacto', 'ContactoController::index');
 $routes->get('asesores', 'AsesoresController::index');
 
 
-$routes->get('real-campestre', 'RealCampestreController::index');
-$routes->get('nura', 'NuraController::index');
-$routes->get('andromeda', 'AndromedaController::index');
-$routes->get('el-jicaro', 'ElJicaroController::index');
-$routes->get('oceanica', 'OceanicaController::index');
-$routes->get('el-santuario-de-las-tortugas', 'ElSantuarioDeLasTortugasController::index');
-$routes->get('nyssa', 'NYSSAController::index');
-$routes->get('sicaru', 'SicaruController::index');
+$routes->get('real-campestre', 'fraccionamientos\RealCampestreController::index');
+$routes->get('nura', 'fraccionamientos\NuraController::index');
+$routes->get('andromeda', 'fraccionamientos\AndromedaController::index');
+$routes->get('el-jicaro', 'fraccionamientos\ElJicaroController::index');
+$routes->get('oceanica', 'fraccionamientos\OceanicaController::index');
+$routes->get('el-santuario-de-las-tortugas', 'fraccionamientos\ElSantuarioDeLasTortugasController::index');
+$routes->get('nyssa', 'fraccionamientos\NYSSAController::index');
+$routes->get('sicaru', 'fraccionamientos\SicaruController::index');
