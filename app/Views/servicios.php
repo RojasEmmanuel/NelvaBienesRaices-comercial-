@@ -190,7 +190,7 @@
         position: absolute;
         top: 20px;
         right: 20px;
-        background-color: var(--nbr-accent-coral);
+        background-color: #022F4A;
         color: var(--nbr-white);
         padding: 0.3rem 1rem;
         border-radius: 20px;
@@ -690,7 +690,7 @@
                     </div>
                 </div>
                 
-                <a href="<?= base_url('/#pro-section') ?>" class="nbr-service-btn">Solicitar información detallada</a>
+                <a href="<?= base_url('/asesores') ?>" class="nbr-service-btn">Contactar a un asesor</a>
             </div>
         </div>
         
