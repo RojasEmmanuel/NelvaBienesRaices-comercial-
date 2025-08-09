@@ -6,6 +6,6 @@ class ElSantuarioDeLasTortugasController extends BaseController
 {
     public function index(): string
     {
-        return view('ElSantuarioDeLasTortugas');
+        return view('fraccionamientos/el-santuario-de-las-tortugas');
     }
 }

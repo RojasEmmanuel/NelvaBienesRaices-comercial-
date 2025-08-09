@@ -6,6 +6,6 @@ class AndromedaController extends BaseController
 {
     public function index(): string
     {
-        return view('Andromeda');
+        return view('fraccionamientos/andromeda');
     }
 }

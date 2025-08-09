@@ -6,6 +6,6 @@ class SicaruController extends BaseController
 {
     public function index(): string
     {
-        return view('Sicaru');
+        return view('fraccionamientos/sicaru');
     }
 }

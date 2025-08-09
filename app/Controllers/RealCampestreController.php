@@ -6,6 +6,6 @@ class RealCampestreController extends BaseController
 {
     public function index(): string
     {
-        return view('RealCampestre');
+        return view('fraccionamientos/real_campestre');
     }
 }

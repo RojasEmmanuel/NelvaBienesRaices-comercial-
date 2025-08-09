@@ -6,6 +6,6 @@ class OceanicaController extends BaseController
 {
     public function index(): string
     {
-        return view('Oceanica');
+        return view('fraccionamientos/oceanica');
     }
 }

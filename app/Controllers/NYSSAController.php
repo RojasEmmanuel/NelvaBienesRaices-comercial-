@@ -6,6 +6,6 @@ class NYSSAController extends BaseController
 {
     public function index(): string
     {
-        return view('NYSSA');
+        return view('fraccionamientos/nyssa');
     }
 }

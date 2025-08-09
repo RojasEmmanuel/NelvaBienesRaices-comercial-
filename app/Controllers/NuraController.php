@@ -6,6 +6,6 @@ class NuraController extends BaseController
 {
     public function index(): string
     {
-        return view('Nura');
+        return view('fraccionamientos/nura');
     }
 }
