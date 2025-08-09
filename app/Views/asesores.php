@@ -548,6 +548,25 @@
             filterAsesores();
         }
         
+        // Leer parámetro de la URL al cargar la página
+        function getUrlParameter(name) {
+            name = name.replace(/[\[\]]/g, '\\$&');
+            const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+            const results = regex.exec(window.location.href);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        // Aplicar filtro basado en URL al cargar
+        const zonaParam = getUrlParameter('zona');
+        if (zonaParam) {
+            const filterBtn = document.querySelector(`.filter-btn[data-filter="${zonaParam}"]`);
+            if (filterBtn) {
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                filterBtn.classList.add('active');
+            }
+        }
         // Cargar los datos al iniciar
         loadAsesoresData();
     });

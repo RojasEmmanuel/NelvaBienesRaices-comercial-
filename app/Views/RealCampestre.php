@@ -808,7 +808,7 @@
     <div class="container">
         <h2>¿Listo para ser parte de Real Campestre?</h2>
         <p>Contáctanos hoy mismo para recibir información detallada, precios especiales y asesoría personalizada sin compromiso.</p>
-        <a href="#contact-form" class="btn btn-secondary">Solicitar información</a>
+        <a href="/asesores?zona=costa" class="btn btn-secondary">Contactar Asesor</a>
     </div>
 </section>
 

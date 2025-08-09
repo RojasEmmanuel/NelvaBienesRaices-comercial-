@@ -990,7 +990,7 @@
                     <span>Mazunte, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/Nura" class="btn">Ver</a>
+                    <a href="/nura" class="btn">Ver</a>
                 </div>
             </div>
             
@@ -1003,7 +1003,7 @@
                     <span>Sta. María Tonameca, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/Andromeda" class="btn">Ver</a>
+                    <a href="/andromeda" class="btn">Ver</a>
                 </div>
             </div>
             
@@ -1017,7 +1017,7 @@
                     <span>Sta. María Tonameca, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/ElJicaro" class="btn">Ver</a>
+                    <a href="/el-jicaro" class="btn">Ver</a>
                 </div>
             </div>
             
@@ -1031,7 +1031,7 @@
                     <span>Guapinole, Sta. María Tonameca, Oax. </span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/Oceanica" class="btn">Ver</a>
+                    <a href="/oceanica" class="btn">Ver</a>
                 </div>
             </div>
 
@@ -1044,7 +1044,7 @@
                     <span>Escobilla, Sta. María Tonameca, Oax.</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/ElSantuarioDeLasTortugas" class="btn">Ver</a>
+                    <a href="/el-santuario-de-las-tortugas" class="btn">Ver</a>
                 </div>
             </div>
 
@@ -1057,7 +1057,7 @@
                     <span>Sta. María Tonameca, Oax.</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/NYSSA" class="btn">Ver</a>
+                    <a href="/nyssa" class="btn">Ver</a>
                 </div>
             </div>
 
@@ -1070,7 +1070,7 @@
                     <span>Guelaguechi, Salina Cruz, Oaxaca</span>
                 </div>
                 <div class="project-overlay">
-                    <a href="/Sicaru" class="btn">Ver</a>
+                    <a href="/sicaru" class="btn">Ver</a>
                 </div>
             </div>
 

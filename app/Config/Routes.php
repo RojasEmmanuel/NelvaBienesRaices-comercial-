@@ -15,10 +15,10 @@ $routes->get('asesores', 'AsesoresController::index');
 
 
 $routes->get('real-campestre', 'RealCampestreController::index');
-$routes->get('Nura', 'NuraController::index');
-$routes->get('Andromeda', 'AndromedaController::index');
-$routes->get('ElJicaro', 'ElJicaroController::index');
-$routes->get('Oceanica', 'OceanicaController::index');
-$routes->get('ElSantuarioDeLasTortugas', 'ElSantuarioDeLasTortugasController::index');
-$routes->get('NYSSA', 'NYSSAController::index');
-$routes->get('Sicaru', 'SicaruController::index');
+$routes->get('nura', 'NuraController::index');
+$routes->get('andromeda', 'AndromedaController::index');
+$routes->get('el-jicaro', 'ElJicaroController::index');
+$routes->get('oceanica', 'OceanicaController::index');
+$routes->get('el-santuario-de-las-tortugas', 'ElSantuarioDeLasTortugasController::index');
+$routes->get('nyssa', 'NYSSAController::index');
+$routes->get('sicaru', 'SicaruController::index');
