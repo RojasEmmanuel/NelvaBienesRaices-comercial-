@@ -765,7 +765,7 @@
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
                 <p>Ubicado en una de las zonas más atractivas de la costa oaxaqueña, Andrómeda ofrece acceso rápido a las principales playas de Oaxaca y a servicios básicos que garantizan comodidad y funcionalidad. Su excelente ubicación combina el valor de estar cerca del mar con el potencial de crecimiento y desarrollo en una región de alta demanda.</p>
-                <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
+                <a href="/asesores?zona=costa" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d532.5379816486387!2d-96.57814264768842!3d15.701101750866627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754586414767!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>

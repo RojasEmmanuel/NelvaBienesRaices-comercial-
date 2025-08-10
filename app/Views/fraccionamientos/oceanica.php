@@ -766,7 +766,7 @@
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
                 <p>Ubicado a solo minutos de las playas más hermosas de Oaxaca, Oceánica cuenta con una ubicación privilegiada que ofrece acceso rápido a servicios esenciales y atractivos turísticos. Su localización estratégica no solo proporciona una excelente calidad de vida, sino también un alto potencial de retorno de inversión, convirtiéndolo en una opción inteligente y segura.</p>
-                <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
+                <a href="/asesores?zona=costa" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387.5317452493876!2d-96.77795124394959!3d15.734488794015514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8e1223c760b2d%3A0x6365d6f37044f1f2!2sFRACCIONAMIENTO%20OCEANICA!5e1!3m2!1ses!2smx!4v1754595224830!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>

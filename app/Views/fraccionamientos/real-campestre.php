@@ -769,7 +769,7 @@
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
                 <p>Real Campestre se encuentra en una de las zonas con mayor plusvalía de la costa oaxaqueña, con fácil acceso a las principales playas y atractivos turísticos de la región.</p>
                 <p>La ubicación privilegiada ofrece la combinación perfecta entre tranquilidad y accesibilidad, ideal para quienes buscan un estilo de vida en contacto con la naturaleza sin renunciar a las comodidades modernas.</p>
-                <a href="#contact-form" class="btn btn-secondary">Solicitar información</a>
+                <a href="/asesores?zona=costa" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1843.6237535366145!2d-96.5764569647838!3d15.712219848986274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754508964487!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>

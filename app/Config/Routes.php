@@ -22,3 +22,4 @@ $routes->get('oceanica', 'fraccionamientos\OceanicaController::index');
 $routes->get('el-santuario-de-las-tortugas', 'fraccionamientos\ElSantuarioDeLasTortugasController::index');
 $routes->get('nyssa', 'fraccionamientos\NYSSAController::index');
 $routes->get('sicaru', 'fraccionamientos\SicaruController::index');
+$routes->get('zull', 'fraccionamientos\ZullController::index');

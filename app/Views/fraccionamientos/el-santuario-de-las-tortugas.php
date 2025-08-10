@@ -766,7 +766,7 @@
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
                 <p>Ubicado en La Escobilla, Oaxaca, a solo 1 km de la playa y la laguna, El Santuario de las Tortugas cuenta con una localización privilegiada que permite disfrutar de vistas espectaculares al océano y una conexión directa con la naturaleza. Su entorno ofrece la mezcla perfecta entre belleza escénica y acceso a zonas turísticas de alto valor.</p>
-                <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
+                <a href="/asesores?zona=costa" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193.76773201784457!2d-96.74479139958932!3d15.732537157036269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8dff39e38c51b%3A0x12a0b0907417ff76!2sFraccionamiento%20El%20Santuario%20de%20las%20Tortugas!5e1!3m2!1ses!2smx!4v1754596938577!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>

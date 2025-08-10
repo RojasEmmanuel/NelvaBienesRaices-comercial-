@@ -766,7 +766,7 @@
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
                 <p>Con una ubicación privilegiada en una zona natural cercana a los principales atractivos turísticos de Oaxaca, El Jícaro ofrece fácil acceso a servicios básicos y conexión con puntos clave de la región. Su entorno natural y estratégico lo convierten en una opción inteligente para quienes valoran tanto la belleza del paisaje como la plusvalía de su inversión.</p>
-                <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
+                <a href="/asesores?zona=costa" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193.7614987068797!2d-96.54773804424232!3d15.73907877024001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754589400320!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>

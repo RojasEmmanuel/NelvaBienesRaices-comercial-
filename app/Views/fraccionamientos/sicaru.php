@@ -766,7 +766,7 @@
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
                 <p>A solo minutos de la playa, Sicarú cuenta con una ubicación privilegiada que permite disfrutar de vistas espectaculares y un estilo de vida relajado. Su cercanía con zonas turísticas y naturales lo convierte en una opción ideal para quienes buscan conectarse con la naturaleza sin renunciar a la comodidad y el bienestar diario.</p>
-                <a href="/asesores" class="btn btn-secondary">Solicitar información</a>
+                <a href="/asesores?zona=istmo" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.5541496627555!2d-95.29570318507234!3d16.12421085433824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85bfe900528a5b3f%3A0x34d05952cd0f7e6!2sFraccionamiento%20SICAR%C3%9A!5e0!3m2!1ses!2smx!4v1754669472842!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>

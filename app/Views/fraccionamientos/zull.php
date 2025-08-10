@@ -1,4 +1,4 @@
-<?= view('templates/navbar', ['title' => 'Nura Campestre - Nelva Bienes Raíces']) ?>
+<?= view('templates/navbar', ['title' => 'Sicaru - Nelva Bienes Raíces']) ?>
 
 <style>
     :root {
@@ -117,7 +117,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Nura/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Sicaru/parallax.png') ?>') center/cover no-repeat;
         background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
         background-blend-mode: multiply; /* Mezcla los colores para el efecto de oscurecimiento */
         z-index: 1;
@@ -226,7 +226,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Nura/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Sicaru/parallax.png') ?>') center/cover no-repeat;
         opacity: 0.1;
         z-index: 0;
     }
@@ -299,7 +299,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Nura/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Sicaru/parallax.png') ?>') center/cover no-repeat;
         opacity: 0.3;
         z-index: 0;
     }
@@ -449,7 +449,7 @@
     
     /* Contact CTA Mejorado */
     .contact-cta {
-        background: url('<?= base_url('images/Nura/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/Sicaru/parallax.png') ?>') center/cover no-repeat;
         position: relative;
         text-align: center;
         padding: 100px 20px;
@@ -617,12 +617,12 @@
 <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-content">
-        <h1>FRACCIONAMIENTO NURA CAMPESTRE</h1>
-        <span class="price">$319,000.00</span>
-        <p>Exclusivos lotes residenciales desde 200 mtrs</p>
-        <p>MCWP+59 Mazunte, Oaxaca</p>
+        <h1>FRACCIONAMIENTO ZULL</h1>
+        <span class="price">$220,000.00</span>
+        <p>LOTES RESIDENCIALES DESDE 200 MTRS</p>
+        <p>Dunas playa azul, Salina Cruz, Oaxaca, México.</p>
         <div class="hero-buttons">
-            <a href="#contact" class="btn btn-secondary">Contactar asesor</a>
+            <a href="/asesores?zona=istmo" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>
         </div>
     </div>
@@ -631,9 +631,9 @@
 <!-- Info Grid Mejorada -->
 <section class="section">
     <div class="container">
-        <h2 class="section-title">Descubre Nura Campestre</h2>
+        <h2 class="section-title">Descubre Fraccionamiento ZULL</h2>
         <p class="text-center mb-30" style="max-width: 800px; margin-left: auto; margin-right: auto;">
-            Nura Campestre es un desarrollo residencial pensado para quienes desean un estilo de vida tranquilo y en armonía con la naturaleza. Rodeado de un entorno natural único, este proyecto ofrece una experiencia excepcional, ideal tanto para vivir como para disfrutar de estancias vacacionales en un ambiente relajado y lleno de belleza.
+            Ubicado en un entorno natural inigualable, Dunas Playa Azul en Salina Cruz, Oaxaca, ofrece una experiencia extraordinaria para quienes buscan la combinación perfecta entre serenidad, comodidad y belleza natural. Este exclusivo desarrollo está situado a solo 800 metros de la playa, rodeado de dunas espectaculares y paisajes costeros que invitan al descanso y la desconexión. Vivir aquí significa disfrutar de un estilo de vida tranquilo, con el océano como telón de fondo y el encanto único de la costa oaxaqueña.
         </p>
         
         <div class="info-grid">
@@ -668,15 +668,16 @@
                     <i class="fas fa-road"></i>
                 </div>
                 <h3>10 M</h3>
-                <p>Calles pavimentadas</p>
+                <p>Calles</p>
             </div>
             <div class="feature-item">
                 <div class="feature-icon">
                     <i class="fas fa-clock"></i>
                 </div>
-                <h3>3 MIN</h3>
-                <p>Playa Ventanilla</p>
+                <h3>15 MIN</h3>
+                <p>Centro de Salina Cruz</p>
             </div>
+            
             <div class="feature-item">
                 <div class="feature-icon">
                     <i class="fas fa-route"></i>
@@ -702,42 +703,52 @@
         <div class="amenities-container">
             <h3 class="amenities-title">Ubicación Privilegiada</h3>
             
+            
             <div class="amenities-list">
-                <div class="amenity-item">
-                    <div class="amenity-icon">
-                        <i class="fas fa-umbrella-beach"></i>
-                    </div>
-                    <p>Sobre la carretera federal 175 y 200</p>
-                </div>
-                <div class="amenity-item">
-                    <div class="amenity-icon">
-                        <i class="fas fa-water"></i>
-                    </div>
-                    <p>A 10 min. De mazunte pueblo mágico</p>
-                </div>
+
+
                 <div class="amenity-item">
                     <div class="amenity-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <p>A 10 min. De punta cometa</p>
+                    <p>A 5 min. De playa azul</p>
                 </div>
+
+
                 <div class="amenity-item">
                     <div class="amenity-icon">
-                        <i class="fas fa-ship"></i>
+                        <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <p>A 2 min. De ventanilla</p>
+                    <p>A 5 min. De punta conejo</p>
                 </div>
+
                 <div class="amenity-item">
                     <div class="amenity-icon">
-                        <i class="fas fa-tree"></i>
+                        <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <p>A 50 min. De Puerto Escondido y Zicatela</p>
+                    <p>A 40 min. de la zona arqueológica Guiengola</p>
                 </div>
+
+
                 <div class="amenity-item">
                     <div class="amenity-icon">
-                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-clock"></i>
                     </div>
-                    <p>A 30 min. De san pedro Pochutla</p>
+                    <p>A 15 min. Del Centro de Salina Cruz</p>
+                </div>
+
+                <div class="amenity-item">
+                    <div class="amenity-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <p>A 10 min. de la refinería Ing. Antonio Dovalí Jaime</p>
+                </div>
+
+                <div class="amenity-item">
+                    <div class="amenity-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <p>A 12 min. del hospital de Salina Cruz</p>
                 </div>
             </div>
         </div>
@@ -750,7 +761,7 @@
     <div class="container">
         <h2 class="section-title">Plano del Fraccionamiento</h2>
         <div style="max-width: 480px; margin: auto; box-shadow: var(--shadow-lg); border-radius: 12px; overflow: hidden;">
-            <img src="<?= base_url('images/Nura/plano.webp') ?>" alt="Plano de Nura Campestre" style="width: 100%; height: auto; display: block;">
+            <img src="<?= base_url('images/zull/plano.webp') ?>" alt="Plano de El Santuario de las Tortugas" style="width: 100%; height: auto; display: block;">
         </div>
         <p class="text-center" style="margin-top: 20px; font-size: 1.1rem; color: var(--gray);">
             Diseño urbanístico pensado para maximizar espacios y privacidad, con amplias áreas verdes y distribución estratégica.
@@ -765,11 +776,11 @@
         <div class="map-container2">
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
-                <p>Ubicado en Mazunte, Oaxaca, Nura Campestre goza de una ubicación privilegiada a solo minutos de la playa y de algunos de los paisajes más impresionantes de la región. Su cercanía con atractivos turísticos clave permite disfrutar de vistas espectaculares y una conexión constante con la naturaleza, sin alejarse de los servicios esenciales.</p>
-                <a href="/asesores?zona=costa" class="btn btn-secondary">Solicitar información</a>
+                <p>El Zull es un fraccionamiento exclusivo y accesible en Salina Cruz, ubicado cerca de la hermosa Playa Azul. Ofrece lotes disponibles para inversión o para construir la propiedad de tus sueños, con amplios espacios, servicios básicos y un entorno seguro. Su cercanía a la playa y su ubicación estratégica hacen de El Zull una excelente opción para quienes buscan una inversión con alto potencial de crecimiento y plusvalía.</p>
+                <a href="/asesores?zona=istmo" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1843.6237535366145!2d-96.5764569647838!3d15.712219848986274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754508964487!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.7612779084!2d-95.285446484809!3d16.119722722267618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85bfe90028f7801d%3A0xcfd4b6d5cfe281a7!2sFraccionamiento%20ZULL!5e1!3m2!1ses-419!2smx!4v1754792234831!5m2!1ses-419!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
@@ -784,19 +795,27 @@
         <div class="gallery-container">
             
             <div class="gallery-item">
-                <img src="<?= base_url('images/Nura/Galeria/nura1.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/zull/Galeria/zull1.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Nura/Galeria/nura2.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/zull/Galeria/zull2.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Nura/Galeria/nura3.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/zull/Galeria/zull3.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Nura/Galeria/nura4.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/zull/Galeria/zull4.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista aérea del terreno</div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?= base_url('images/zull/Galeria/zull5.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista aérea del terreno</div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?= base_url('images/zull/Galeria/zull6.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
         </div>
@@ -807,9 +826,9 @@
 <!-- Contact CTA Mejorado -->
 <section class="contact-cta">
     <div class="container">
-        <h2>¿Listo para ser parte de Fraccionamiento Nura?</h2>
+        <h2>¿Listo para ser parte de Fraccionamiento Sicarú?</h2>
         <p>Contáctanos hoy mismo para recibir información detallada, precios especiales y asesoría personalizada sin compromiso.</p>
-        <a href="/asesores?zona=costa" class="btn btn-secondary">Contactar Asesor</a>
+        <a href="/asesores?zona=istmo" class="btn btn-secondary">Contactar Asesor</a>
     </div>
 </section>
 
@@ -817,6 +836,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <!-- Google Fonts -->
-<link href="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193.80273607760813!2d-96.564890718694!3d15.695752417064634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754586677742!5m2!1ses!2smx" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <?= view('templates/footer') ?>
