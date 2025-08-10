@@ -622,7 +622,7 @@
         <p>Exclusivos lotes residenciales desde 200 m² en la hermosa costa oaxaqueña</p>
         <p>Santa María Tonameca, Oaxaca</p>
         <div class="hero-buttons">
-            <a href="#contact" class="btn btn-secondary">Contactar asesor</a>
+            <a href="/asesores?zona=costa" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>
         </div>
     </div>

@@ -622,7 +622,7 @@
         <p>Exclusivos lotes residenciales desde 200 mtrs</p>
         <p>Emiliano zapata, guelaguechi, salina cruz, oaxaca, mexico.</p>
         <div class="hero-buttons">
-            <a href="#contact" class="btn btn-secondary">Contactar asesor</a>
+            <a href="/asesores?zona=istmo" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>
         </div>
     </div>
