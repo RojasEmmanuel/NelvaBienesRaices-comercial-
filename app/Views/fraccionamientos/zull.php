@@ -1,4 +1,4 @@
-<?= view('templates/navbar', ['title' => 'Sicaru - Nelva Bienes Raíces']) ?>
+<?= view('templates/navbar', ['title' => 'Zull - Nelva Bienes Raíces']) ?>
 
 <style>
     :root {
