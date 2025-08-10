@@ -799,6 +799,18 @@
                 <img src="<?= base_url('images/Nura/Galeria/nura4.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
+            <div class="gallery-item">
+                <img src="<?= base_url('images/Nura/Galeria/nura5.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista aérea del terreno</div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?= base_url('images/Nura/Galeria/nura6.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Promoción</div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?= base_url('images/Nura/Galeria/nura7.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista aérea del terreno</div>
+            </div>
         </div>
     </div>
 </section>

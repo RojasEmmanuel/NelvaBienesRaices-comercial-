@@ -785,19 +785,19 @@
             
             <div class="gallery-item">
                 <img src="<?= base_url('images/ElSantuarioDeLasTortugas/Galeria/imagen1.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
                 <img src="<?= base_url('images/ElSantuarioDeLasTortugas/Galeria/imagen2.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
                 <img src="<?= base_url('images/ElSantuarioDeLasTortugas/Galeria/imagen3.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
                 <img src="<?= base_url('images/ElSantuarioDeLasTortugas/Galeria/imagen4.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
         </div>
     </div>

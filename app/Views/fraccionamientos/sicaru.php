@@ -784,16 +784,24 @@
         <div class="gallery-container">
             
             <div class="gallery-item">
-                <img src="<?= base_url('images/Sicaru/Galeria/nyssa1.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <img src="<?= base_url('images/Sicaru/Galeria/sicaru1.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Sicaru/Galeria/nyssa2.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <img src="<?= base_url('images/Sicaru/Galeria/sicaru2.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Sicaru/Galeria/nyssa3.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <img src="<?= base_url('images/Sicaru/Galeria/sicaru3.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista del terreno</div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?= base_url('images/Sicaru/Galeria/sicaru4.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista del terreno</div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?= base_url('images/Sicaru/Galeria/sicaru5.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
         </div>
     </div>

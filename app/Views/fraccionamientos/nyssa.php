@@ -766,7 +766,7 @@
             <div class="map-content2">
                 <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
                 <p>Ubicado estratégicamente cerca de reconocidos destinos turísticos, Nyssa brinda acceso rápido a servicios básicos y a las principales rutas de conexión en la región. Su localización, combinada con un entorno natural privilegiado, lo convierte en una excelente oportunidad de inversión con alta plusvalía y calidad de vida garantizada.</p>
-                <a href="/asesores?zona=istmo" class="btn btn-secondary">Solicitar información</a>
+                <a href="/asesores?zona=costa" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193.7754187704124!2d-96.62163067874447!3d15.724466561845038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8d94cb9ac8f6f%3A0x8a55de140cc65156!2sFRACCIONAMIENTO%20NYSSA!5e1!3m2!1ses!2smx!4v1754599685158!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>

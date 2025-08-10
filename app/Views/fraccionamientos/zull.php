@@ -796,27 +796,27 @@
             
             <div class="gallery-item">
                 <img src="<?= base_url('images/zull/Galeria/zull1.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
                 <img src="<?= base_url('images/zull/Galeria/zull2.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
                 <img src="<?= base_url('images/zull/Galeria/zull3.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
                 <img src="<?= base_url('images/zull/Galeria/zull4.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
                 <img src="<?= base_url('images/zull/Galeria/zull5.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
                 <img src="<?= base_url('images/zull/Galeria/zull6.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
         </div>
     </div>

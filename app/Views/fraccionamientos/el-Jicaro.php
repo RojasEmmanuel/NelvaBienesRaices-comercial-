@@ -784,24 +784,18 @@
         <div class="gallery-container">
             
             <div class="gallery-item">
-                <img src="<?= base_url('images/Andromeda/Galeria/andromeda1.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <img src="<?= base_url('images/ELJicaro/Galeria/jicaro1.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Andromeda/Galeria/andromeda2.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <img src="<?= base_url('images/ELJicaro/Galeria/jicaro2.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Andromeda/Galeria/andromeda3.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+                <img src="<?= base_url('images/ELJicaro/Galeria/jicaro3.webp') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista del terreno</div>
             </div>
-            <div class="gallery-item">
-                <img src="<?= base_url('images/Andromeda/Galeria/andromeda4.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
-            </div>
-            <div class="gallery-item">
-                <img src="<?= base_url('images/Andromeda/Galeria/andromeda5.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Vista aérea del terreno</div>
+            
             </div>
         </div>
     </div>
