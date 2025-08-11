@@ -14,15 +14,15 @@ $routes->get('contacto', 'ContactoController::index');
 $routes->get('asesores', 'AsesoresController::index');
 
 
-$routes->get('real-campestre', 'fraccionamientos\RealCampestreController::index');
-$routes->get('nura', 'fraccionamientos\NuraController::index');
-$routes->get('andromeda', 'fraccionamientos\AndromedaController::index');
-$routes->get('el-jicaro', 'fraccionamientos\ElJicaroController::index');
-$routes->get('oceanica', 'fraccionamientos\OceanicaController::index');
-$routes->get('el-santuario-de-las-tortugas', 'fraccionamientos\ElSantuarioDeLasTortugasController::index');
-$routes->get('nyssa', 'fraccionamientos\NYSSAController::index');
-$routes->get('sicaru', 'fraccionamientos\SicaruController::index');
-$routes->get('zull', 'fraccionamientos\ZullController::index');
+$routes->get('real-campestre', 'fraccionamientosController::realCampestre');
+$routes->get('nura', 'fraccionamientosController::nura');
+$routes->get('andromeda', 'fraccionamientosController::andromeda');
+$routes->get('el-jicaro', 'fraccionamientosController::elJicaro');
+$routes->get('oceanica', 'fraccionamientosController::oceanica');
+$routes->get('el-santuario-de-las-tortugas', 'fraccionamientosController::SantuarioTortugas');
+$routes->get('nyssa', 'fraccionamientosController::nyssa');
+$routes->get('sicaru', 'fraccionamientosController::sicaru');
+$routes->get('zull', 'fraccionamientosController::zull');
 
 $routes->get('inversiones-mazunte', 'inversionesController::mazunte');
 $routes->get('inversiones/tonameca', 'inversionesController::tonameca');
