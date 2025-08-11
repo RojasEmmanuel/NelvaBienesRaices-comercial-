@@ -1129,7 +1129,7 @@
                         </div>
                     </div>
                     
-                    <a href="https://www.gob.mx/sectur/articulos/mazunte-oaxaca" target="_blank" class="destination-btn">Conoce más</a>
+                    <a href="/inversiones-mazunte" class="destination-btn">Conoce más</a>
                 </div>
             </div>
             
@@ -1163,7 +1163,7 @@
                         </div>
                     </div>
                     
-                    <a href="https://mexicotrip.mx/santa-maria-tonameca-ventanilla" target="_blank" class="destination-btn">Conoce más</a>
+                    <a href="/inversiones/tonameca" class="destination-btn">Conoce más</a>
                 </div>
             </div>
             
@@ -1197,7 +1197,7 @@
                         </div>
                     </div>
                     
-                    <a href="https://visitmexico.com/es/destino/2480/salina-cruz-oaxaca" target="_blank" class="destination-btn">Conoce más</a>
+                    <a href="/inversiones/salina-cruz" class="destination-btn">Conoce más</a>
                 </div>
             </div>
         </div>
