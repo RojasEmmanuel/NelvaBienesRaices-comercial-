@@ -23,3 +23,7 @@ $routes->get('el-santuario-de-las-tortugas', 'fraccionamientos\ElSantuarioDeLasT
 $routes->get('nyssa', 'fraccionamientos\NYSSAController::index');
 $routes->get('sicaru', 'fraccionamientos\SicaruController::index');
 $routes->get('zull', 'fraccionamientos\ZullController::index');
+
+$routes->get('inversiones-mazunte', 'inversionesController::mazunte');
+$routes->get('inversiones/tonameca', 'inversionesController::tonameca');
+$routes->get('inversiones/salina-cruz', 'inversionesController::salinaCruz');
