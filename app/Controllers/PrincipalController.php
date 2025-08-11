@@ -31,4 +31,8 @@ class PrincipalController extends BaseController
     {
         return view('atractivos', ['title' => 'Nelva Bienes Raíces']);
     }
+    public function asesores(): string
+    {
+        return view('asesores', ['title' => 'Nelva Bienes Raíces']);
+    }
 }
