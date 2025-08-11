@@ -5,14 +5,13 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
-$routes->get('servicios', 'ServiciosController::index');
-$routes->get('atractivos', 'AtractivosController::index');
-$routes->get('nosotros', 'NosotrosController::index');
-$routes->get('mas', 'MasController::index');
-$routes->get('contacto', 'ContactoController::index');
+$routes->get('/', 'PrincipalController::index');
+$routes->get('servicios', 'PrincipalController::servicios');
+$routes->get('atractivos', 'PrincipalController::atractivos');
+$routes->get('nosotros', 'PrincipalController::nosotros');
+$routes->get('mas', 'PrincipalController::mas');
+$routes->get('contacto', 'PrincipalController::contacto');
 $routes->get('asesores', 'AsesoresController::index');
-
 
 $routes->get('real-campestre', 'fraccionamientosController::realCampestre');
 $routes->get('nura', 'fraccionamientosController::nura');
