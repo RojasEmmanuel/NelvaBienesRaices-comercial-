@@ -318,6 +318,7 @@
     .projects-header {
         text-align: center;
         margin-bottom: 50px;
+        margin-top: 50px;
     }
 
     .projects-header h2 {
@@ -342,12 +343,14 @@
         color: #666;
         max-width: 700px;
         margin: 0 auto;
+    
     }
 
     .projects-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 30px;
+        margin-top: 20px;
     }
 
     .project-card {
@@ -962,8 +965,8 @@
 <section class="projects-section"  id="pro-section"style="background-color: #f5f7fa;">
     <div class="container">
         <div class="projects-header">
-            <h2>Nuestros Fraccionamientos</h2>
-            <p>Descubre nuestros desarrollos estratégicamente ubicados cerca de los mejores destinos turísticos de Oaxaca</p>
+            <h2>Nuestros Fraccionamientos en la Costa</h2>
+            <p>Descubre nuestros desarrollos estratégicamente ubicados cerca de los mejores destinos turísticos en la costa de Oaxaca</p>
         </div>
         
         <div class="projects-grid">
@@ -1061,6 +1064,21 @@
                 </div>
             </div>
 
+        
+
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="projects-header">
+            <h2>Nuestros Fraccionamientos en el Istmo de Tehuantepec</h2>
+            <p>Descubre nuestros desarrollos estratégicamente ubicados en el Istmo de Tehuantepec Oaxaca</p>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Proyecto 1 -->
+        
             <div class="project-card">
                 <div class="project-logo">
                     <img src="/images/inicio/sicaru.png" alt="Sicarú">
