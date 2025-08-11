@@ -1063,7 +1063,7 @@
 
             <div class="project-card">
                 <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/sicaru.png') ?>" alt="Sicarú">
+                    <img src="/images/inicio/sicaru.png" alt="Sicarú">
                 </div>
                 <div class="project-location">
                     <i class="fas fa-map-marker-alt"></i>
