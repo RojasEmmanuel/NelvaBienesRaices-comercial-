@@ -438,6 +438,43 @@
         </div>
         
         <div class="news-grid">
+
+            <!-- Noticia 2 -->
+            <div class="news-card">
+                <div class="news-carousel">
+                    <div class="carousel-slides">
+                        <div class="carousel-slide">
+                            <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/531928808_1327396436058251_3293548506784462016_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=52AG-Pw4FisQ7kNvwFSE9JE&_nc_oc=Adk31TdfHmbJp1mbILaM89trLwAJ1AzfrwopZBbAQH9GKVseVvwN0qNSOVd5WTdaLB0&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=BbLtTfLmgKvsrK595qNpIA&oh=00_AfVyc4i56QQPWKmwrxLCcbDZemhyhWo1GXtFzl8vABwHRQ&oe=68A14D02">
+                        </div>
+
+                        
+                    </div>
+                    <button class="carousel-btn carousel-prev">❮</button>
+                    <button class="carousel-btn carousel-next">❯</button>
+                    <div class="carousel-dots">
+                        <div class="carousel-dot active"></div>
+                        <div class="carousel-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="news-content">
+                    <span class="news-date">12 Agosto 2025</span>
+                    <h3 class="news-title">🎉 ¡Feliz día del taxista! 🧸🌟</h3>
+                    <p class="news-text">
+                        🚖💛 ¡Feliz Día del Taxista! 🙌👏
+                        Gracias por llevarnos seguros 🛣️ y con buena onda 😎🚕.
+                        ¡Hoy es su día, disfrútenlo en compañia de sus seres queridos! 🔥💪
+                    </p>
+                    
+                    <div class="news-footer">
+                        <span class="news-tag">Expansión</span>
+                        <div class="news-social">
+                            <a href="https://www.facebook.com/photo?fbid=1327396429391585&set=a.548505307280705" target="_blank" title="Compartir en Facebook"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Noticia 1 -->
              <div class="news-card">
                 <div class="news-carousel">
@@ -507,8 +544,7 @@
                     <h3 class="news-title">En NELVA BIENES RAÍCES apoyamos el deporte</h3>
                     <p class="news-text">
                         Nos enorgullece ser patrocinadores de la Liga de Basketball Pochutla, apoyando el talento local y fomentando un estilo de vida saludable.
-                        El deporte no solo fortalece el cuerpo, sino que también promueve valores como la disciplina, el trabajo en equipo y la perseverancia. Además, es una excelente herramienta para la integración social y el desarrollo de nuestra comunidad.
-                        NELVA Bienes Raíces comprometidos en apoyar el talento Oaxaqueño. 🤠✨
+                        El deporte no solo fortalece el cuerpo, sino que también promueve valores como la disciplina, el trabajo en equipo y la perseverancia.🤠✨
                     </p>
                     
                     <div class="news-footer">
@@ -549,7 +585,6 @@
                     <h3 class="news-title">🎉 ¡Un Día del Niño lleno de alegría en Guelaguechi! 🧸🌟</h3>
                     <p class="news-text">
                         Este 30 de abril fuimos parte de una hermosa celebración organizada por el Comité Ejidal de Guelaguechi, donde se regalaron momentos de felicidad a las niñas y niños de la comunidad.
-                        Desde Nelva Bienes Raíces nos unimos con mucho gusto aportando juguetes para esta causa, agradecidos de poder compartir sonrisas y contribuir, aunque sea un poco, a un día tan especial.
                         Gracias al comité y a todos los que hicieron posible esta jornada tan significativa. 💛
                     </p>
                     
@@ -561,6 +596,8 @@
                     </div>
                 </div>
             </div>
+
+
             
             
         </div>
