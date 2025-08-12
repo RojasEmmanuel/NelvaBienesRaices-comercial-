@@ -378,7 +378,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="https://nelvabienesraices.com/wp-content/uploads/2025/01/cropped-MARCA_OFICIAL-1_Mesa-de-trabajo-1-1-1.png" alt="NELVA Logo">
+                <img src="/images/logo.webp" alt="NELVA Logo">
             </div>
             
             <div class="hamburger" id="hamburger">

@@ -722,7 +722,7 @@
     <div class="container">
         <h2 class="section-title">Plano del Fraccionamiento</h2>
         <div style="max-width: 480px; margin: auto; box-shadow: var(--shadow-lg); border-radius: 12px; overflow: hidden;">
-            <img src="<?= base_url('images/Nura/plano.webp') ?>" alt="Plano de Nura Campestre" style="width: 100%; height: auto; display: block;">
+            <img src="<?= base_url('images/aguamarina/aguamarina.jpg') ?>" alt="Plano aguamarina" style="width: 100%; height: auto; display: block;">
         </div>
         <p class="text-center" style="margin-top: 20px; font-size: 1.1rem; color: var(--gray);">
             Diseño urbanístico pensado para maximizar espacios y privacidad, con amplias áreas verdes y distribución estratégica.
@@ -740,7 +740,7 @@
                 <a href="/asesores?zona=costa" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
-                <iframe src="https://maps.apple.com/place?map=h&address=Calle+Emiliano+Zapata%2C+70946+Santa+Mar%C3%ADa+Tonameca%2C+Oax.%2C+M%C3%A9xico&coordinate=15.734646%2C-96.543192&name=Aguamarina" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2305.18502204347!2d-96.542791!3d15.734824999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDQ0JzA1LjQiTiA5NsKwMzInMzQuMSJX!5e1!3m2!1ses-419!2smx!4v1755023614665!5m2!1ses-419!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
@@ -753,16 +753,20 @@
         
         <div class="gallery-container">
             <div class="gallery-item">
-                <img src="<?= base_url('images/Aguamarina/galeria1.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Entrada principal</div>
+                <img src="<?= base_url('images/aguamarina/aguamarina1.jpg') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista aérea</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Aguamarina/galeria2.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Calles del fraccionamiento</div>
+                <img src="<?= base_url('images/aguamarina/aguamarina2.jpg') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista aérea</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/Aguamarina/galeria3.webp') ?>" alt="Vista del Fraccionamiento">
-                <div class="gallery-caption">Áreas comunes</div>
+                <img src="<?= base_url('images/aguamarina/aguamarina3.jpg') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista aérea</div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?= base_url('images/aguamarina/aguamarina4.jpg') ?>" alt="Vista del Fraccionamiento">
+                <div class="gallery-caption">Vista aérea</div>
             </div>
         </div>
     </div>

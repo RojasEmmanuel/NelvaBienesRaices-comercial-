@@ -1069,8 +1069,8 @@
         
         <!-- Pestañas de zonas -->
         <div class="zone-tabs">
-            <div class="zone-tab active" data-zone="costa">Costa de Oaxaca</div>
-            <div class="zone-tab" data-zone="istmo">Istmo de Tehuantepec</div>
+            <div class="zone-tab active" data-zone="costa">Costa</div>
+            <div class="zone-tab" data-zone="istmo">Istmo</div>
         </div>
         
         <!-- Contenido de la Costa -->
@@ -1177,11 +1177,11 @@
                 <!-- Agua Marina -->
                 <div class="project-card">
                     <div class="project-logo-container">
-                        <img src="<?= base_url('images/inicio/nyssa.png') ?>" alt="Agua Marina" class="project-logo">
+                        <img src="<?= base_url('images/inicio/aguamarina.png') ?>" alt="Agua Marina" class="project-logo">
                     </div>
                     <div class="project-location">
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>Costa de Oaxaca</span>
+                        <span>Santa María Tonameca, Oaxaca</span>
                     </div>
                     <div class="project-overlay">
                         <a href="/aguamarina" class="project-btn">Ver Proyecto</a>
@@ -1224,11 +1224,11 @@
                 <!-- Coral -->
                 <div class="project-card">
                     <div class="project-logo-container">
-                        <img src="<?= base_url('images/inicio/zull.png') ?>" alt="Coral" class="project-logo">
+                        <img src="<?= base_url('images/inicio/coral.png') ?>" alt="Coral" class="project-logo">
                     </div>
                     <div class="project-location">
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>Aquí va Coral</span>
+                        <span>Salina Cruz, Oaxaca</span>
                     </div>
                     <div class="project-overlay">
                         <a href="/coral" class="project-btn">Ver Proyecto</a>
@@ -1252,11 +1252,11 @@
                 <!-- Aqua -->
                 <div class="project-card">
                     <div class="project-logo-container">
-                        <img src="<?= base_url('images/inicio/zull.png') ?>" alt="Aqua" class="project-logo">
+                        <img src="<?= base_url('images/inicio/aqua.png') ?>" alt="Aqua" class="project-logo">
                     </div>
                     <div class="project-location">
                         <i class="fas fa-map-marker-alt"></i>
-                        <span>Aquí va aqua</span>
+                        <span>Santo Domingo Tehuantepec, Oaxaca</span>
                     </div>
                     <div class="project-overlay">
                         <a href="/aqua" class="project-btn">Ver Proyecto</a>
