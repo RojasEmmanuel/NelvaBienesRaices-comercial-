@@ -22,6 +22,10 @@ $routes->get('el-santuario-de-las-tortugas', 'fraccionamientosController::Santua
 $routes->get('nyssa', 'fraccionamientosController::nyssa');
 $routes->get('sicaru', 'fraccionamientosController::sicaru');
 $routes->get('zull', 'fraccionamientosController::zull');
+$routes->get('aguamarina', 'fraccionamientosController::aguamarina');
+$routes->get('coral', 'fraccionamientosController::coral');
+$routes->get('aqua', 'fraccionamientosController::aqua');
+$routes->get('rompeolas', 'fraccionamientosController::rompeolas');
 
 $routes->get('inversiones-mazunte', 'inversionesController::mazunte');
 $routes->get('inversiones/tonameca', 'inversionesController::tonameca');

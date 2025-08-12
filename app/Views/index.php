@@ -306,29 +306,31 @@
     }
 
     /* Sección de proyectos modificada */
-
-
-        /* Nuevos estilos para el título de la sección de proyectos */
-    /* Estilos para la sección de proyectos modificada */
+    /* Estilos para la sección de proyectos rediseñada */
+    /* Estilos para la sección de proyectos - Versión minimalista */
     .projects-section {
         padding: 80px 20px;
-        background-color: #3a7bd5;
+        background-color: #f9f9f9;
     }
-
-    .projects-header {
+    
+    .projects-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .section-header {
         text-align: center;
         margin-bottom: 50px;
-        margin-top: 50px;
     }
-
-    .projects-header h2 {
+    
+    .section-header h2 {
         font-size: 2.5rem;
         color: #02304A;
         margin-bottom: 15px;
         position: relative;
     }
-
-    .projects-header h2::after {
+    
+    .section-header h2::after {
         content: '';
         display: block;
         width: 80px;
@@ -337,53 +339,107 @@
         margin: 15px auto 0;
         border-radius: 2px;
     }
-
-    .projects-header p {
+    
+    .section-header p {
         font-size: 1.1rem;
         color: #666;
         max-width: 700px;
         margin: 0 auto;
-    
     }
-
+    
+    /* Pestañas de zonas */
+    .zone-tabs {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .zone-tab {
+        padding: 12px 30px;
+        cursor: pointer;
+        font-weight: 600;
+        color: #666;
+        border-radius: 30px;
+        transition: all 0.3s ease;
+        background: white;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        border: 1px solid #eee;
+    }
+    
+    .zone-tab.active {
+        background: linear-gradient(45deg, #3a7bd5, #00d2ff);
+        color: white;
+        box-shadow: 0 4px 15px rgba(58, 123, 213, 0.3);
+        border-color: transparent;
+    }
+    
+    .zone-tab:not(.active):hover {
+        color: #3a7bd5;
+        border-color: #3a7bd5;
+    }
+    
+    /* Contenido de zonas */
+    .zone-content {
+        display: none;
+        animation: fadeIn 0.5s ease;
+    }
+    
+    .zone-content.active {
+        display: block;
+    }
+    
+    /* Grid de proyectos - Estilo minimalista */
     .projects-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 30px;
-        margin-top: 20px;
     }
-
+    
     .project-card {
         background: black;
         border-radius: 12px;
-        padding: 30px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
         transition: all 0.3s ease;
+        position: relative;
+        height: 250px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        padding: 30px;
         text-align: center;
-        position: relative;
-        overflow: hidden;
-        height: 250px;
+        border: 1px solid rgba(0,0,0,0.05);
     }
-
-    .project-logo {
+    
+    .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    
+    .project-logo-container {
         height: 120px;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 20px;
         transition: all 0.3s ease;
     }
-
-    .project-logo img {
+    
+    .project-logo {
         max-height: 100%;
         max-width: 100%;
         object-fit: contain;
         filter: drop-shadow(0 2px 5px rgba(0,0,0,0.1));
     }
-
+    
+    .project-card:hover .project-logo-container {
+        transform: translateY(-10px);
+    }
+    
     .project-location {
         color: #3a7bd5;
         font-weight: 600;
@@ -392,8 +448,9 @@
         align-items: center;
         justify-content: center;
         gap: 8px;
+        font-size: 0.95rem;
     }
-
+    
     .project-overlay {
         position: absolute;
         top: 0;
@@ -407,19 +464,38 @@
         opacity: 0;
         transition: all 0.3s ease;
     }
-
+    
     .project-card:hover .project-overlay {
         opacity: 1;
     }
-
-    .project-card:hover .project-logo {
-        transform: translateY(-20px);
+    
+    .project-btn {
+        padding: 10px 25px;
+        background: black;
+        color: #3a7bd5;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
     }
-
+    
+    .project-btn:hover {
+        background: #02304A;
+        color: white;
+        transform: translateY(-2px);
+    }
+    
+    /* Animaciones */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
     /* Responsive */
     @media (max-width: 768px) {
         .projects-grid {
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
         }
         
         .project-card {
@@ -427,11 +503,31 @@
             padding: 20px;
         }
         
-        .project-logo {
+        .project-logo-container {
             height: 100px;
         }
+        
+        .section-header h2 {
+            font-size: 2rem;
+        }
     }
-
+    
+    @media (max-width: 480px) {
+        .projects-grid {
+            grid-template-columns: 1fr;
+        }
+        
+        .zone-tabs {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .zone-tab {
+            width: 100%;
+            max-width: 250px;
+            text-align: center;
+        }
+    }
 
     /* Sección Turística Compacta y Escalable */
     .destinations-section {
@@ -961,152 +1057,216 @@
     </div>
 </section>
 
-<!-- Sección de Proyectos Modificada -->
-<section class="projects-section"  id="pro-section"style="background-color: #f5f7fa;">
-    <div class="container">
-        <div class="projects-header">
-            <h2>Nuestros Fraccionamientos en la Costa</h2>
-            <p>Descubre nuestros desarrollos estratégicamente ubicados cerca de los mejores destinos turísticos en la costa de Oaxaca</p>
+
+
+<!-- Sección de Proyectos - Versión Minimalista -->
+<section class="projects-section">
+    <div class="projects-container">
+        <div class="section-header">
+            <h2>Nuestros Fraccionamientos</h2>
+            <p>Descubre nuestros desarrollos estratégicamente ubicados en las zonas más atractivas de Oaxaca</p>
         </div>
         
-        <div class="projects-grid">
-            <!-- Proyecto 1 -->
-            <div class="project-card">
-                <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/REAL-CAMPESTRE-BLANCO.png') ?>" alt="Real Campestre">
-                </div>
-                <div class="project-location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Sta. María Tonameca, Oaxaca</span>
-                </div>
-                <div class="project-overlay">
-                    <a href="/real-campestre" class="btn">Ver</a>
-                </div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/nura.png') ?>" alt="Nura">
-                </div>
-                <div class="project-location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Mazunte, Oaxaca</span>
-                </div>
-                <div class="project-overlay">
-                    <a href="/nura" class="btn">Ver</a>
-                </div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/andromeda.png') ?>" alt="Andromeda">
-                </div>
-                <div class="project-location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Sta. María Tonameca, Oaxaca</span>
-                </div>
-                <div class="project-overlay">
-                    <a href="/andromeda" class="btn">Ver</a>
-                </div>
-            </div>
-            
-            <!-- Proyecto 2 -->
-            <div class="project-card">
-                <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/jicaro.png') ?>" alt="El Jicaro">
-                </div>
-                <div class="project-location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Sta. María Tonameca, Oaxaca</span>
-                </div>
-                <div class="project-overlay">
-                    <a href="/el-jicaro" class="btn">Ver</a>
-                </div>
-            </div>
-            
-            <!-- Proyecto 3 -->
-            <div class="project-card">
-                <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/oceanica.png') ?>" alt="Oceanica">
-                </div>
-                <div class="project-location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Guapinole, Sta. María Tonameca, Oax. </span>
-                </div>
-                <div class="project-overlay">
-                    <a href="/oceanica" class="btn">Ver</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/Santuario.png') ?>" alt="El Santuario de las Tortugas">
-                </div>
-                <div class="project-location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Escobilla, Sta. María Tonameca, Oax.</span>
-                </div>
-                <div class="project-overlay">
-                    <a href="/el-santuario-de-las-tortugas" class="btn">Ver</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/nyssa.png') ?>" alt="Nyssa">
-                </div>
-                <div class="project-location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Sta. María Tonameca, Oax.</span>
-                </div>
-                <div class="project-overlay">
-                    <a href="/nyssa" class="btn">Ver</a>
-                </div>
-            </div>
-
-        
-
-            
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="projects-header">
-            <h2>Nuestros Fraccionamientos en el Istmo de Tehuantepec</h2>
-            <p>Descubre nuestros desarrollos estratégicamente ubicados en el Istmo de Tehuantepec Oaxaca</p>
+        <!-- Pestañas de zonas -->
+        <div class="zone-tabs">
+            <div class="zone-tab active" data-zone="costa">Costa de Oaxaca</div>
+            <div class="zone-tab" data-zone="istmo">Istmo de Tehuantepec</div>
         </div>
         
-        <div class="projects-grid">
-            <!-- Proyecto 1 -->
-        
-            <div class="project-card">
-                <div class="project-logo">
-                    <img src="/images/inicio/sicaru.png" alt="Sicarú">
+        <!-- Contenido de la Costa -->
+        <div class="zone-content active" id="costa-zone">
+            <div class="projects-grid">
+                <!-- Real Campestre -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/REAL-CAMPESTRE-BLANCO.png') ?>" alt="Real Campestre" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Sta. María Tonameca, Oaxaca</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/real-campestre" class="project-btn">Ver Proyecto</a>
+                    </div>
                 </div>
-                <div class="project-location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Guelaguechi, Salina Cruz, Oaxaca</span>
+                
+                <!-- Nura -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/nura.png') ?>" alt="Nura" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Mazunte, Oaxaca</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/nura" class="project-btn">Ver Proyecto</a>
+                    </div>
                 </div>
-                <div class="project-overlay">
-                    <a href="/sicaru" class="btn">Ver</a>
+                
+                <!-- Andromeda -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/andromeda.png') ?>" alt="Andromeda" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Sta. María Tonameca, Oaxaca</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/andromeda" class="project-btn">Ver Proyecto</a>
+                    </div>
+                </div>
+                
+                <!-- El Jícaro -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/jicaro.png') ?>" alt="El Jícaro" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Sta. María Tonameca, Oaxaca</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/el-jicaro" class="project-btn">Ver Proyecto</a>
+                    </div>
+                </div>
+                
+                <!-- Oceanica -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/oceanica.png') ?>" alt="Oceanica" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Guapinole, Sta. María Tonameca</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/oceanica" class="project-btn">Ver Proyecto</a>
+                    </div>
+                </div>
+                
+                <!-- Santuario de las Tortugas -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/Santuario.png') ?>" alt="Santuario de las Tortugas" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Escobilla, Sta. María Tonameca</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/el-santuario-de-las-tortugas" class="project-btn">Ver Proyecto</a>
+                    </div>
+                </div>
+                
+                <!-- Nyssa -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/nyssa.png') ?>" alt="Nyssa" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Sta. María Tonameca, Oaxaca</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/nyssa" class="project-btn">Ver Proyecto</a>
+                    </div>
+                </div>
+                
+                <!-- Agua Marina -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/nyssa.png') ?>" alt="Agua Marina" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Costa de Oaxaca</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/aguamarina" class="project-btn">Ver Proyecto</a>
+                    </div>
                 </div>
             </div>
-
-            <div class="project-card">
-                <div class="project-logo">
-                    <img src="<?= base_url('images/inicio/zull.png') ?>" alt="Zull">
+        </div>
+        
+        <!-- Contenido del Istmo -->
+        <div class="zone-content" id="istmo-zone">
+            <div class="projects-grid">
+                <!-- Sicarú -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/sicaru.png') ?>" alt="Sicarú" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Guelaguechi, Salina Cruz</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/sicaru" class="project-btn">Ver Proyecto</a>
+                    </div>
                 </div>
-                <div class="project-location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Dunas Playa Azul, Salina Cruz, Oaxaca</span>
+                
+                <!-- Zull -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/zull.png') ?>" alt="Zull" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Dunas Playa Azul, Salina Cruz</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/zull" class="project-btn">Ver Proyecto</a>
+                    </div>
                 </div>
-                <div class="project-overlay">
-                    <a href="/zull" class="btn">Ver</a>
+                
+                <!-- Coral -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/zull.png') ?>" alt="Coral" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Aquí va Coral</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/coral" class="project-btn">Ver Proyecto</a>
+                    </div>
+                </div>
+                
+                <!-- Rompeolas -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/zull.png') ?>" alt="Rompeolas" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Aquí va rompeolas</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/rompeolas" class="project-btn">Ver Proyecto</a>
+                    </div>
+                </div>
+                
+                <!-- Aqua -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/zull.png') ?>" alt="Aqua" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Aquí va aqua</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/aqua" class="project-btn">Ver Proyecto</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- Sección de Destinos Turísticos Compacta -->
 <section class="destinations-section">
@@ -1321,3 +1481,30 @@
 
 <!-- Asi se incrusta la sección del footer -->
 <?= view('templates/footer') ?>
+
+
+<script>
+    // Script para manejar las pestañas de zonas
+    document.addEventListener('DOMContentLoaded', function() {
+        const zoneTabs = document.querySelectorAll('.zone-tab');
+        
+        zoneTabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+                // Remover clase active de todas las pestañas
+                zoneTabs.forEach(t => t.classList.remove('active'));
+                
+                // Agregar clase active a la pestaña clickeada
+                this.classList.add('active');
+                
+                // Ocultar todos los contenidos de zona
+                document.querySelectorAll('.zone-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                
+                // Mostrar el contenido correspondiente
+                const zoneId = this.getAttribute('data-zone');
+                document.getElementById(`${zoneId}-zone`).classList.add('active');
+            });
+        });
+    });
+</script>

@@ -44,4 +44,27 @@ class fraccionamientosController extends BaseController
     {
         return view('fraccionamientos/zull', ['title' => 'Nelva Bienes Raíces']);
     }
+
+    public function aguamarina(): string
+    {
+        return view('fraccionamientos/aguamarina', ['title' => 'Nelva Bienes Raíces']);
+    }
+
+    public function coral(): string
+    {
+        return view('fraccionamientos/coral', ['title' => 'Nelva Bienes Raíces']);
+    }
+
+    public function rompeolas(): string
+    {
+        return view('fraccionamientos/rompeolas', ['title' => 'Nelva Bienes Raíces']);
+    }
+
+    public function aqua(): string
+    {
+        return view('fraccionamientos/aqua', ['title' => 'Nelva Bienes Raíces']);
+    }
 }
+
+
+
