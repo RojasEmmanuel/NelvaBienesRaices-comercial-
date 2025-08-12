@@ -618,7 +618,7 @@
     <div class="hero-bg"></div>
     <div class="hero-content">
         <h1>FRACCIONAMIENTO ZULL</h1>
-        <span class="price">$220,000.00</span>
+        <span class="price">$280,000.00</span>
         <p>LOTES RESIDENCIALES DESDE 200 MTRS</p>
         <p>Dunas playa azul, Salina Cruz, Oaxaca, México.</p>
         <div class="hero-buttons">

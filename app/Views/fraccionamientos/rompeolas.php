@@ -619,7 +619,7 @@
     <div class="hero-bg"></div>
     <div class="hero-content">
         <h1>FRACCIONAMIENTO ROMPE OLAS</h1>
-        <span class="price">$350,000.00</span>
+        <span class="price">$130,000.00</span>
         <p>Adquiere tu terreno en Salina Cruz, Oaxaca</p>
         <p>Terrenos desde 200 m²</p>
         <div class="hero-buttons">

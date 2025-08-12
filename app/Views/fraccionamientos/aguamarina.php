@@ -618,7 +618,8 @@
 <section class="hero">
     <div class="hero-bg" style="background-image: url('<?= base_url('images/Aguamarina/hero-bg.webp') ?>');"></div>
     <div class="hero-content">
-        <h1>FRACCIONAMIENTO AGUAMARINA</h1>
+        <h1>FRACCIONAMIENTO AGUA MARINA</h1>
+        <span class="price">$220,000.00</span>
         <p>Tu nuevo hogar en la costa oaxaqueña te espera</p>
         <p>Santa María Tonameca, Oaxaca</p>
         <div class="hero-buttons">
