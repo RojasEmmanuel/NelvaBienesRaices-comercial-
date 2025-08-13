@@ -632,6 +632,7 @@
 <section class="section">
     <div class="container">
         <h2 class="section-title">Descubre Nura Campestre</h2>
+        
         <p class="text-center mb-30" style="max-width: 800px; margin-left: auto; margin-right: auto;">
             Nura Campestre es un desarrollo residencial pensado para quienes desean un estilo de vida tranquilo y en armonía con la naturaleza. Rodeado de un entorno natural único, este proyecto ofrece una experiencia excepcional, ideal tanto para vivir como para disfrutar de estancias vacacionales en un ambiente relajado y lleno de belleza.
         </p>

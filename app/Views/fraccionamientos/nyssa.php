@@ -618,7 +618,7 @@
     <div class="hero-bg"></div>
     <div class="hero-content">
         <h1>FRACCIONAMIENTO NYSSA</h1>
-        <span class="price">$300,000.00</span>
+        <span class="price">$280,000.00</span>
         <p>Exclusivos lotes residenciales desde 200 mtrs</p>
         <p>La Unión Del Palmar, Santa María Tonameca.</p>
         <div class="hero-buttons">
