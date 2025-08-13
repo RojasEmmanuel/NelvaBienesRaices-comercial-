@@ -799,6 +799,10 @@
                 <img src="<?= base_url('images/ElSantuarioDeLasTortugas/Galeria/imagen4.webp') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista del terreno</div>
             </div>
+            <div class="gallery-item">
+                <img src="<?= base_url('images/ElSantuarioDeLasTortugas/Galeria/oceanica4.webp') ?>" alt="Vista aérea del Fraccionamiento">
+                <div class="gallery-caption">Vista del terreno</div>
+            </div>
         </div>
     </div>
 </section>
