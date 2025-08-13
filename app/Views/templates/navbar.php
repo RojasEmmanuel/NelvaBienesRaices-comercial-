@@ -393,6 +393,7 @@
                     <a href="/contacto">Contacto</a>
                     <a href="/mas">Mas</a>
                     <a href="/atractivos">Atractivos</a>
+                    <a href="/mapa-interactivo">Mapa</a>
                 </div>
                 
                 <!-- Redes sociales para desktop -->
