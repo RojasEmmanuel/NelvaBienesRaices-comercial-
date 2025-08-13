@@ -26,6 +26,7 @@ $routes->get('aguamarina', 'fraccionamientosController::aguamarina');
 $routes->get('coral', 'fraccionamientosController::coral');
 $routes->get('aqua', 'fraccionamientosController::aqua');
 $routes->get('rompeolas', 'fraccionamientosController::rompeolas');
+$routes->get('real-ventanilla', 'fraccionamientosController::realVentanilla');
 
 $routes->get('inversiones-mazunte', 'inversionesController::mazunte');
 $routes->get('inversiones/tonameca', 'inversionesController::tonameca');

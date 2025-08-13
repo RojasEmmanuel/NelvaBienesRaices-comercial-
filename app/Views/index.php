@@ -1187,6 +1187,20 @@
                         <a href="/aguamarina" class="project-btn">Ver Proyecto</a>
                     </div>
                 </div>
+
+                <!-- Real Ventanilla -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/RealVentanilla.png') ?>" alt="Agua Marina" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Santa María Tonameca, Oaxaca</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/real-ventanilla" class="project-btn">Ver Proyecto</a>
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -1262,6 +1276,9 @@
                         <a href="/aqua" class="project-btn">Ver Proyecto</a>
                     </div>
                 </div>
+
+
+                
             </div>
         </div>
     </div>

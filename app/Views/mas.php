@@ -383,6 +383,35 @@
         color: var(--primary);
     }
     
+    /* Botón Ver Más */
+    .load-more-container {
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .load-more-btn {
+        display: inline-block;
+        padding: 12px 30px;
+        background: linear-gradient(to right, var(--primary), var(--accent));
+        color: white;
+        border: none;
+        border-radius: 50px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: var(--transition);
+        box-shadow: 0 5px 15px rgba(67, 97, 238, 0.2);
+    }
+    
+    .load-more-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(67, 97, 238, 0.3);
+    }
+    
+    .hidden-news {
+        display: none;
+    }
+    
     /* Responsive */
     @media (max-width: 992px) {
         .news-grid {
@@ -425,9 +454,12 @@
             height: 35px;
             font-size: 1rem;
         }
+        
+        .load-more-btn {
+            padding: 10px 25px;
+            font-size: 0.9rem;
+        }
     }
-
-    
 </style>
 
 <div class="news-section">
@@ -438,22 +470,18 @@
         </div>
         
         <div class="news-grid">
-
-            <!-- Noticia 2 -->
+            <!-- Noticia 1 (visible inicialmente) -->
             <div class="news-card">
                 <div class="news-carousel">
                     <div class="carousel-slides">
                         <div class="carousel-slide">
                             <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/531928808_1327396436058251_3293548506784462016_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=52AG-Pw4FisQ7kNvwFSE9JE&_nc_oc=Adk31TdfHmbJp1mbILaM89trLwAJ1AzfrwopZBbAQH9GKVseVvwN0qNSOVd5WTdaLB0&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=BbLtTfLmgKvsrK595qNpIA&oh=00_AfVyc4i56QQPWKmwrxLCcbDZemhyhWo1GXtFzl8vABwHRQ&oe=68A14D02">
                         </div>
-
-                        
                     </div>
                     <button class="carousel-btn carousel-prev">❮</button>
                     <button class="carousel-btn carousel-next">❯</button>
                     <div class="carousel-dots">
                         <div class="carousel-dot active"></div>
-                        <div class="carousel-dot"></div>
                     </div>
                 </div>
                 
@@ -467,7 +495,7 @@
                     </p>
                     
                     <div class="news-footer">
-                        <span class="news-tag">Expansión</span>
+                        <span class="news-tag">Counidad</span>
                         <div class="news-social">
                             <a href="https://www.facebook.com/photo?fbid=1327396429391585&set=a.548505307280705" target="_blank" title="Compartir en Facebook"><i class="fab fa-facebook-f"></i></a>
                         </div>
@@ -475,14 +503,13 @@
                 </div>
             </div>
 
-            <!-- Noticia 1 -->
-             <div class="news-card">
+            <!-- Noticia 2 (visible inicialmente) -->
+            <div class="news-card">
                 <div class="news-carousel">
                     <div class="carousel-slides">
                         <div class="carousel-slide">
                             <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/503956137_1267074212090474_6864461385920080095_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3dBh8YLpe0wQ7kNvwHafQyd&_nc_oc=Adkysp7H-fnnVNb0FgVunTzmf5myh2s5VY_sGwnNB8RbaukJpY88x53ggAEJisPPFvFPvnF-d_Aoe6dPx-fDDQxB&_nc_zt=23&_nc_ht=scontent-qro1-1.xx&_nc_gid=A_wjUAQLfvmV6z5tK0lKGQ&oh=00_AfXug7qGD6UTWnw_hSrLNxWDjSmbkUB-ssd-u3JpqH2p4A&oe=689809A0" alt="Nueva oficina">
                         </div>
-
                         <div class="carousel-slide">
                             <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/504002223_1267074178757144_3921178225848898215_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7C2FWGVbWdYQ7kNvwGQbgZT&_nc_oc=AdlFJo_anlOtIkKogtNYNcKxE33ydJcqmxX46SvUbXszDk5HbtFsFyuSrgHx4IUvZOpw6rBGd3nSZB71gwitkPaV&_nc_zt=23&_nc_ht=scontent-qro1-1.xx&_nc_gid=7krjmjSgACy0g06yKx_lvw&oh=00_AfWWlZy0YsVB9qhaWkA1Ln-sl0Eh_gkM-siqKDjNtIi0vg&oe=689805E4" alt="Equipo de trabajo">
                         </div>
@@ -494,6 +521,7 @@
                     <button class="carousel-btn carousel-next">❯</button>
                     <div class="carousel-dots">
                         <div class="carousel-dot active"></div>
+                        <div class="carousel-dot"></div>
                         <div class="carousel-dot"></div>
                     </div>
                 </div>
@@ -509,14 +537,12 @@
                         <span class="news-tag">Expansión</span>
                         <div class="news-social">
                             <a href="https://www.facebook.com/share/p/19nVgKHRyN/" target="_blank" title="Compartir en Facebook"><i class="fab fa-facebook-f"></i></a>
-
                         </div>
                     </div>
                 </div>
             </div>
 
-
-            <!-- Noticia 2 -->
+            <!-- Noticia 3 (visible inicialmente) -->
             <div class="news-card">
                 <div class="news-carousel">
                     <div class="carousel-slides">
@@ -551,20 +577,18 @@
                         <span class="news-tag">Comunidad</span>
                         <div class="news-social">
                             <a href="#" title="Compartir en Facebook"><i class="fab fa-facebook-f"></i></a>
-        
                         </div>
                     </div>
                 </div>
             </div>
             
-            <!-- Noticia 2 -->
-            <div class="news-card">
+            <!-- Noticia 4 (oculta inicialmente) -->
+            <div class="news-card hidden-news">
                 <div class="news-carousel">
                     <div class="carousel-slides">
                         <div class="carousel-slide">
                             <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/494550940_1240558454742050_2529286116005357666_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3d_ieIodc54Q7kNvwGBxfzi&_nc_oc=Admc39-PTTYvqKWGPtX19Hucb3_GIDOCdc4pSUfZquDmUl8wK80RHJ7XgCHEglu2iB2KwTC2wmxknjk72a87TieP&_nc_zt=23&_nc_ht=scontent-qro1-1.xx&_nc_gid=8QulT9-DG8nmy5J7W3YUEw&oh=00_AfUMnQGLqdS5p0D2YBDgLNWKaKChIYokk2iwsUy4WuM_6g&oe=68982991" alt="Nueva oficina">
                         </div>
-
                         <div class="carousel-slide">
                             <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/495021248_1240558314742064_9221354949965865525_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=InUPUhyQdJgQ7kNvwGw8mrc&_nc_oc=AdmUMSfD8QtZyooBsaXLBzlPKoUAXEMs0GqsqX0MnIvBLSbw9KreVYdS2FshsPCoTbNWvrrCOUMKfHWWToVcuMjw&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=Xyt9hr-r7axSGViP5yAtaw&oh=00_AfX3pZkv_SR5bxHhEJQCWSLElCm06NWK_iYs36h0EaEYgQ&oe=68981152" alt="Equipo de trabajo">
                         </div>
@@ -576,6 +600,7 @@
                     <button class="carousel-btn carousel-next">❯</button>
                     <div class="carousel-dots">
                         <div class="carousel-dot active"></div>
+                        <div class="carousel-dot"></div>
                         <div class="carousel-dot"></div>
                     </div>
                 </div>
@@ -589,21 +614,22 @@
                     </p>
                     
                     <div class="news-footer">
-                        <span class="news-tag">Expansión</span>
+                        <span class="news-tag">Comunidad</span>
                         <div class="news-social">
                             <a href="https://www.facebook.com/share/p/1B1H7GrRYc/" target="_blank" title="Compartir en Facebook"><i class="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-
-
             
-            
+            <!-- Puedes agregar más noticias ocultas aquí si las tienes -->
+        </div>
+        
+        <div class="load-more-container">
+            <button class="load-more-btn" id="loadMoreBtn">Ver más noticias</button>
         </div>
     </div>
 </div>
-
 
 <div class="social-container">
     <section class="social-section">
@@ -627,7 +653,6 @@
                 <a class="social-link2">Seguir</a>
             </div>
             
-         
             <div class="social-card" onclick="window.open('https://www.tiktok.com/@nelvabienesraices.mx?is_from_webapp=1&sender_device=pc', '_blank')">
                 <i class="fab fa-tiktok social-icon tiktok"></i>
                 <h3 class="social-name">TikTok</h3>
@@ -650,11 +675,6 @@
         </div>
     </section>
 </div>
-
-
-
-
-
 
 <script>
     // Inicializar todos los carruseles
@@ -713,7 +733,17 @@
             }, 5000);
         });
     });
+    
+    // Función para mostrar más noticias
+    document.getElementById('loadMoreBtn').addEventListener('click', function() {
+        // Mostrar todas las noticias ocultas
+        document.querySelectorAll('.hidden-news').forEach(news => {
+            news.classList.remove('hidden-news');
+        });
+        
+        // Ocultar el botón después de hacer clic
+        this.style.display = 'none';
+    });
 </script>
-
 
 <?= view('templates/footer') ?>
