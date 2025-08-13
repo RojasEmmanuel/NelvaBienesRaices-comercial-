@@ -69,6 +69,11 @@ class fraccionamientosController extends BaseController
     {
         return view('fraccionamientos/realVentanilla', ['title' => 'Nelva Bienes Raíces']);
     }
+
+    public function samaritan(): string
+    {
+        return view('fraccionamientos/samaritan', ['title' => 'Nelva Bienes Raíces']);
+    }
 }
 
 

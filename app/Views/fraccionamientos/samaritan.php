@@ -1,4 +1,4 @@
-<?= view('templates/navbar', ['title' => 'NYSSA - Nelva Bienes Raíces']) ?>
+<?= view('templates/navbar', ['title' => 'Samaritan - Nelva Bienes Raíces']) ?>
 
 <style>
     :root {
@@ -117,7 +117,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/NYSSA/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/samaritan/parallax.jpg') ?>') center/cover no-repeat;
         background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
         background-blend-mode: multiply; /* Mezcla los colores para el efecto de oscurecimiento */
         z-index: 1;
@@ -226,7 +226,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/NYSSA/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/samaritan/parallax.jpg') ?>') center/cover no-repeat;
         opacity: 0.1;
         z-index: 0;
     }
@@ -299,7 +299,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/NYSSA/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/samaritan/parallax.jpg') ?>') center/cover no-repeat;
         opacity: 0.3;
         z-index: 0;
     }
@@ -449,7 +449,7 @@
     
     /* Contact CTA Mejorado */
     .contact-cta {
-        background: url('<?= base_url('images/NYSSA/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/samaritan/parallax.jpg') ?>') center/cover no-repeat;
         position: relative;
         text-align: center;
         padding: 100px 20px;
@@ -613,14 +613,13 @@
     }
 </style>
 
-<!-- Hero Section Mejorada -->
+<!-- Hero Section -->
 <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-content">
-        <h1>FRACCIONAMIENTO NYSSA</h1>
-        <span class="price">$280,000.00</span>
-        <p>Exclusivos lotes residenciales desde 200 mtrs</p>
-        <p>La Unión Del Palmar, Santa María Tonameca.</p>
+        <h1>FRACCIONAMIENTO EL SAMARITAN</h1>
+        <p>Últimos lotes disponibles en venta</p>
+        <p>El Samaritan, Santa María Tonameca</p>
         <div class="hero-buttons">
             <a href="/asesores?zona=costa" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>
@@ -628,29 +627,32 @@
     </div>
 </section>
 
-<!-- Info Grid Mejorada -->
+<!-- Info Grid -->
 <section class="section">
     <div class="container">
-        <h2 class="section-title">Descubre Fraccionamiento NYSSA</h2>
+        <h2 class="section-title">Descubre Fraccionamiento El Samaritan</h2>
         <p class="text-center mb-30" style="max-width: 800px; margin-left: auto; margin-right: auto;">
-            Fraccionamiento Nyssa es un desarrollo diseñado para quienes buscan una vida equilibrada entre modernidad y naturaleza. Rodeado de paisajes naturales únicos, este proyecto ofrece un entorno tranquilo y acogedor, ideal para disfrutar de la belleza de Oaxaca sin renunciar a la comodidad y proyección de crecimiento.
+            Fraccionamiento El Samaritan ofrece una oportunidad única de inversión en la costa de Oaxaca. Con ubicación estratégica cerca de los principales destinos turísticos de la región, este desarrollo combina accesibilidad con el potencial de crecimiento en una de las zonas más bellas del Pacífico Mexicano.
         </p>
         
         <div class="info-grid">
-            
             <div class="info-card">
                 <h3><i class="fas fa-file-signature"></i> Documentación</h3>
-                <p>Acta de Posesión</p>
+                <p>Escrituras públicas</p>
             </div>
             <div class="info-card">
                 <h3><i class="fas fa-calendar-check"></i> Disponibilidad</h3>
-                <p>Lotes en venta inmediata</p>
+                <p>Últimos lotes disponibles</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fas fa-credit-card"></i> Financiamiento</h3>
+                <p>12 a 48 MSI disponibles</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Features Section Mejorada -->
+<!-- Features Section -->
 <section class="section features-section">
     <div class="container features-container">
         <h2 class="section-title">Características del Desarrollo</h2>
@@ -658,45 +660,37 @@
         <div class="features-grid">
             <div class="feature-item">
                 <div class="feature-icon">
-                    <i class="fas fa-ruler-combined"></i>
-                </div>
-                <h3>200 M²</h3>
-                <p>Lotes desde</p>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon">
                     <i class="fas fa-road"></i>
                 </div>
-                <h3>10 M</h3>
-                <p>Calles pavimentadas</p>
+                <h3>200 M</h3>
+                <p>De la carretera Federal 200</p>
             </div>
             <div class="feature-item">
                 <div class="feature-icon">
-                    <i class="fas fa-clock"></i>
+                    <i class="fas fa-bolt"></i>
                 </div>
-                <h3>3 MIN</h3>
-                <p>Playa Ventanilla</p>
+                <h3>Luz</h3>
+                <p>Proyecto eléctrico</p>
             </div>
             <div class="feature-item">
                 <div class="feature-icon">
-                    <i class="fas fa-route"></i>
+                    <i class="fas fa-tint"></i>
                 </div>
-                <h3>12 M</h3>
-                <p>Avenidas principales</p>
+                <h3>Agua</h3>
+                <p>Proyecto hidráulico</p>
             </div>
             <div class="feature-item">
                 <div class="feature-icon">
-                    <i class="fas fa-shield-alt"></i>
+                    <i class="fas fa-map-marked-alt"></i>
                 </div>
-                <h3>Seguridad</h3>
-                <p>Privada controlada</p>
+                <h3>Ubicación</h3>
+                <p>Terreno plano</p>
             </div>
-           
         </div>
     </div>
 </section>
 
-<!-- Amenities Section Mejorada -->
+<!-- Amenities Section -->
 <section class="section">
     <div class="container">
         <div class="amenities-container">
@@ -705,39 +699,39 @@
             <div class="amenities-list">
                 <div class="amenity-item">
                     <div class="amenity-icon">
-                        <i class="fas fa-umbrella-beach"></i>
+                        <i class="fas fa-gas-pump"></i>
                     </div>
-                    <p>Sobre la carretera federal 175 y 200</p>
+                    <p>Frente a gasolinera en construcción</p>
                 </div>
                 <div class="amenity-item">
                     <div class="amenity-icon">
-                        <i class="fas fa-water"></i>
+                        <i class="fas fa-umbrella-beach"></i>
                     </div>
-                    <p>A 10 min. De mazunte pueblo mágico</p>
+                    <p>A 8 minutos de Ventanilla</p>
                 </div>
                 <div class="amenity-item">
                     <div class="amenity-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <p>A 10 min. De punta cometa</p>
-                </div>
-                <div class="amenity-item">
-                    <div class="amenity-icon">
-                        <i class="fas fa-ship"></i>
-                    </div>
-                    <p>A 2 min. De ventanilla</p>
-                </div>
-                <div class="amenity-item">
-                    <div class="amenity-icon">
-                        <i class="fas fa-tree"></i>
-                    </div>
-                    <p>A 50 min. De Puerto Escondido y Zicatela</p>
+                    <p>A 10 minutos de Mazunte Pueblo Mágico</p>
                 </div>
                 <div class="amenity-item">
                     <div class="amenity-icon">
                         <i class="fas fa-sun"></i>
                     </div>
-                    <p>A 30 min. De san pedro Pochutla</p>
+                    <p>A 10 minutos de Punta Cometa</p>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">
+                        <i class="fas fa-city"></i>
+                    </div>
+                    <p>A 15 minutos de San Pedro Pochutla</p>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <p>A 35 minutos de Puerto Escondido y Zicatela</p>
                 </div>
             </div>
         </div>
@@ -750,7 +744,7 @@
     <div class="container">
         <h2 class="section-title">Plano del Fraccionamiento</h2>
         <div style="max-width: 480px; margin: auto; box-shadow: var(--shadow-lg); border-radius: 12px; overflow: hidden;">
-            <img src="<?= base_url('images/NYSSA/plano.webp') ?>" alt="Plano de El Santuario de las Tortugas" style="width: 100%; height: auto; display: block;">
+            <img src="<?= base_url('images/samaritan/plano.png') ?>" alt="Plano de El Santuario de las Tortugas" style="width: 100%; height: auto; display: block;">
         </div>
         <p class="text-center" style="margin-top: 20px; font-size: 1.1rem; color: var(--gray);">
             Diseño urbanístico pensado para maximizar espacios y privacidad, con amplias áreas verdes y distribución estratégica.
@@ -758,54 +752,50 @@
     </div>
 </section>
 
-
-<!-- Map Section Mejorada -->
+<!-- Map Section -->
 <section class="section map-section2" id="contact">
     <div class="container">
         <div class="map-container2">
             <div class="map-content2">
-                <h2 class="section-title" style="color: white; text-align: left;">Ubicación Estratégica</h2>
-                <p>Ubicado estratégicamente cerca de reconocidos destinos turísticos, Nyssa brinda acceso rápido a servicios básicos y a las principales rutas de conexión en la región. Su localización, combinada con un entorno natural privilegiado, lo convierte en una excelente oportunidad de inversión con alta plusvalía y calidad de vida garantizada.</p>
+                <h2 class="section-title" style="color: white; text-align: left;">Conectividad Excepcional</h2>
+                <p>El Fraccionamiento El Samaritan se ubica en un punto estratégico con acceso rápido a la carretera Federal 200, conectando con los principales destinos turísticos de la costa oaxaqueña. Su proximidad a servicios esenciales y atractivos naturales lo convierten en una inversión con alto potencial de plusvalía.</p>
                 <a href="/asesores?zona=costa" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193.7754187704124!2d-96.62163067874447!3d15.724466561845038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8d94cb9ac8f6f%3A0x8a55de140cc65156!2sFRACCIONAMIENTO%20NYSSA!5e1!3m2!1ses!2smx!4v1754599685158!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.123456789012!2d-96.621630!3d15.724466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDQzJzI4LjEiTiA5NsKwMzcnMTkuOCJX!5e0!3m2!1ses!2smx!4v1234567890!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
 </section>
 
-
-<!-- Gallery Section Mejorada -->
+<!-- Gallery Section -->
 <section class="section gallery-section" id="gallery">
     <div class="container">
         <h2 class="section-title">Galería del Proyecto</h2>
         
         <div class="gallery-container">
-            
             <div class="gallery-item">
-                <img src="<?= base_url('images/NYSSA/Galeria/nyssa1.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/samaritan/samaritan1.jpg') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/NYSSA/Galeria/nyssa2.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/samaritan/samaritan2.jpg') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
             <div class="gallery-item">
-                <img src="<?= base_url('images/NYSSA/Galeria/nyssa3.webp') ?>" alt="Vista del Fraccionamiento">
+                <img src="<?= base_url('images/samaritan/samaritan3.jpg') ?>" alt="Vista del Fraccionamiento">
                 <div class="gallery-caption">Vista aérea del terreno</div>
             </div>
         </div>
     </div>
 </section>
 
-
-<!-- Contact CTA Mejorado -->
+<!-- Contact CTA -->
 <section class="contact-cta">
     <div class="container">
-        <h2>¿Listo para ser parte de Fraccionamiento Nyssa?</h2>
-        <p>Contáctanos hoy mismo para recibir información detallada, precios especiales y asesoría personalizada sin compromiso.</p>
-       <a href="/asesores?zona=costa" class="btn btn-secondary">Contactar Asesor</a>
+        <h2>¿Interesado en los últimos lotes disponibles?</h2>
+        <p>Contáctanos hoy mismo para conocer disponibilidad, precios especiales y planes de financiamiento adaptados a tus necesidades.</p>
+        <a href="/asesores?zona=costa" class="btn btn-secondary">Contactar Asesor</a>
     </div>
 </section>
 
