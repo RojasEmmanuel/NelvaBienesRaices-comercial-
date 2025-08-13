@@ -1,4 +1,4 @@
-<!-- Asi se incrusta la sección del navbar y se le da el titulo a la pagina -->
+
 <?= view('templates/navbar', ['title' => 'Nelva Bienes Raíces']) ?>
 
     <style>
@@ -21,7 +21,7 @@
         
         /* Hero Section with Parallax */
         .hero {
-            height: 70vh;  /* Cambiado de 100vh a 70vh */
+            height: 70vh; 
             background: url('images/Servicios/parallax.png') no-repeat center center/cover;
             background-attachment: fixed;
             display: flex;
@@ -328,7 +328,7 @@
             
             <!-- Mapa -->
             <div style="flex: 1; min-width: 300px; height: 400px; background-color: #f5f5f5;">
-                <!-- Aquí puedes insertar tu mapa de Google Maps -->
+                <!-- Aquí se inserta el Google Maps -->
                 <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3840.0962516054083!2d-96.47265642221858!3d15.746046645921181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8d524d1c0c813%3A0x28e1b7915d888ef8!2sNELVA%20Bienes%20Ra%C3%ADces!5e0!3m2!1ses!2smx!4v1754065107116!5m2!1ses!2smx" 
                     width="100%" 
@@ -343,5 +343,4 @@
 </section>
 
 
-<!-- Asi se incrusta la sección del footer -->
 <?= view('templates/footer') ?>

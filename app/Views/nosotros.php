@@ -1,7 +1,5 @@
 
-<!-- Asi se incrusta la sección del navbar y se le da el titulo a la pagina -->
 <?= view('templates/navbar', ['title' => 'Nelva Bienes Raíces']) ?>
-
     <style>
         /* Estilos para el contenido de la página Nosotros */
         
@@ -25,7 +23,7 @@
 /* Mejora la responsividad del parallax */
 @media (max-width: 768px) {
     .hero {
-        background-attachment: scroll; /* Deshabilita parallax en móviles para mejor rendimiento */
+        background-attachment: scroll; 
     }
 }
         
@@ -127,7 +125,7 @@
             text-align: center;
             transition: transform 0.3s;
             display: flex; /* Agregamos display flex */
-            flex-direction: column; /* Organizamos el contenido en columna */
+            flex-direction: column;
         }
         
         .team-member:hover {
@@ -145,9 +143,9 @@
         .member-image img {
             width: 100%;
             height: 100%;
-            object-fit: contain; /* Cambiamos a contain para mantener la proporción */
-            object-position: center; /* Centramos la imagen */
-            background-color: #f9f9f9; /* Color de fondo para los espacios vacíos */
+            object-fit: contain; 
+            object-position: center; 
+            background-color: #f9f9f9; 
         }
         
         .member-info {
@@ -170,8 +168,8 @@
         /* Agregar esta regla específica para el párrafo de descripción */
         .member-info p:last-child {
             text-align: justify;
-            color: #555; /* Un color más suave para el texto largo */
-            font-weight: normal; /* Peso normal para mejor legibilidad */
+            color: #555; 
+            font-weight: normal; 
             line-height: 1.6; /* Mejor espaciado entre líneas */
             
         }
@@ -533,7 +531,6 @@
 </section>
 
 
-<!-- Asi se incrusta la sección del footer -->
 <?= view('templates/footer') ?>
 
 </body>
