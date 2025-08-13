@@ -1249,10 +1249,10 @@
                     </div>
                 </div>
                 
-                <!-- Rompeolas -->
+                <!-- Rompeolas 
                 <div class="project-card">
                     <div class="project-logo-container">
-                        <img src="<?= base_url('images/inicio/zull.png') ?>" alt="Rompeolas" class="project-logo">
+                        <img src="  //base_url('images/inicio/zull.png') " alt="Rompeolas" class="project-logo">
                     </div>
                     <div class="project-location">
                         <i class="fas fa-map-marker-alt"></i>
@@ -1262,7 +1262,7 @@
                         <a href="/rompeolas" class="project-btn">Ver Proyecto</a>
                     </div>
                 </div>
-                
+                -->
                 <!-- Aqua -->
                 <div class="project-card">
                     <div class="project-logo-container">
