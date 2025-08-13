@@ -469,7 +469,7 @@
 <section class="hero">
     <div class="hero-content">
         <h1>Fraccionamiento Real Ventanilla</h1>
-        <span class="price">LOTES DESDE $280,000</span>
+        <span class="price">LOTES A $650,000</span>
         <p>Un desarrollo de alta plusvalía, a 1 minuto de la Laguna de Ventanilla</p>
         <div class="hero-buttons">
             <a href="/asesores?zona=costa" class="btn btn-secondary">Contactar asesor</a>
