@@ -12,6 +12,8 @@ $routes->get('nosotros', 'PrincipalController::nosotros');
 $routes->get('mas', 'PrincipalController::mas');
 $routes->get('contacto', 'PrincipalController::contacto');
 $routes->get('asesores', 'PrincipalController::asesores');
+$routes->get('mapa-interactivo', 'PrincipalController::mapaInteractivo');
+
 
 $routes->get('real-campestre', 'fraccionamientosController::realCampestre');
 $routes->get('nura', 'fraccionamientosController::nura');

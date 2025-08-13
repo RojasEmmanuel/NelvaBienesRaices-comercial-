@@ -36,5 +36,9 @@ class PrincipalController extends BaseController
         return view('asesores', ['title' => 'Nelva Bienes Raíces']);
     }
 
+    public function mapaInteractivo(): string
+    {
+        return view('mapaInteractivo', ['title' => 'Nelva Bienes Raíces']);
+    }
     
 }
