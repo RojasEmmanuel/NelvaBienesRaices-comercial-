@@ -1191,7 +1191,7 @@
                 <!-- Real Ventanilla -->
                 <div class="project-card">
                     <div class="project-logo-container">
-                        <img src="<?= base_url('images/inicio/RealVentanilla.png') ?>" alt="Agua Marina" class="project-logo">
+                        <img src="<?= base_url('images/inicio/RealVentanilla.png') ?>" alt="Real Ventanilla" class="project-logo">
                     </div>
                     <div class="project-location">
                         <i class="fas fa-map-marker-alt"></i>
@@ -1199,6 +1199,20 @@
                     </div>
                     <div class="project-overlay">
                         <a href="/real-ventanilla" class="project-btn">Ver Proyecto</a>
+                    </div>
+                </div>
+
+                <!-- Samaritan -->
+                <div class="project-card">
+                    <div class="project-logo-container">
+                        <img src="<?= base_url('images/inicio/samaritan.png') ?>" alt="Samaritan" class="project-logo">
+                    </div>
+                    <div class="project-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Santa María Tonameca, Oaxaca</span>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="/samaritan" class="project-btn">Ver Proyecto</a>
                     </div>
                 </div>
             </div>
