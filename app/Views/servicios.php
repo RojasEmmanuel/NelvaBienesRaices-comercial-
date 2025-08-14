@@ -382,6 +382,7 @@
         color: var(--nbr-primary-blue);
     }
 
+    /* Mejoras para el botón de cerrar modal */
     .nbr-close-modal {
         position: absolute;
         top: 1.5rem;
@@ -398,6 +399,7 @@
         align-items: center;
         justify-content: center;
         line-height: 1;
+        z-index: 10;
     }
 
     .nbr-close-modal:hover {
@@ -406,6 +408,7 @@
         background: rgba(0,0,0,0.3);
     }
 
+    
     /* Carousel en modales - Estilo mejorado */
     
     .nbr-carousel {
@@ -517,93 +520,209 @@
         height: 350px;
     }
     
-    /* Responsive para modales */
-    @media (max-width: 768px) {
-        .nbr-modal-body {
-            grid-template-columns: 1fr;
-            padding: 1.5rem;
-            gap: 1.5rem;
-        }
-        
-        .nbr-modal-header {
-            padding: 1.5rem;
-        }
-        
-        .nbr-modal-header h2 {
-            font-size: 1.5rem;
-        }
-        
-        .nbr-carousel-item img {
-            height: 250px;
-        }
-    }
-    
-    /* Responsive Design */
-    @media (max-width: 992px) {
-        .nbr-hero h1 {
-            font-size: 2.5rem;
-        }
-        
-        .nbr-section {
-            padding: 4rem 0;
-        }
-        
-        .nbr-service-card {
-            grid-template-columns: 1fr;
-        }
-        
-        .nbr-service-img {
-            min-height: 250px;
-        }
-        
-    }
-    
-    @media (max-width: 768px) {
-        .nbr-hero {
-            height: 70vh;
-        }
-        
-        .nbr-hero h1 {
-            font-size: 2.2rem;
-        }
-        
-        .nbr-hero p {
-            font-size: 1.1rem;
-        }
-        
-        .nbr-section-title h2 {
-            font-size: 2rem;
-        }
-        
-        .nbr-service-features {
-            grid-template-columns: 1fr;
-        }
-    }
-    
-    @media (max-width: 576px) {
-        .nbr-hero {
-            height: 60vh;
-            min-height: 400px;
-        }
-        
-        .nbr-hero h1 {
-            font-size: 1.8rem;
-        }
-        
-        .nbr-section {
-            padding: 3rem 0;
-        }
-        
-        .nbr-section-title h2 {
-            font-size: 1.8rem;
-        }
-    }
+    /* Añadir esto al final del CSS existente */
 
-     @media (max-width: 768px) {
-        .nbr-modal-gallery {
-            height: 250px;
-        }
+/* Responsive Design - Mejoras específicas */
+@media (max-width: 768px) {
+    /* Ajustes generales */
+    .nbr-container, .nbr-services-container {
+        padding: 0 1rem;
     }
+    
+    /* Hero Section */
+    .nbr-hero {
+        height: 60vh;
+        min-height: 400px;
+    }
+    
+    .nbr-hero h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .nbr-hero p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .nbr-hero .nbr-btn {
+        padding: 0.7rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Service Cards */
+    .nbr-service-card {
+        grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+    }
+    
+    .nbr-service-img {
+        min-height: 200px;
+        order: -1; /* Mover imagen arriba en móviles */
+    }
+    
+    .nbr-service-content {
+        padding: 1.5rem;
+    }
+    
+    .nbr-service-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .nbr-service-features {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+        margin: 1.5rem 0;
+    }
+    
+    .nbr-service-contact {
+        padding: 1rem;
+        margin: 1.5rem 0;
+    }
+    
+    /* Modales */
+    .nbr-modal-content {
+        margin: 1rem auto;
+        width: 95%;
+    }
+    
+    .nbr-modal-body {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    
+    .nbr-modal-header {
+        padding: 1.5rem;
+    }
+    
+    .nbr-modal-header h2 {
+        font-size: 1.5rem;
+        padding-right: 2rem; /* Espacio para el botón de cerrar */
+    }
+    
+    .nbr-modal-gallery {
+        height: 250px;
+        order: -1; /* Mover carrusel arriba en móviles */
+    }
+    
+    .nbr-close-modal {
+        top: 1rem;
+        right: 1rem;
+        width: 35px;
+        height: 35px;
+        font-size: 1.5rem;
+    }
+    .nbr-carousel-control {
+        width: 35px;
+        height: 35px;
+        font-size: 1.1rem;
+    }
+    
+    .nbr-carousel-indicators {
+        bottom: 5px;
+    }
+    
+    .nbr-carousel-indicator {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para pantallas muy pequeñas */
+    .nbr-hero {
+        height: 50vh;
+        min-height: 350px;
+    }
+    
+    .nbr-hero h1 {
+        font-size: 1.7rem;
+    }
+    
+    .nbr-section {
+        padding: 2.5rem 0;
+    }
+    
+    .nbr-section-title h2 {
+        font-size: 1.7rem;
+    }
+    
+    .nbr-service-badge {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.8rem;
+    }
+    
+    .nbr-feature-item {
+        align-items: center;
+    }
+    
+    .nbr-feature-icon {
+        font-size: 1rem;
+    }
+    
+    .nbr-feature-text {
+        font-size: 0.85rem;
+    }
+    
+    .nbr-service-btn {
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Mejoras de accesibilidad en móviles */
+    .nbr-modal {
+        padding: 0;
+    }
+    
+    .nbr-modal-content {
+        margin: 0;
+        border-radius: 0;
+        min-height: 100vh;
+    }
+    
+    .nbr-close-modal {
+        top: 1rem;
+        right: 1rem;
+        width: 35px;
+        height: 35px;
+        font-size: 1.5rem;
+    }
+}
+
+/* Añadir al final del CSS */
+@media (max-width: 480px) {
+    .nbr-modal {
+        padding: 0;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .nbr-modal-content {
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+        min-height: 100vh;
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+    
+    .nbr-modal-body {
+        padding: 1rem;
+    }
+    
+    .nbr-modal-gallery {
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+    
+    .nbr-carousel-control {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+}
 </style>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -869,12 +988,7 @@
                             </a>
                             <div class="nbr-carousel-caption">Trabajo de campo preciso</div>
                         </div>
-                        <div class="nbr-carousel-item">
-                            <a href="<?= base_url('images/Servicios/topografia2.png') ?>" data-lightbox="nbr-topografia" data-title="Informes detallados">
-                                <img src="<?= base_url('images/Servicios/topografia2.png') ?>" alt="Informes topográficos">
-                            </a>
-                            <div class="nbr-carousel-caption">Documentación profesional</div>
-                        </div>
+                       
                     </div>
                     <div class="nbr-carousel-controls">
                         <button class="nbr-carousel-control prev" onclick="nbrMoveSlide('nbr-topografia-carousel', -1)">&#10094;</button>
@@ -887,8 +1001,11 @@
                     </div>
                 </div>
             </div>
+            
         </div>
+        
     </div>
+   
 </div>
 
 <!-- Modal Maquinaria -->
@@ -952,19 +1069,23 @@
                 </div>
             </div>
         </div>
+        
     </div>
 </div>
 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 <script>
+    // Cerrar todos los modales al cargar la página
+    document.querySelectorAll('.nbr-modal').forEach(modal => {
+        modal.style.display = 'none';
+    });
+
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
-            
-            const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
-            
+            const targetElement = document.querySelector(this.getAttribute('href'));
             if (targetElement) {
                 window.scrollTo({
                     top: targetElement.offsetTop - 80,
@@ -973,24 +1094,37 @@
             }
         });
     });
-    
+
     // Modal functionality
-    // Modal functionality - Versión corregida
     document.addEventListener('DOMContentLoaded', function() {
-        // Manejo de modales con delegación de eventos
+        // Configurar lightbox si está disponible - versión más robusta
+        if (window.lightbox) {
+            try {
+                window.lightbox.option({
+                    'resizeDuration': 200,
+                    'wrapAround': true,
+                    'disableScrolling': true,
+                    'alwaysShowNavOnTouchDevices': true
+                });
+            } catch (e) {
+                console.error('Error configuring lightbox:', e);
+            }
+        }
+
+        // Manejo de modales
         document.addEventListener('click', function(e) {
             // Abrir modal
             if (e.target.closest('[data-modal-target]')) {
                 e.preventDefault();
-                const modalId = e.target.closest('[data-modal-target]').getAttribute('data-modal-target');
-                const modal = document.getElementById(modalId);
-                if (modal) {
+                const modalSelector = e.target.closest('[data-modal-target]').getAttribute('data-modal-target');
+                const modal = document.getElementById(modalSelector);
+                if (modal && modal.nodeType === Node.ELEMENT_NODE) {
                     modal.style.display = 'block';
                     document.body.style.overflow = 'hidden';
-                    
-                    // Reset carousel
-                    const carouselId = modalId + '-carousel';
-                    if (document.getElementById(carouselId)) {
+                    // Reset carousel si existe
+                    const carouselId = modal.id + '-carousel';
+                    const carousel = document.getElementById(carouselId);
+                    if (carousel) {
                         nbrGoToSlide(carouselId, 0);
                     }
                 }
@@ -1000,101 +1134,72 @@
             if (e.target.closest('.nbr-close-modal') || e.target.classList.contains('nbr-modal')) {
                 e.preventDefault();
                 const modal = e.target.closest('.nbr-modal');
-                modal.style.display = 'none';
-                document.body.style.overflow = 'auto';
+                if (modal && modal.nodeType === Node.ELEMENT_NODE) {
+                    modal.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }
             }
         });
 
-        // Previene el comportamiento por defecto de los enlaces #
-        document.querySelectorAll('a[href="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-            });
+        // Gestos táctiles para carruseles
+        document.querySelectorAll('.nbr-carousel').forEach(carousel => {
+            if (!carousel || carousel.nodeType !== Node.ELEMENT_NODE) return;
+            
+            let startX = null;
+            
+            carousel.addEventListener('touchstart', e => {
+                startX = e.touches[0].clientX;
+            }, { passive: true });
+            
+            carousel.addEventListener('touchend', e => {
+                if (!startX) return;
+                const diffX = startX - e.changedTouches[0].clientX;
+                if (Math.abs(diffX) > 50) {
+                    nbrMoveSlide(carousel.id, diffX > 0 ? 1 : -1);
+                }
+                startX = null;
+            }, { passive: true });
         });
     });
-        
-    // Carousel functionality
+
+    // Funciones del carrusel
     function nbrMoveSlide(carouselId, direction) {
         const carousel = document.getElementById(carouselId);
+        if (!carousel || carousel.nodeType !== Node.ELEMENT_NODE) return;
+        
         const inner = carousel.querySelector('.nbr-carousel-inner');
         const items = carousel.querySelectorAll('.nbr-carousel-item');
         const indicators = carousel.querySelectorAll('.nbr-carousel-indicator');
         
-        let currentIndex = Array.from(items).findIndex(item => item.classList.contains('active'));
+        if (!inner || !items.length) return;
         
-        items[currentIndex].classList.remove('active');
-        indicators[currentIndex].classList.remove('active');
+        const currentIndex = Array.from(items).findIndex(item => item.classList.contains('active'));
+        const newIndex = (currentIndex + direction + items.length) % items.length;
         
-        let newIndex = currentIndex + direction;
-        
-        if (newIndex < 0) newIndex = items.length - 1;
-        if (newIndex >= items.length) newIndex = 0;
-        
-        items[newIndex].classList.add('active');
-        indicators[newIndex].classList.add('active');
+        items[currentIndex]?.classList.remove('active');
+        indicators[currentIndex]?.classList.remove('active');
+        items[newIndex]?.classList.add('active');
+        indicators[newIndex]?.classList.add('active');
         
         inner.style.transform = `translateX(-${newIndex * 100}%)`;
     }
-    
+
     function nbrGoToSlide(carouselId, index) {
         const carousel = document.getElementById(carouselId);
+        if (!carousel || carousel.nodeType !== Node.ELEMENT_NODE) return;
+        
         const inner = carousel.querySelector('.nbr-carousel-inner');
         const items = carousel.querySelectorAll('.nbr-carousel-item');
         const indicators = carousel.querySelectorAll('.nbr-carousel-indicator');
         
-        items.forEach(item => item.classList.remove('active'));
-        indicators.forEach(indicator => indicator.classList.remove('active'));
+        if (!inner || !items.length) return;
         
-        items[index].classList.add('active');
-        indicators[index].classList.add('active');
+        items.forEach((item, i) => {
+            item.classList.toggle('active', i === index);
+            indicators[i]?.classList.toggle('active', i === index);
+        });
         
         inner.style.transform = `translateX(-${index * 100}%)`;
     }
-    
-    // Initialize carousels and lightbox
-    document.addEventListener('DOMContentLoaded', function() {
-        // Set up lightbox
-        lightbox.option({
-            'resizeDuration': 200,
-            'wrapAround': true,
-            'showImageNumberLabel': true,
-            'disableScrolling': true,
-            'alwaysShowNavOnTouchDevices': true,
-            'fadeDuration': 300,
-            'imageFadeDuration': 300,
-            'positionFromTop': 100
-        });
-
-        // Auto-advance carousels when modal is open
-        const nbrCarouselIntervals = {};
-        
-        nbrModals.forEach(modal => {
-            modal.addEventListener('click', function(e) {
-                if (e.target === this) {
-                    const carouselId = this.id + '-carousel';
-                    if (nbrCarouselIntervals[carouselId]) {
-                        clearInterval(nbrCarouselIntervals[carouselId]);
-                    }
-                }
-            });
-            
-            const modalId = modal.id;
-            const carouselId = modalId + '-carousel';
-            if (document.getElementById(carouselId)) {
-                modal.addEventListener('mouseenter', function() {
-                    nbrCarouselIntervals[carouselId] = setInterval(() => {
-                        nbrMoveSlide(carouselId, 1);
-                    }, 5000);
-                });
-                
-                modal.addEventListener('mouseleave', function() {
-                    if (nbrCarouselIntervals[carouselId]) {
-                        clearInterval(nbrCarouselIntervals[carouselId]);
-                    }
-                });
-            }
-        });
-    });
 </script>
-
 <?= view('templates/footer') ?>
