@@ -471,50 +471,19 @@
         
         <div class="news-grid">
             <!-- Noticia 1 (visible inicialmente) -->
-            <div class="news-card">
-                <div class="news-carousel">
-                    <div class="carousel-slides">
-                        <div class="carousel-slide">
-                            <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/531928808_1327396436058251_3293548506784462016_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=52AG-Pw4FisQ7kNvwFSE9JE&_nc_oc=Adk31TdfHmbJp1mbILaM89trLwAJ1AzfrwopZBbAQH9GKVseVvwN0qNSOVd5WTdaLB0&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=BbLtTfLmgKvsrK595qNpIA&oh=00_AfVyc4i56QQPWKmwrxLCcbDZemhyhWo1GXtFzl8vABwHRQ&oe=68A14D02">
-                        </div>
-                    </div>
-                    <button class="carousel-btn carousel-prev">❮</button>
-                    <button class="carousel-btn carousel-next">❯</button>
-                    <div class="carousel-dots">
-                        <div class="carousel-dot active"></div>
-                    </div>
-                </div>
-                
-                <div class="news-content">
-                    <span class="news-date">12 Agosto 2025</span>
-                    <h3 class="news-title">🎉 ¡Feliz día del taxista! 🧸🌟</h3>
-                    <p class="news-text">
-                        🚖💛 ¡Feliz Día del Taxista! 🙌👏
-                        Gracias por llevarnos seguros 🛣️ y con buena onda 😎🚕.
-                        ¡Hoy es su día, disfrútenlo en compañia de sus seres queridos! 🔥💪
-                    </p>
-                    
-                    <div class="news-footer">
-                        <span class="news-tag">Counidad</span>
-                        <div class="news-social">
-                            <a href="https://www.facebook.com/photo?fbid=1327396429391585&set=a.548505307280705" target="_blank" title="Compartir en Facebook"><i class="fab fa-facebook-f"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+       
             <!-- Noticia 2 (visible inicialmente) -->
             <div class="news-card">
                 <div class="news-carousel">
                     <div class="carousel-slides">
                         <div class="carousel-slide">
-                            <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/503956137_1267074212090474_6864461385920080095_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3dBh8YLpe0wQ7kNvwHafQyd&_nc_oc=Adkysp7H-fnnVNb0FgVunTzmf5myh2s5VY_sGwnNB8RbaukJpY88x53ggAEJisPPFvFPvnF-d_Aoe6dPx-fDDQxB&_nc_zt=23&_nc_ht=scontent-qro1-1.xx&_nc_gid=A_wjUAQLfvmV6z5tK0lKGQ&oh=00_AfXug7qGD6UTWnw_hSrLNxWDjSmbkUB-ssd-u3JpqH2p4A&oe=689809A0" alt="Nueva oficina">
+                            <img src="/images/facebook/noticiaAguamarina1.jpg" alt="Nueva oficina">
                         </div>
                         <div class="carousel-slide">
-                            <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/504002223_1267074178757144_3921178225848898215_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7C2FWGVbWdYQ7kNvwGQbgZT&_nc_oc=AdlFJo_anlOtIkKogtNYNcKxE33ydJcqmxX46SvUbXszDk5HbtFsFyuSrgHx4IUvZOpw6rBGd3nSZB71gwitkPaV&_nc_zt=23&_nc_ht=scontent-qro1-1.xx&_nc_gid=7krjmjSgACy0g06yKx_lvw&oh=00_AfWWlZy0YsVB9qhaWkA1Ln-sl0Eh_gkM-siqKDjNtIi0vg&oe=689805E4" alt="Equipo de trabajo">
+                            <img src="/images/facebook/noticiaAguamarina2.jpg"" alt="Equipo de trabajo">
                         </div>
                         <div class="carousel-slide">
-                            <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/503870572_1267072832090612_8935345513034951157_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=w22clZxbL5gQ7kNvwGtOLZq&_nc_oc=AdlkQr1m75Y4igccIo4-mi4Cf72yetm8HzVL3d3Vf4w2VNTyuhu7r3FGUbW4kNxxDPOjoCssrKSM2FjIXefQyR7T&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=pcLYnyjQfEtfqTQnC3JQ5Q&oh=00_AfVQ3JDuZ-dtrH12R8BJ8U3W6b5TyACOSP6WjYSGGty0Zw&oe=689801C4" alt="Equipo de trabajo">
+                            <img src="images/facebook/noticiaAguamarina3.jpg"" alt="Equipo de trabajo">
                         </div>
                     </div>
                     <button class="carousel-btn carousel-prev">❮</button>
@@ -547,13 +516,13 @@
                 <div class="news-carousel">
                     <div class="carousel-slides">
                         <div class="carousel-slide">
-                            <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/494307367_1239042821560280_2133002173111436746_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=uk41CBODG0oQ7kNvwE9gq6l&_nc_oc=AdkDJCbWLoVT1ernzlQxXbZULzsEOGyLAqllbgwZtzoq40vIkQWI7f_VS9HBQxXQNWZNUAMRdHmBwly40Mz7zK79&_nc_zt=23&_nc_ht=scontent-qro1-1.xx&_nc_gid=a4x61kTMmzaPNIv_S4MT_Q&oh=00_AfUxm_oDB1BXs_4mCQA6c2LOTOPiV8BpN0DIJnLjIIxyzw&oe=6897EEAC" alt="Partido de basketball">
+                            <img src="/images/facebook/noticiaTorneo1.jpg" alt="Partido de basketball">
                         </div>
                         <div class="carousel-slide">
-                            <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/494993833_1239042804893615_450834361493133950_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=yKhp7Rt5otsQ7kNvwFMfj9d&_nc_oc=AdnX-58VF16syhZoNeyt8e47gtuYPrpJdezaXTovQeRC6fI4ul-ScsJgAIrNnLKECwwPN1g8FpCcqjYGD03HYAMn&_nc_zt=23&_nc_ht=scontent-qro1-1.xx&_nc_gid=4lwmuGFAyFsq-R77zzJyVg&oh=00_AfUdxevk_s25RsoF5DSb-NIToqChJaYSB0qtmc79E6caxw&oe=6898069B" alt="Equipo local">
+                            <img src="/images/facebook/noticiaTorneo2.jpg" alt="Equipo local">
                         </div>
                         <div class="carousel-slide">
-                            <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/494995612_1239043191560243_8180247493487885627_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vqlDJjDidgIQ7kNvwHh3mFj&_nc_oc=AdlJNkyZi6FNmmWPi5lrqgg98iUSQ9kGB1utE1_Rd6ZbiD4ssOxHc-QrGRat-k1vrbjNhW4CpHX6chEgFKXWpukv&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=NcSGJ-2VBxn-Vw2GpPsuMw&oh=00_AfXPhuEERT17z6D6qsLu7uKJBp1SvHtLBBD8wx_BHNOXJQ&oe=6897FDE6" alt="Trofeo">
+                            <img src="/images/facebook/noticiaTorneo3.jpg" alt="Trofeo">
                         </div>
                     </div>
                     <button class="carousel-btn carousel-prev">❮</button>
@@ -580,20 +549,21 @@
                         </div>
                     </div>
                 </div>
+
+                
             </div>
             
-            <!-- Noticia 4 (oculta inicialmente) -->
-            <div class="news-card hidden-news">
+            <div class="news-card">
                 <div class="news-carousel">
                     <div class="carousel-slides">
                         <div class="carousel-slide">
-                            <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/494550940_1240558454742050_2529286116005357666_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3d_ieIodc54Q7kNvwGBxfzi&_nc_oc=Admc39-PTTYvqKWGPtX19Hucb3_GIDOCdc4pSUfZquDmUl8wK80RHJ7XgCHEglu2iB2KwTC2wmxknjk72a87TieP&_nc_zt=23&_nc_ht=scontent-qro1-1.xx&_nc_gid=8QulT9-DG8nmy5J7W3YUEw&oh=00_AfUMnQGLqdS5p0D2YBDgLNWKaKChIYokk2iwsUy4WuM_6g&oe=68982991" alt="Nueva oficina">
+                            <img src="/images/facebook/noticiaDiaNiño1.jpg" alt="Niños">
                         </div>
                         <div class="carousel-slide">
-                            <img src="https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/495021248_1240558314742064_9221354949965865525_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=InUPUhyQdJgQ7kNvwGw8mrc&_nc_oc=AdmUMSfD8QtZyooBsaXLBzlPKoUAXEMs0GqsqX0MnIvBLSbw9KreVYdS2FshsPCoTbNWvrrCOUMKfHWWToVcuMjw&_nc_zt=23&_nc_ht=scontent-qro1-2.xx&_nc_gid=Xyt9hr-r7axSGViP5yAtaw&oh=00_AfX3pZkv_SR5bxHhEJQCWSLElCm06NWK_iYs36h0EaEYgQ&oe=68981152" alt="Equipo de trabajo">
+                            <img src="/images/facebook/noticiaDiaNiño2.jpg" alt="Niños">
                         </div>
                         <div class="carousel-slide">
-                            <img src="https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/494440421_1240558028075426_1460033583951121609_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MaXrEH1uy0YQ7kNvwG9JWOX&_nc_oc=Adn3drKjy-SLZAmb2AL3uVHw_y2NivV5CwFECfu08DLghoPi2SdxzGkPi45sw7_kCPIFMfDucCfDQHjo42tJ6_4k&_nc_zt=23&_nc_ht=scontent-qro1-1.xx&_nc_gid=18W1TyGQTI-xsKav1HjnVQ&oh=00_AfXfcNSpwXs9jAacxuFoeNOyxEA5TbdwdY2preU2S5KYAg&oe=6897F3CA" alt="Equipo de trabajo">
+                            <img src="/images/facebook/noticiaDiaNiño3.jpg" alt="Niños">
                         </div>
                     </div>
                     <button class="carousel-btn carousel-prev">❮</button>
@@ -604,7 +574,7 @@
                         <div class="carousel-dot"></div>
                     </div>
                 </div>
-                
+                    
                 <div class="news-content">
                     <span class="news-date">30 Abril 2025</span>
                     <h3 class="news-title">🎉 ¡Un Día del Niño lleno de alegría en Guelaguechi! 🧸🌟</h3>
@@ -621,7 +591,12 @@
                     </div>
                 </div>
             </div>
-            
+
+            <!-- Noticia 4 (oculta inicialmente) 
+            <div class="news-card hidden-news">
+                
+            </div>
+            -->
             <!-- Puedes agregar más noticias ocultas aquí si las tienes -->
         </div>
         
