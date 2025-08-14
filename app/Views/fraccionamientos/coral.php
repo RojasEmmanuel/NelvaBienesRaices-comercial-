@@ -620,7 +620,6 @@
         <h1>FRACCIONAMIENTO CORAL</h1>
         <span class="price">$50,000.00</span>
         <p>¡Tu terreno cerca de Playa Cangrejo!</p>
-        <p>Salina Cruz, Oaxaca</p>
         <div class="hero-buttons">
             <a href="/asesores?zona=istmo" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>

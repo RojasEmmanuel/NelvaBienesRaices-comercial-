@@ -619,7 +619,6 @@
         <h1>RESIDENCIAL AQUA</h1>
         <span class="price">$230,000.00</span>
         <p>Terrenos sobre el camino a Playa Azul</p>
-        <p>Santo Domingo Tehuantepec, Oaxaca</p>
         <div class="hero-buttons">
             <a href="/asesores?zona=istmo" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>

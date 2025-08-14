@@ -620,7 +620,6 @@
         <h1>FRACCIONAMIENTO SICARÚ</h1>
         <span class="price">$140,000.00</span>
         <p>Exclusivos lotes residenciales desde 200 mtrs</p>
-        <p>Emiliano zapata, guelaguechi, salina cruz, oaxaca, mexico.</p>
         <div class="hero-buttons">
             <a href="/asesores?zona=istmo" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>

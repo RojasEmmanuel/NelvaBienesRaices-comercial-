@@ -620,7 +620,6 @@
         <h1>FRACCIONAMIENTO OCEÁNICA</h1>
         <span class="price">$400,000.00</span>
         <p>Exclusivos lotes residenciales desde 200 mtrs</p>
-        <p>PLAYA GUAPINOLE, STA. MARÍA TONAMECA, OAX. NELVA</p>
         <div class="hero-buttons">
             <a href="/asesores?zona=costa" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>

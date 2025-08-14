@@ -617,10 +617,9 @@
 <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-content">
-        <h1>FRACCIONAMIENTO EL SANTUARIO DE LAS TORTUGAS</h1>
+        <h3>FRACCIONAMIENTO EL SANTUARIO DE LAS TORTUGAS</h3>
         <span class="price">$220,000.00</span>
         <p>Exclusivos lotes residenciales desde 200 mtrs</p>
-        <p>Escobilla, Sta. María tonameca, oax.</p>
         <div class="hero-buttons">
             <a href="/asesores?zona=costa" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>

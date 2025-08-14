@@ -619,7 +619,6 @@
         <h1>FRACCIONAMIENTO ANDROMEDA</h1>
         <span class="price">$300,000.00</span>
         <p>Exclusivos lotes residenciales desde 200 mtrs</p>
-        <p>Santa María Tonameca, Oaxaca</p>
         <div class="hero-buttons">
             <a href="/asesores?zona=costa" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>

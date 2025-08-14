@@ -620,7 +620,6 @@
         <h1>FRACCIONAMIENTO NURA CAMPESTRE</h1>
         <span class="price">$319,000.00</span>
         <p>Exclusivos lotes residenciales desde 200 mtrs</p>
-        <p>MCWP+59 Mazunte, Oaxaca</p>
         <div class="hero-buttons">
             <a href="/asesores?zona=costa" class="btn btn-secondary">Contactar asesor</a>
             <a href="#gallery" class="btn">Ver galería</a>
