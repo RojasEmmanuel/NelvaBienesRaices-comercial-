@@ -42,15 +42,6 @@
         --nelva-text-light: #7f8c8d;
     }
 
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 0;
-        padding: 0;
-        color: var(--nelva-text);
-        line-height: 1.6;
-        background-color: #f9f9f9;
-    }
-
     .nelva-container {
         max-width: 100%;
         margin: 0 auto;
@@ -72,7 +63,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
     .nelva-parallax-hero::before {
@@ -88,7 +79,6 @@
     .nelva-parallax-content {
         position: relative;
         z-index: 1;
-        padding: 20px;
         max-width: 800px;
     }
 
