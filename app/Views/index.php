@@ -1478,17 +1478,17 @@
         
         <div class="promo-grid">
             <div class="promo-card">
-                <img src="https://nelvabienesraices.com/wp-content/uploads/2025/01/TERRENOS-UBICADOS-CERCA-DE-LA-CARRETERA-1024x576.jpg">
+                <img src="/images/inicio/promoNyssa.jpg" alt="Promoción 1">
                 <div class="promo-card-content">
                     <h3>Financiamiento especial</h3>
-                    <p>Hasta 5 años para pagar tu terreno con enganche del 20%</p>
+                    <p>Hasta 4 años para pagar tu terreno con enganche del 20%</p>
                 </div>
             </div>
             <div class="promo-card">
-                <img src="https://nelvabienesraices.com/wp-content/uploads/2025/01/CONSTRUYE-TU-SUENO%C2%A1-1024x576.jpg" alt="Promoción 2">
+                <img src="/images/inicio/promoAndromeda.jpg" alt="Promoción 2">
                 <div class="promo-card-content">
                     <h3>Paquete completo</h3>
-                    <p>Terreno + construcción con 10% de descuento en el diseño</p>
+                    <p>El terreno ideal para ti</p>
                 </div>
             </div>
             
