@@ -398,10 +398,10 @@
     }
     
     .project-card {
-        background: black;
+        background: rgb(2,47,74);
         border-radius: 12px;
         overflow: hidden;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 5px 15px rgba(2,47,74, 0.5);
         transition: all 0.3s ease;
         position: relative;
         height: 250px;
@@ -411,12 +411,12 @@
         justify-content: center;
         padding: 30px;
         text-align: center;
-        border: 1px solid rgba(0,0,0,0.05);
+        border: 1px solid rgba(2,47,74,0.05);
     }
     
     .project-card:hover {
         transform: translateY(-5px);
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 10px 25px rgba(2,47,74, 0.5);
     }
     
     .project-logo-container {
@@ -433,7 +433,7 @@
         max-height: 100%;
         max-width: 100%;
         object-fit: contain;
-        filter: drop-shadow(0 2px 5px rgba(0,0,0,0.1));
+        filter: drop-shadow(0 2px 5px rgba(2,47,74,0.1));
     }
     
     .project-card:hover .project-logo-container {
@@ -471,7 +471,7 @@
     
     .project-btn {
         padding: 10px 25px;
-        background: black;
+        background: rgb(2,47,74);
         color: #3a7bd5;
         border-radius: 50px;
         text-decoration: none;
