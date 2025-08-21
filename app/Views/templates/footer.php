@@ -208,7 +208,7 @@
     <footer class="modern-footer">
         <div class="footer-container">
             <div class="footer-brand">
-                <img src="https://nelvabienesraices.com/wp-content/uploads/2025/01/cropped-MARCA_OFICIAL-1_Mesa-de-trabajo-1-1-1.png" alt="Nelva Bienes Raíces" class="footer-logo">
+                <img src="/images/logo.png" alt="Nelva Bienes Raíces" class="footer-logo">
                 <h2 class="footer-title">¡Mantente al día con las últimas novedades!</h2>
                 <p class="footer-description">En Nelva Bienes Raíces, ofrecemos soluciones personalizadas para encontrar la propiedad de tus sueños. Desde urbanización hasta la renta de equipos especializados, estamos aquí para ayudarte.</p>
                 

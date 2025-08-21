@@ -369,7 +369,7 @@
             </div>
             <div class="address">
                 <i class="fas fa-map-marker-alt"></i>
-                <span>Adolfo Lopez Mateos 16, Loma Larga, 70900 San Pedro Pochutla, Oax.</span>
+                <span>Calle Matamoros, Esquina Abasolo, Frente a Cfe, 70900 San Pedro Pochutla, Oax.</span>
             </div>
         </div>
     </div>
@@ -378,7 +378,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <img src="/images/logo.webp" alt="NELVA Logo">
+                <img src="/images/logo.png" alt="NELVA Logo">
             </div>
             
             <div class="hamburger" id="hamburger">
