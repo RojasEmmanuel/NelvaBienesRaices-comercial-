@@ -1,11 +1,11 @@
 
-<?= view('templates/navbar', ['title' => 'Nelva Bienes Raíces']) ?>
+<?= view('templates/navbar', ['title' => 'Nosotros - Nelva Bienes Raíces']) ?>
     <style>
         /* Estilos para el contenido de la página Nosotros */
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/nosotros/nelva.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/Nosotros/nelva.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed; /* Esto agrega el efecto parallax */
@@ -297,7 +297,7 @@
                 <p>Nelva Bienes Raíces es una empresa inmobiliaria 100% oaxaqueña con más de 5 años de experiencia, legalmente constituida cuya razón social es: Desarrolladora Nelva Bienes Raíces S. DE R.L DE C.V, la cual ofrece soluciones de alta calidad en la compra, venta y desarrollo de propiedades en el estado de oaxaca.</p>
             </div>
             <div class="about-image">
-                <img src="images/nosotros/rfc.webp" alt="Oficina de Bienes Raíces">
+                <img src="images/Nosotros/rfc.webp" alt="Oficina de Bienes Raíces">
             </div>
         </div>
 
@@ -316,10 +316,10 @@
 
                 <div class="about-content">
             <div class="about-image">
-                <img src="images/nosotros/asian.webp" alt="Oficina de Bienes Raíces">
+                <img src="images/Nosotros/asian.webp" alt="Oficina de Bienes Raíces">
             </div>
             <div class="about-image">
-                <img src="images/nosotros/family_house.webp" alt="Oficina de Bienes Raíces">
+                <img src="images/Nosotros/family_house.webp" alt="Oficina de Bienes Raíces">
             </div>
         </div>
     </section>
@@ -336,7 +336,7 @@
 
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="images/nosotros/imagen1.webp" alt="Agente 3">
+                        <img src="images/Nosotros/imagen1.webp" alt="Agente 3">
                     </div>
                     <div class="member-info">
                         <h4>Nelson Valencia Juárez</h4>
@@ -363,7 +363,7 @@
                 
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="images/nosotros/imagen2.webp">
+                        <img src="images/Nosotros/imagen2.webp">
                     </div>
                     <div class="member-info">
                         <h4>Victoria López García</h4>
@@ -385,7 +385,7 @@
                 
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="images/nosotros/imagen3.webp" alt="Agente 2">
+                        <img src="images/Nosotros/imagen3.webp" alt="Agente 2">
                     </div>
                     <div class="member-info">
                         <h4>Hermilo Valencia Santiago</h4>
@@ -407,7 +407,7 @@
 
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="images/nosotros/imagen4.webp" alt="Agente 2">
+                        <img src="images/Nosotros/imagen4.webp" alt="Agente 2">
                     </div>
                     <div class="member-info">
                         <h4>Williams Hernández Gómez</h4>
@@ -493,7 +493,7 @@
         
         <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-bottom: 40px;">
             <div style="background: white; padding: 30px; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); width: 300px; text-align: left;">
-                <h3 style="color: #022F4A   ; margin-bottom: 15px; font-size: 22px;">✓ Los Mejores Precios</h3>
+                <h3 style="color: #022F4A; margin-bottom: 15px; font-size: 22px;">✓ Los Mejores Precios</h3>
                 <p style="color: #555;">Garantizamos las mejores opciones del mercado con excelente relación calidad-precio.</p>
             </div>
             
