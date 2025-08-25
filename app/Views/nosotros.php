@@ -167,7 +167,7 @@
 
         /* Agregar esta regla específica para el párrafo de descripción */
         .member-info p:last-child {
-            text-align: justify;
+            text-align: left;
             color: #555; 
             font-weight: normal; 
             line-height: 1.6; /* Mejor espaciado entre líneas */
@@ -212,7 +212,7 @@
         /* Responsive */
         @media (max-width: 768px) {
             .hero {
-                margin-top: 60px;
+                margin-top: 0px;
                 height: 50vh;
             }
             
