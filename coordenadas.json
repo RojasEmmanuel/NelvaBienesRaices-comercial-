@@ -1,0 +1,26 @@
+{
+  "type": "Feature",
+  "properties": {
+    "lote": 1,
+    "manzana": "M-1",
+    "area": 200,
+    "medida_norte": 20,
+    "medida_sur": 20,
+    "medida_oriente": 10,
+    "medida_poniente": 10,
+    "lat_centro": 19.43275,
+    "lng_centro": -99.13325,
+    "estatus": "Disponible"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-99.1335, 19.4325],
+      [-99.1330, 19.4325],
+      [-99.1330, 19.4330],
+      [-99.1335, 19.4330],
+      [-99.1335, 19.4325]  
+    ]]
+  }
+}
+

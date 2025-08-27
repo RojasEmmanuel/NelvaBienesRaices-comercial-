@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Páginas principales -->
+  <url>
+    <loc>https://nelvabienesraices.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://nelvabienesraices.com/servicios</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nelvabienesraices.com/atractivos</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nelvabienesraices.com/nosotros</loc>
+  </url>
+  <url>
+    <loc>https://nelvabienesraices.com/mas</loc>
+  </url>
+  <url>
+    <loc>https://nelvabienesraices.com/contacto</loc>
+  </url>
+  <url>
+    <loc>https://nelvabienesraices.com/asesores</loc>
+  </url>
+  <url>
+    <loc>https://nelvabienesraices.com/mapa-interactivo</loc>
+  </url>
+
+  <!-- Fraccionamientos -->
+  <url><loc>https://nelvabienesraices.com/real-campestre</loc></url>
+  <url><loc>https://nelvabienesraices.com/nura</loc></url>
+  <url><loc>https://nelvabienesraices.com/andromeda</loc></url>
+  <url><loc>https://nelvabienesraices.com/el-jicaro</loc></url>
+  <url><loc>https://nelvabienesraices.com/oceanica</loc></url>
+  <url><loc>https://nelvabienesraices.com/el-santuario-de-las-tortugas</loc></url>
+  <url><loc>https://nelvabienesraices.com/nyssa</loc></url>
+  <url><loc>https://nelvabienesraices.com/sicaru</loc></url>
+  <url><loc>https://nelvabienesraices.com/zull</loc></url>
+  <url><loc>https://nelvabienesraices.com/aguamarina</loc></url>
+  <url><loc>https://nelvabienesraices.com/coral</loc></url>
+  <url><loc>https://nelvabienesraices.com/aqua</loc></url>
+  <url><loc>https://nelvabienesraices.com/rompeolas</loc></url>
+  <url><loc>https://nelvabienesraices.com/real-ventanilla</loc></url>
+  <url><loc>https://nelvabienesraices.com/samaritan</loc></url>
+
+  <!-- Inversiones -->
+  <url><loc>https://nelvabienesraices.com/inversiones-mazunte</loc></url>
+  <url><loc>https://nelvabienesraices.com/inversiones/tonameca</loc></url>
+  <url><loc>https://nelvabienesraices.com/inversiones/salina-cruz</loc></url>
+
+</urlset>

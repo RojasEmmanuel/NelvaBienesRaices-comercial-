@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /system/
+Disallow: /application/
+Disallow: /writable/
+Disallow: /vendor/
+Allow: /
+
+Sitemap: https://nelvabienesraices.com/sitemap.xml
