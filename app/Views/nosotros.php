@@ -18,6 +18,113 @@
                 margin-top: 0px;
                 position: relative; /* Asegura que el contenido se mantenga por encima */
                 z-index: 1; /* Asegura que la sección esté por encima de otros elementos */
+        }
+        
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .team-member {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            width: 340px;
+            text-align: center;
+            transition: transform 0.3s;
+            display: flex; /* Agregamos display flex */
+            flex-direction: column;
+        }
+        
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
+        
+        /* Modifica estos estilos en la sección de CSS */
+        .member-image {
+            height: 390px; /* Aumentamos la altura para imágenes verticales */
+            overflow: hidden;
+            position: relative; /* Agregamos posición relativa */
+            padding: 20px;
+        }
+        
+        .member-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; 
+            object-position: center; 
+            background-color: #f9f9f9; 
+        }
+        
+        .member-info {
+            padding: 2px;
+        }
+
+        .member-info h4 {
+            font-size: 20px;
+            color: #1e3042ff;
+            margin-bottom: 5px;
+        }
+
+        .member-info p {
+            color: #0c1149ff;
+            font-weight: 500;
+            margin-bottom: 15px;
+            padding: 0 15px;
+        }
+
+        /* Agregar esta regla específica para el párrafo de descripción */
+        .member-info p:last-child {
+            text-align: left;
+            color: #555; 
+            font-weight: normal; 
+            line-height: 1.6; /* Mejor espaciado entre líneas */
+            
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .value-card {
+            text-align: center;
+            padding: 30px;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+        
+        .value-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .value-icon {
+            font-size: 40px;
+            color: #FEB818;
+            margin-bottom: 20px;
+        }
+        
+        .value-card h4 {
+            font-size: 20px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        .value-card p {
+            color: #7f8c8d;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                margin-top: 0px;
+                height: 50vh;
             }
 
     /* Mejora la responsividad del parallax */
