@@ -34,7 +34,9 @@ class Filters extends BaseFilters
         'forcehttps'    => ForceHTTPS::class,
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
+        'obfuscator'    => \App\Filters\OutputObfuscator::class, // 👈 Agregado
     ];
+
 
     /**
      * List of special required filters.
@@ -76,9 +78,9 @@ class Filters extends BaseFilters
             // 'csrf',
             // 'invalidchars',
         ],
-        'after' => [
-            // 'honeypot',
-            // 'secureheaders',
+        'after'  => [
+            'toolbar',
+            'obfuscator', // 👈 Agregado
         ],
     ];
 
@@ -107,4 +109,7 @@ class Filters extends BaseFilters
      * @var array<string, array<string, list<string>>>
      */
     public array $filters = [];
+
+
+    
 }
