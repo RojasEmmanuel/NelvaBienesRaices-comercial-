@@ -721,7 +721,7 @@
     <div class="container">
         <h2 class="section-title">Plano del Fraccionamiento</h2>
         <div style="max-width: 480px; margin: auto; box-shadow: var(--shadow-lg); border-radius: 12px; overflow: hidden;">
-            <img src="<?= base_url('images/aguamarina/aguamarina.jpg') ?>" alt="Plano aguamarina" style="width: 100%; height: auto; display: block;">
+            <img src="<?= base_url('images/aguamarina/aguamarina.png') ?>" alt="Plano aguamarina" style="width: 100%; height: auto; display: block;">
         </div>
         <p class="text-center" style="margin-top: 20px; font-size: 1.1rem; color: var(--gray);">
             Diseño urbanístico pensado para maximizar espacios y privacidad, con amplias áreas verdes y distribución estratégica.

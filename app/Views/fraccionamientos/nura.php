@@ -769,7 +769,7 @@
                 <a href="/asesores?zona=costa" class="btn btn-secondary">Solicitar información</a>
             </div>
             <div class="map-iframe-container2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1843.6237535366145!2d-96.5764569647838!3d15.712219848986274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2smx!4v1754508964487!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6459.857863001626!2d-96.56832543999819!3d15.695260263185494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85b8d78b7d11aef1%3A0x5a8f71e7bcd95592!2sNURA%20CAMPESTRE!5e0!3m2!1ses!2smx!4v1756263554200!5m2!1ses!2smx" class="map-iframe2" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
