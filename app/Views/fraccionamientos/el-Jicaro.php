@@ -958,7 +958,7 @@
             🎉 ¡MES PATRIO 2025 - PROMOCIÓN ESPECIAL! 🎉
         </div>
         <h2 class="promo-title">¡Celebremos la Independencia de México con una Oportunidad Única!</h2>
-        <p class="promo-subtitle">Aprovecha nuestra promoción exclusiva por tiempo limitado</p>
+        <p class="promo-subtitle">Estas son nuestras dos opciones de promoción en el fraccionamiento El Jícaro, ¡aprovéchalas ahora con esta oferta exclusiva por tiempo limitado!</p>
         
         <div class="mexico-flag-theme"></div>
         
@@ -967,6 +967,47 @@
             <p>Lotes residenciales</p>
         </div>
         
+        <div class="promo-details">
+            <div class="promo-detail">
+                <h4>48 MESES</h4>
+                <p>Sin intereses</p>
+            </div>
+            <div class="promo-detail">
+                <h4>$2,709 MXN</h4>
+                <p>Pagos mensuales</p>
+            </div>
+            <div class="promo-detail">
+                <h4>ENGANCHE</h4>
+                <p>Con el primer pago mensual</p>
+            </div>
+        </div>
+
+        <div class="promo-detail">
+                <h4>Ó</h4>
+                
+            </div>
+
+        <div class="promo-highlight">
+            <span class="promo-price">$110,000 <span>MXN</span></span>
+            <p>Lotes residenciales</p>
+        </div>
+        
+        <div class="promo-details">
+            <div class="promo-detail">
+                <h4>48 MESES</h4>
+                <p>Sin intereses</p>
+            </div>
+            <div class="promo-detail">
+                <h4>$1,834 MXN</h4>
+                <p>Pagos mensuales</p>
+            </div>
+            <div class="promo-detail">
+                <h4>$22,000 MXM</h4>
+                <p>De Enganche</p>
+            </div>
+        </div>
+
+
         <div class="countdown-container">
             <div class="countdown-item">
                 <div class="countdown-value" id="countdown-days">30</div>
@@ -986,20 +1027,6 @@
             </div>
         </div>
         
-        <div class="promo-details">
-            <div class="promo-detail">
-                <h4>48 MESES</h4>
-                <p>Sin intereses</p>
-            </div>
-            <div class="promo-detail">
-                <h4>$6,250 MXN</h4>
-                <p>Pagos mensuales</p>
-            </div>
-            <div class="promo-detail">
-                <h4>ENGANCHE</h4>
-                <p>Con el primer pago mensual</p>
-            </div>
-        </div>
         
         <div class="mexico-flag-theme"></div>
         
