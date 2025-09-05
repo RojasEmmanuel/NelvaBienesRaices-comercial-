@@ -611,7 +611,63 @@
             grid-template-columns: 1fr;
         }
     }
+
+    /* WhatsApp Floating Button */
+    .whatsapp-float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 25px;
+        right: 25px;
+        background-color: #25d366;
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.4s ease;
+        animation: pulse-whatsapp 2s infinite;
+    }
+    
+    .whatsapp-float:hover {
+        transform: scale(1.1) rotate(5deg);
+        box-shadow: 0 6px 25px rgba(37, 211, 102, 0.7);
+    }
+    
+    .whatsapp-text {
+        position: fixed;
+        bottom: 95px;
+        right: 25px;
+        background: white;
+        color: #075e54;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        z-index: 1000;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: all 0.3s ease;
+        pointer-events: none;
+    }
+    
+    .whatsapp-float:hover + .whatsapp-text {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
 </style>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/5219581362522?text=Hola,%20me%20interesa%20saber%20más%20sobre%20Fraccionamiento%20Andrómeda" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+<span class="whatsapp-text">¡Contáctanos por WhatsApp!</span>
 
 <!-- Hero Section -->
 <section class="hero">
