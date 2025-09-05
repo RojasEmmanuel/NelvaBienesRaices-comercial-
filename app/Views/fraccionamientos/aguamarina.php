@@ -8,6 +8,9 @@
         --secondary: #d4af37;
         --secondary-light: #e8c874;
         --secondary-dark: #b38d2c;
+        --mexico-green: #006847;
+        --mexico-white: #FFFFFF;
+        --mexico-red: #CE1126;
         --light: #f8f9fa;
         --lighter: #fdfdfd;
         --dark: #212529;
@@ -19,14 +22,12 @@
         --shadow-lg: 0 8px 24px rgba(0,0,0,0.16);
     }
     
-    
     body {
         font-family: 'Roboto';
         line-height: 1.6;
         color: var(--dark);
         overflow-x: hidden;
     }
-    
     
     .container {
         width: 100%;
@@ -89,6 +90,20 @@
         background: linear-gradient(135deg, var(--secondary-dark), var(--secondary));
     }
     
+    .btn-patriotic {
+        background: linear-gradient(90deg, var(--mexico-green), var(--mexico-white), var(--mexico-red));
+        color: var(--dark);
+        font-weight: bold;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .btn-patriotic:hover {
+        background: linear-gradient(90deg, var(--mexico-green), var(--mexico-white), var(--mexico-red));
+        transform: translateY(-3px);
+        color: var(--dark);
+    }
+    
     .text-center {
         text-align: center;
     }
@@ -118,8 +133,8 @@
         width: 100%;
         height: 100%;
         background: url('<?= base_url('images/Nura/parallax.png') ?>') center/cover no-repeat;
-        background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
-        background-blend-mode: multiply; /* Mezcla los colores para el efecto de oscurecimiento */
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: multiply;
         z-index: 1;
     }
     
@@ -446,7 +461,6 @@
         height: 100%;
         border: none;
     }
-    
     /* Contact CTA Mejorado */
     .contact-cta {
         background: url('<?= base_url('images/Nura/parallax.png') ?>') center/cover no-repeat;
@@ -484,7 +498,250 @@
         margin: 0 auto 30px;
     }
     
+    /* Promoción Especial - Septiembre 2025 */
+    .promo-section {
+        background: linear-gradient(135deg, var(--mexico-green), var(--mexico-white), var(--mexico-red));
+        color: var(--dark);
+        padding: 80px 0;
+        position: relative;
+        overflow: hidden;
+    }
     
+    .promo-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" opacity="0.05"><text x="50%" y="50%" font-size="12" text-anchor="middle" fill="%23006847">🇲🇽</text></svg>');
+        z-index: 0;
+    }
+    
+    .promo-container {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .promo-badge {
+        background: linear-gradient(135deg, var(--mexico-green), var(--mexico-white), var(--mexico-red));
+        color: var(--dark);
+        padding: 10px 25px;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 1.1rem;
+        display: inline-block;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        animation: pulse 2s infinite;
+        border: 2px solid var(--mexico-green);
+    }
+    
+    .promo-title {
+        font-size: 2.8rem;
+        margin-bottom: 20px;
+        color: var(--dark);
+        text-shadow: 2px 2px 4px rgba(255,255,255,0.7);
+    }
+    
+    .promo-subtitle {
+        font-size: 1.4rem;
+        margin-bottom: 30px;
+        color: var(--mexico-green);
+        font-weight: 600;
+    }
+    
+    .promo-highlight {
+        background: rgba(255,255,255,0.8);
+        border-radius: 15px;
+        padding: 30px;
+        margin: 30px 0;
+        backdrop-filter: blur(5px);
+        border: 2px solid var(--mexico-red);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .promo-highlight::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" opacity="0.03"><text x="50%" y="50%" font-size="12" text-anchor="middle" fill="%23CE1126">🇲🇽</text></svg>');
+        z-index: 0;
+    }
+    
+    .promo-price {
+        font-size: 3.5rem;
+        color: var(--mexico-red);
+        font-weight: 800;
+        margin-bottom: 10px;
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .promo-price span {
+        font-size: 1.8rem;
+        color: var(--mexico-green);
+        font-weight: 600;
+    }
+    
+    .promo-details {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin: 30px 0;
+    }
+    
+    .promo-detail {
+        background: rgba(255,255,255,0.9);
+        padding: 20px;
+        border-radius: 10px;
+        border-left: 4px solid var(--mexico-green);
+        box-shadow: var(--shadow-sm);
+        transition: var(--transition);
+    }
+    
+    .promo-detail:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-md);
+    }
+    
+    .promo-detail:nth-child(2) {
+        border-left-color: var(--mexico-white);
+    }
+    
+    .promo-detail:nth-child(3) {
+        border-left-color: var(--mexico-red);
+    }
+    
+    .promo-detail h4 {
+        color: var(--mexico-green);
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    
+    .promo-detail p {
+        color: var(--dark);
+        font-weight: 500;
+    }
+    
+    .promo-note {
+        font-size: 0.9rem;
+        margin-top: 20px;
+        opacity: 0.8;
+        color: var(--dark);
+    }
+    
+    .mexico-flag-theme {
+        background: linear-gradient(to right, var(--mexico-green) 33.3%, var(--mexico-white) 33.3%, var(--mexico-white) 66.6%, var(--mexico-red) 66.6%);
+        height: 10px;
+        width: 100%;
+        margin: 15px 0;
+        border-radius: 5px;
+    }
+    
+    /* WhatsApp Floating Button */
+    .whatsapp-float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 25px;
+        right: 25px;
+        background-color: #25d366;
+        color: white;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.4s ease;
+        animation: pulse-whatsapp 2s infinite;
+    }
+    
+    .whatsapp-float:hover {
+        transform: scale(1.1) rotate(5deg);
+        box-shadow: 0 6px 25px rgba(37, 211, 102, 0.7);
+    }
+    
+    .whatsapp-text {
+        position: fixed;
+        bottom: 95px;
+        right: 25px;
+        background: white;
+        color: #075e54;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 14px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        z-index: 1000;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: all 0.3s ease;
+        pointer-events: none;
+    }
+    
+    .whatsapp-float:hover + .whatsapp-text {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    /* Patriotic Elements */
+    .patriotic-border {
+        border: 3px solid;
+        border-image: linear-gradient(to right, var(--mexico-green), var(--mexico-white), var(--mexico-red)) 1;
+        border-radius: 10px;
+    }
+    
+    .mexican-flag-colors {
+        background: linear-gradient(to right, var(--mexico-green) 33.3%, var(--mexico-white) 33.3%, var(--mexico-white) 66.6%, var(--mexico-red) 66.6%);
+    }
+    
+    .mexican-pattern {
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%23006847" opacity="0.1"/><path d="M0,0 L100,100 M100,0 L0,100" stroke="%23CE1126" stroke-width="1" opacity="0.1"/></svg>');
+    }
+    
+    /* Countdown Timer */
+    .countdown-container {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 30px 0;
+    }
+    
+    .countdown-item {
+        background: rgba(255,255,255,0.9);
+        border-radius: 10px;
+        padding: 15px;
+        min-width: 80px;
+        box-shadow: var(--shadow-sm);
+        border: 2px solid var(--mexico-green);
+    }
+    
+    .countdown-value {
+        font-size: 2.2rem;
+        font-weight: 800;
+        color: var(--mexico-red);
+        line-height: 1;
+    }
+    
+    .countdown-label {
+        font-size: 0.9rem;
+        color: var(--mexico-green);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
     
     /* Animations */
     @keyframes fadeInUp {
@@ -505,6 +762,67 @@
         100% {
             transform: scale(1.05);
         }
+    }
+    
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        50% {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+        }
+        100% {
+            transform: scale(1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+    }
+    
+    @keyframes pulse-whatsapp {
+        0% {
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
+        }
+        50% {
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.8);
+        }
+        100% {
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
+        }
+    }
+    
+    @keyframes float {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes wave {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    .float-animation {
+        animation: float 3s ease-in-out infinite;
+    }
+    
+    .wave-animation {
+        background: linear-gradient(270deg, var(--mexico-green), var(--mexico-white), var(--mexico-red));
+        background-size: 600% 600%;
+        animation: wave 4s ease infinite;
     }
     
     /* Responsive Adjustments */
@@ -536,6 +854,10 @@
         .map-content2 {
             padding-right: 0;
             text-align: center;
+        }
+        
+        .promo-title {
+            font-size: 2.2rem;
         }
     }
     
@@ -572,6 +894,8 @@
         .info-grid {
             grid-template-columns: 1fr 1fr;
         }
+        
+       
     }
     
     @media (max-width: 576px) {
@@ -613,7 +937,11 @@
     }
 </style>
 
-
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/5219581362522?text=Hola,%20me%20interesa%20saber%20más%20sobre%20Fraccionamiento%20Andrómeda" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+<span class="whatsapp-text">¡Contáctanos por WhatsApp!</span>
 
 <section class="hero">
     <div class="hero-bg" style="background-image: url('<?= base_url('images/Aguamarina/hero-bg.webp') ?>');"></div>
@@ -721,7 +1049,7 @@
     <div class="container">
         <h2 class="section-title">Plano del Fraccionamiento</h2>
         <div style="max-width: 480px; margin: auto; box-shadow: var(--shadow-lg); border-radius: 12px; overflow: hidden;">
-            <img src="<?= base_url('images/aguamarina/aguamarina.jpg') ?>" alt="Plano aguamarina" style="width: 100%; height: auto; display: block;">
+            <img src="<?= base_url('images/aguamarina/aguamarina.png') ?>" alt="Plano aguamarina" style="width: 100%; height: auto; display: block;">
         </div>
         <p class="text-center" style="margin-top: 20px; font-size: 1.1rem; color: var(--gray);">
             Diseño urbanístico pensado para maximizar espacios y privacidad, con amplias áreas verdes y distribución estratégica.

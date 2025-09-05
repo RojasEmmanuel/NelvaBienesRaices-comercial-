@@ -132,7 +132,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/RealCampestre/parallax.png') ?>') center/cover no-repeat;
         background-color: rgba(0, 0, 0, 0.5);
         background-blend-mode: multiply;
         z-index: 1;
@@ -241,7 +241,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/RealCampestre/parallax.png') ?>') center/cover no-repeat;
         opacity: 0.1;
         z-index: 0;
     }
@@ -314,7 +314,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/RealCampestre/parallax.png') ?>') center/cover no-repeat;
         opacity: 0.3;
         z-index: 0;
     }
@@ -463,7 +463,7 @@
     }
     /* Contact CTA Mejorado */
     .contact-cta {
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/RealCampestre/parallax.png') ?>') center/cover no-repeat;
         position: relative;
         text-align: center;
         padding: 100px 20px;

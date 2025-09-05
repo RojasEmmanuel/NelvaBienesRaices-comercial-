@@ -132,7 +132,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/ElJicaro/parallax.png') ?>') center/cover no-repeat;
         background-color: rgba(0, 0, 0, 0.5);
         background-blend-mode: multiply;
         z-index: 1;
@@ -241,7 +241,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/ElJicaro/parallax.png') ?>') center/cover no-repeat;
         opacity: 0.1;
         z-index: 0;
     }
@@ -314,7 +314,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/ElJicaro/parallax.png') ?>') center/cover no-repeat;
         opacity: 0.3;
         z-index: 0;
     }
@@ -463,7 +463,7 @@
     }
     /* Contact CTA Mejorado */
     .contact-cta {
-        background: url('<?= base_url('images/Andromeda/parallax.png') ?>') center/cover no-repeat;
+        background: url('<?= base_url('images/ElJicaro/parallax.png') ?>') center/cover no-repeat;
         position: relative;
         text-align: center;
         padding: 100px 20px;
@@ -937,6 +937,12 @@
     }
 </style>
 
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/5219581362522?text=Hola,%20me%20interesa%20saber%20más%20sobre%20Fraccionamiento%20Andrómeda" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+<span class="whatsapp-text">¡Contáctanos por WhatsApp!</span>
+
 <!-- Hero Section Mejorada -->
 <section class="hero">
     <div class="hero-bg"></div>
@@ -958,7 +964,7 @@
             🎉 ¡MES PATRIO 2025 - PROMOCIÓN ESPECIAL! 🎉
         </div>
         <h2 class="promo-title">¡Celebremos la Independencia de México con una Oportunidad Única!</h2>
-        <p class="promo-subtitle">Aprovecha nuestra promoción exclusiva por tiempo limitado</p>
+        <p class="promo-subtitle">Estas son nuestras dos opciones de promoción en el fraccionamiento El Jícaro, ¡aprovéchalas ahora con esta oferta exclusiva por tiempo limitado!</p>
         
         <div class="mexico-flag-theme"></div>
         
@@ -967,6 +973,47 @@
             <p>Lotes residenciales</p>
         </div>
         
+        <div class="promo-details">
+            <div class="promo-detail">
+                <h4>48 MESES</h4>
+                <p>Sin intereses</p>
+            </div>
+            <div class="promo-detail">
+                <h4>$2,709 MXN</h4>
+                <p>Pagos mensuales</p>
+            </div>
+            <div class="promo-detail">
+                <h4>ENGANCHE</h4>
+                <p>Con el primer pago mensual</p>
+            </div>
+        </div>
+
+        <div class="promo-detail">
+                <h4>Ó</h4>
+                
+            </div>
+
+        <div class="promo-highlight">
+            <span class="promo-price">$110,000 <span>MXN</span></span>
+            <p>Lotes residenciales</p>
+        </div>
+        
+        <div class="promo-details">
+            <div class="promo-detail">
+                <h4>48 MESES</h4>
+                <p>Sin intereses</p>
+            </div>
+            <div class="promo-detail">
+                <h4>$1,834 MXN</h4>
+                <p>Pagos mensuales</p>
+            </div>
+            <div class="promo-detail">
+                <h4>$22,000 MXM</h4>
+                <p>De enganche</p>
+            </div>
+        </div>
+
+
         <div class="countdown-container">
             <div class="countdown-item">
                 <div class="countdown-value" id="countdown-days">30</div>
@@ -986,20 +1033,6 @@
             </div>
         </div>
         
-        <div class="promo-details">
-            <div class="promo-detail">
-                <h4>48 MESES</h4>
-                <p>Sin intereses</p>
-            </div>
-            <div class="promo-detail">
-                <h4>$6,250 MXN</h4>
-                <p>Pagos mensuales</p>
-            </div>
-            <div class="promo-detail">
-                <h4>ENGANCHE</h4>
-                <p>Con el primer pago mensual</p>
-            </div>
-        </div>
         
         <div class="mexico-flag-theme"></div>
         

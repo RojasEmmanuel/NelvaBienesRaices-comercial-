@@ -1,5 +1,5 @@
 
-<?= view('templates/navbar', ['title' => 'Nelva Bienes Raíces']) ?>
+<?= view('templates/navbar', ['title' => 'Contacto - Nelva Bienes Raíces']) ?>
 
     <style>
         :root {
