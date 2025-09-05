@@ -944,10 +944,6 @@
     </div>
   </div>
   
-  <div class="control-title"><i class="fas fa-chart-pie"></i> Distribución</div>
-  <div style="height: 150px; margin: 15px 0; background: #f8fafc; border-radius: 10px; display: flex; justify-content: center; align-items: center; color: #94a3b8; font-size: 14px;">
-    Gráfico de distribución (requiere Chart.js)
-  </div>
   
   <div class="control-title"><i class="fas fa-info-circle"></i> Información General</div>
   <ul class="info-list">
