@@ -14,6 +14,7 @@ $routes->get('contacto', 'PrincipalController::contacto');
 $routes->get('asesores', 'PrincipalController::asesores');
 $routes->get('mapa-interactivo', 'PrincipalController::mapaInteractivo');
 
+$routes->get('oceanica/plano', 'PrincipalController::oceanicaInteractivo');
 
 $routes->get('real-campestre', 'fraccionamientosController::realCampestre');
 $routes->get('nura', 'fraccionamientosController::nura');

@@ -40,5 +40,10 @@ class PrincipalController extends BaseController
     {
         return view('mapaInteractivo', ['title' => 'Nelva Bienes Raíces']);
     }
+
+    public function oceanicaInteractivo(): string
+    {
+        return view('planos/oceanica', ['title' => 'Nelva Bienes Raíces']);
+    }
     
 }
