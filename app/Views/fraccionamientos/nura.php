@@ -938,7 +938,7 @@
 </style>
 
 <!-- WhatsApp Floating Button -->
-<a href="https://wa.me/5219581362522?text=Hola,%20me%20interesa%20saber%20más%20sobre%20Fraccionamiento%20Andrómeda" class="whatsapp-float" target="_blank">
+<a href="https://wa.me/5219581362522?text=Hola,%20me%20interesa%20saber%20más%20sobre%20Fraccionamiento%20Nura%20Campestre" class="whatsapp-float" target="_blank">
     <i class="fab fa-whatsapp"></i>
 </a>
 <span class="whatsapp-text">¡Contáctanos por WhatsApp!</span>
