@@ -714,6 +714,77 @@
       margin-left: 15px;
     }
     
+    /* Bottom sheet para móviles */
+    .mobile-bottom-sheet {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: white;
+      border-radius: 20px 20px 0 0;
+      z-index: 1000;
+      box-shadow: 0 -5px 25px -5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      transform: translateY(100%);
+      max-height: 85vh;
+      overflow-y: auto;
+    }
+    
+    .mobile-bottom-sheet.open {
+      transform: translateY(0);
+    }
+    
+    .sheet-handle {
+      width: 40px;
+      height: 5px;
+      background: #e2e8f0;
+      border-radius: 3px;
+      margin: 15px auto;
+    }
+    
+    .sheet-content {
+      padding: 0 20px 30px;
+    }
+    
+    .sheet-tabs {
+      display: flex;
+      border-bottom: 1px solid #e2e8f0;
+      margin-bottom: 20px;
+    }
+    
+    .sheet-tab {
+      flex: 1;
+      text-align: center;
+      padding: 15px;
+      font-weight: 600;
+      color: var(--secondary-color);
+      border-bottom: 3px solid transparent;
+    }
+    
+    .sheet-tab.active {
+      color: var(--primary-color);
+      border-bottom-color: var(--primary-color);
+    }
+    
+    /* Floating Action Button para móviles */
+    .mobile-fab {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: var(--primary-color);
+      color: white;
+      box-shadow: var(--shadow);
+      z-index: 900;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+    
     /* Responsive */
     @media (max-width: 1024px) {
       .control-panel, .info-panel {
@@ -734,20 +805,15 @@
         font-size: 16px;
       }
       
-      .control-panel {
-        top: 70px;
-        left: 15px;
-        right: 15px;
-        width: auto;
-        max-height: calc(100vh - 80px);
+      /* Ocultar paneles tradicionales en móviles */
+      .control-panel, .info-panel {
+        display: none;
       }
       
-      .info-panel {
-        top: 70px;
-        left: 15px;
-        right: 15px;
-        width: auto;
-        max-height: 50%;
+      /* Mostrar elementos móviles */
+      .mobile-bottom-sheet,
+      .mobile-fab {
+        display: block;
       }
       
       .map-controls {
@@ -793,6 +859,32 @@
         height: 45px;
         font-size: 16px;
       }
+      
+      /* Ajustar el header para móviles */
+      .header {
+        padding: 10px 15px;
+      }
+      
+      #logo {
+        height: 35px;
+      }
+      
+      .map-title {
+        font-size: 14px;
+        margin-left: 10px;
+      }
+      
+      /* Mejorar el buscador para móviles */
+      .search-input {
+        padding: 12px 16px 12px 40px;
+        font-size: 16px; /* Tamaño más grande para evitar zoom en iOS */
+      }
+      
+      /* Ajustar controles de mapa para móviles */
+      .map-controls {
+        bottom: 90px;
+        gap: 12px;
+      }
     }
     
     @media (max-width: 480px) {
@@ -806,29 +898,67 @@
       
       .map-title {
         font-size: 14px;
-        margin-left: 10px;
+        margin-left: 8px;
       }
       
-      .control-panel, .info-panel {
-        padding: 15px;
+      .search-box {
+        top: 65px;
+      }
+      
+      .map-controls {
+        bottom: 80px;
+        right: 12px;
+      }
+      
+      .compass {
+        width: 50px;
+        height: 50px;
+      }
+      
+      .compass-inner {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+      }
+      
+      .control-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+      }
+      
+      /* Ajustar bottom sheet */
+      .sheet-content {
+        padding: 0 15px 25px;
       }
       
       .stats-grid {
         grid-template-columns: 1fr;
+        gap: 10px;
+      }
+      
+      .stat-card {
+        padding: 12px;
+      }
+      
+      .stat-value {
+        font-size: 20px;
       }
       
       .style-buttons {
         grid-template-columns: 1fr;
       }
       
-      .search-input {
-        padding: 12px 16px 12px 40px;
-        font-size: 14px;
+      .filter-btn {
+        padding: 12px;
       }
       
-      .search-icon {
-        left: 15px;
-        font-size: 16px;
+      /* Mejorar el FAB para móviles pequeños */
+      .mobile-fab {
+        width: 56px;
+        height: 56px;
+        bottom: 16px;
+        right: 16px;
       }
     }
   </style>
@@ -962,6 +1092,120 @@
   </ul>
 </div>
 
+<!-- Bottom Sheet para móviles -->
+<div class="mobile-bottom-sheet" id="mobile-sheet">
+  <div class="sheet-handle"></div>
+  <div class="sheet-tabs">
+    <div class="sheet-tab active" data-tab="controls">Controles</div>
+    <div class="sheet-tab" data-tab="info">Información</div>
+  </div>
+  <div class="sheet-content">
+    <!-- Contenido de controles -->
+    <div class="tab-content" id="controls-content">
+      <div class="control-section">
+        <div class="control-title"><i class="fas fa-layer-group"></i> Estilo del Mapa</div>
+        <div class="style-buttons">
+          <button class="style-btn active" data-style="satellite-streets">
+            <i class="fas fa-satellite"></i> Satélite
+          </button>
+          <button class="style-btn" data-style="outdoors">
+            <i class="fas fa-mountain"></i> Relieve
+          </button>
+          <button class="style-btn" data-style="streets">
+            <i class="fas fa-road"></i> Calles
+          </button>
+          <button class="style-btn" data-style="light">
+            <i class="fas fa-map"></i> Light
+          </button>
+        </div>
+      </div>
+      
+      <div class="control-section">
+        <div class="control-title"><i class="fas fa-filter"></i> Filtros</div>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">
+            <div class="color-indicator" style="background: conic-gradient(#16a34a 0% 33%, #dc2626 33% 66%, #ea580c 66% 100%);"></div>
+            Todos los lotes
+          </button>
+          <button class="filter-btn" data-filter="disponible">
+            <div class="color-indicator disponible-indicator"></div>
+            Disponibles
+          </button>
+          <button class="filter-btn" data-filter="vendido">
+            <div class="color-indicator vendido-indicator"></div>
+            Vendidos
+          </button>
+          <button class="filter-btn" data-filter="apartado">
+            <div class="color-indicator apartado-indicator"></div>
+            Apartados
+          </button>
+        </div>
+      </div>
+      
+      <div class="control-section">
+        <div class="control-title"><i class="fas fa-sliders-h"></i> Opciones</div>
+        <div class="filter-buttons">
+          <button class="filter-btn" id="mobile-toggle-labels">
+            <i class="fas fa-tag"></i>
+            <span>Alternar etiquetas</span>
+          </button>
+          <button class="filter-btn" id="mobile-toggle-3d">
+            <i class="fas fa-cube"></i>
+            <span>Vista 3D</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Contenido de información -->
+    <div class="tab-content" id="info-content" style="display: none;">
+      <div class="info-header">
+        <div class="info-title">Resumen del Fraccionamiento</div>
+      </div>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value" id="mobile-total-lotes">0</div>
+          <div class="stat-label">Total Lotes</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="mobile-disponible-lotes">0</div>
+          <div class="stat-label">Disponibles</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="mobile-vendido-lotes">0</div>
+          <div class="stat-label">Vendidos</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="mobile-apartado-lotes">0</div>
+          <div class="stat-label">Apartados</div>
+        </div>
+      </div>
+      
+      <div class="control-title"><i class="fas fa-info-circle"></i> Información General</div>
+      <ul class="info-list">
+        <li class="info-item">
+          <span class="info-item-title">Área total:</span>
+          <span class="info-item-value" id="mobile-total-area">0 m²</span>
+        </li>
+        <li class="info-item">
+          <span class="info-item-title">Manzanas:</span>
+          <span class="info-item-value" id="mobile-total-manzanas">0</span>
+        </li>
+        <li class="info-item">
+          <span class="info-item-title">Última actualización:</span>
+          <span class="info-item-value" id="mobile-last-update">-</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- FAB para móviles -->
+<div class="mobile-fab" id="mobile-fab">
+  <i class="fas fa-layer-group"></i>
+</div>
+
 <!-- Buscador -->
 <div class="search-box">
   <div class="search-container">
@@ -1037,6 +1281,7 @@
   let is3DView = false;
   let isPanelCollapsed = false;
   let isMobileView = window.innerWidth <= 768;
+  let mobileSheetOpen = false;
 
   // Inicializar el mapa
   map.on('load', () => {
@@ -1224,6 +1469,100 @@
       document.querySelector('.control-panel').classList.toggle('collapsed');
     });
 
+    // Controles para móviles
+    if (isMobileView) {
+      // FAB para abrir/cerrar bottom sheet
+      document.getElementById('mobile-fab').addEventListener('click', toggleMobileSheet);
+      
+      // Tabs en bottom sheet
+      document.querySelectorAll('.sheet-tab').forEach(tab => {
+        tab.addEventListener('click', function() {
+          document.querySelectorAll('.sheet-tab').forEach(t => t.classList.remove('active'));
+          this.classList.add('active');
+          
+          const tabName = this.getAttribute('data-tab');
+          document.querySelectorAll('.tab-content').forEach(content => {
+            content.style.display = 'none';
+          });
+          document.getElementById(`${tabName}-content`).style.display = 'block';
+        });
+      });
+      
+      // Delegación de eventos para botones en el bottom sheet
+      document.getElementById('controls-content').addEventListener('click', function(e) {
+        // Estilos de mapa
+        if (e.target.closest('.style-btn')) {
+          const btn = e.target.closest('.style-btn');
+          document.querySelectorAll('.style-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          
+          const style = btn.getAttribute('data-style');
+          showToast('Cambiando estilo de mapa...', 'info');
+          
+          map.setStyle(mapStyles[style]);
+          
+          map.once('style.load', () => {
+            setupTerrain();
+            addFraccionamientoPolygon();
+            if (lotesSource) {
+              addLotesToMap(lotesSource);
+            }
+            showToast('Estilo de mapa cambiado', 'success');
+          });
+        }
+        
+        // Filtros
+        if (e.target.closest('.filter-btn') && !e.target.closest('.filter-btn').id) {
+          const btn = e.target.closest('.filter-btn');
+          document.querySelectorAll('.filter-btn').forEach(b => {
+            if (!b.id) b.classList.remove('active');
+          });
+          btn.classList.add('active');
+          
+          currentFilter = btn.getAttribute('data-filter');
+          filterLotesByStatus(currentFilter);
+          
+          let message = 'Mostrando todos los lotes';
+          if (currentFilter === 'disponible') message = 'Filtrando lotes disponibles';
+          if (currentFilter === 'vendido') message = 'Filtrando lotes vendidos';
+          if (currentFilter === 'apartado') message = 'Filtrando lotes apartados';
+          
+          showToast(message, 'success');
+        }
+        
+        // Toggle 3D
+        if (e.target.closest('#mobile-toggle-3d')) {
+          is3DView = !is3DView;
+          
+          map.easeTo({
+            pitch: is3DView ? 45 : 0,
+            duration: 1000
+          });
+          
+          showToast(is3DView ? 'Vista 3D activada' : 'Vista 2D activada', 'success');
+        }
+        
+        // Toggle labels
+        if (e.target.closest('#mobile-toggle-labels')) {
+          const markers = document.querySelectorAll('.lote-marker');
+          const isVisible = markers[0].style.display !== 'none';
+          
+          markers.forEach(marker => {
+            marker.style.display = isVisible ? 'none' : 'block';
+          });
+          
+          showToast(isVisible ? 'Etiquetas ocultas' : 'Etiquetas visibles', 'success');
+        }
+      });
+      
+      // Cerrar bottom sheet al hacer clic fuera
+      document.getElementById('mobile-sheet').addEventListener('click', function(e) {
+        if (e.target === this) {
+          toggleMobileSheet();
+        }
+      });
+    }
+
     // Ajustar para vista móvil
     window.addEventListener('resize', () => {
       const mobileView = window.innerWidth <= 768;
@@ -1235,6 +1574,20 @@
         }
       }
     });
+  }
+
+  // Función para abrir/cerrar el bottom sheet en móviles
+  function toggleMobileSheet() {
+    const sheet = document.getElementById('mobile-sheet');
+    mobileSheetOpen = !mobileSheetOpen;
+    
+    if (mobileSheetOpen) {
+      sheet.classList.add('open');
+      document.getElementById('mobile-fab').innerHTML = '<i class="fas fa-times"></i>';
+    } else {
+      sheet.classList.remove('open');
+      document.getElementById('mobile-fab').innerHTML = '<i class="fas fa-layer-group"></i>';
+    }
   }
 
   // Función para buscar lote
@@ -1253,6 +1606,11 @@
         zoom: 18,
         duration: 2000
       });
+      
+      // Cerrar bottom sheet si está abierto en móviles
+      if (isMobileView && mobileSheetOpen) {
+        toggleMobileSheet();
+      }
       
       // Abrir popup con información del lote
       setTimeout(() => {
@@ -1592,6 +1950,14 @@
     document.getElementById('vendido-lotes').textContent = vendidos;
     document.getElementById('apartado-lotes').textContent = apartados;
     
+    // Actualizar también para móviles
+    if (isMobileView) {
+      document.getElementById('mobile-total-lotes').textContent = total;
+      document.getElementById('mobile-disponible-lotes').textContent = disponibles;
+      document.getElementById('mobile-vendido-lotes').textContent = vendidos;
+      document.getElementById('mobile-apartado-lotes').textContent = apartados;
+    }
+    
     // Calcular área total
     let areaTotal = 0;
     data.features.forEach(feature => {
@@ -1600,12 +1966,25 @@
     });
     document.getElementById('total-area').textContent = `${areaTotal.toLocaleString()} m²`;
     
+    if (isMobileView) {
+      document.getElementById('mobile-total-area').textContent = `${areaTotal.toLocaleString()} m²`;
+    }
+    
     // Contar manzanas únicas
     const manzanas = new Set(data.features.map(f => f.properties.manzana));
     document.getElementById('total-manzanas').textContent = manzanas.size;
     
+    if (isMobileView) {
+      document.getElementById('mobile-total-manzanas').textContent = manzanas.size;
+    }
+    
     // Actualizar fecha
-    document.getElementById('last-update').textContent = new Date().toLocaleDateString();
+    const fecha = new Date().toLocaleDateString();
+    document.getElementById('last-update').textContent = fecha;
+    
+    if (isMobileView) {
+      document.getElementById('mobile-last-update').textContent = fecha;
+    }
   }
 
   // Función para mostrar notificaciones toast
