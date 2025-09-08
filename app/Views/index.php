@@ -1494,21 +1494,30 @@
         <p class="text-center">Aprovecha nuestras ofertas exclusivas para invertir en tu próximo proyecto</p>
         
         <div class="promo-grid">
-            <div class="promo-card">
-                <img src="/images/inicio/promoNyssa.jpg" alt="Promoción 1">
-                <div class="promo-card-content">
-                    <h3>Financiamiento especial</h3>
-                    <p>Hasta 4 años para pagar tu terreno con enganche del 20%</p>
-                </div>
-            </div>
-            <div class="promo-card">
-                <img src="/images/inicio/promoAndromeda.jpg" alt="Promoción 2">
-                <div class="promo-card-content">
-                    <h3>Paquete completo</h3>
-                    <p>El terreno ideal para ti</p>
-                </div>
-            </div>
             
+            <div class="promo-card">
+                <img src="/images/inicio/oceanicaFlyer.png " alt="Promoción 2">
+                <div class="promo-card-content">
+                    <h3>Promociones de septiembre 2025✨</h3>
+                    <p>Hasta 48 meses sin intereses</p>
+                </div>
+            </div>
+
+            <div class="promo-card">
+                <img src="/images/inicio/andromedaFlyer.png " alt="Promoción 2">
+                <div class="promo-card-content">
+                    <h3>Promociones de septiembre 2025✨</h3>
+                    <p>Hasta 48 meses sin intereses</p>
+                </div>
+            </div>
+
+            <div class="promo-card">
+                <img src="/images/inicio/realCampestreFlyer.png " alt="Promoción 2">
+                <div class="promo-card-content">
+                    <h3>Promociones de septiembre 2025✨</h3>
+                    <p>Hasta 48 meses sin intereses</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
