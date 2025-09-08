@@ -1518,6 +1518,14 @@
                     <p>Hasta 48 meses sin intereses</p>
                 </div>
             </div>
+
+            <div class="promo-card">
+                <img src="/images/inicio/jicaroFlyer.jpg " alt="Promoción 2">
+                <div class="promo-card-content">
+                    <h3>Promociones de septiembre 2025✨</h3>
+                    <p>Hasta 48 meses sin intereses</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
