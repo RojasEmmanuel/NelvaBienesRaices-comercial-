@@ -1123,7 +1123,7 @@
                 <!-- El Jícaro -->
                 <div class="project-card">
                     <div class="project-logo-container">
-                        <img src="<?= base_url('images/inicio/jicaro.png') ?>" alt="El Jícaro" class="project-logo">
+                        <img src="<?= base_url('images/inicio/Jicaro.png') ?>" alt="El Jícaro" class="project-logo">
                     </div>
                     <div class="project-location">
                         <i class="fas fa-map-marker-alt"></i>
@@ -1137,7 +1137,7 @@
                 <!-- Oceanica -->
                 <div class="project-card">
                     <div class="project-logo-container">
-                        <img src="<?= base_url('images/inicio/oceanica.png') ?>" alt="Oceanica" class="project-logo">
+                        <img src="<?= base_url('images/inicio/OCEANICA.png') ?>" alt="Oceanica" class="project-logo">
                     </div>
                     <div class="project-location">
                         <i class="fas fa-map-marker-alt"></i>
