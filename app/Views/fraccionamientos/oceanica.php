@@ -935,6 +935,35 @@
             grid-template-columns: 1fr;
         }
     }
+
+    /* Estilos para el botón del plano dinámico */
+    .btn-interactive {
+        background: linear-gradient(135deg, #1e88e5, #0d47a1);
+        color: white;
+        font-weight: 600;
+        padding: 12px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        margin-top: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-size: 0.9rem;
+    }
+    
+    .btn-interactive:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        background: linear-gradient(135deg, #1565c0, #0d47a1);
+    }
+    
+    .btn-interactive i {
+        font-size: 1.2rem;
+    }
 </style>
 
 <!-- WhatsApp Floating Button -->
@@ -1139,6 +1168,14 @@
         <div style="max-width: 480px; margin: auto; box-shadow: var(--shadow-lg); border-radius: 12px; overflow: hidden;">
             <img src="<?= base_url('images/Oceanica/plano.png') ?>" alt="Plano de Oceanica" style="width: 100%; height: auto; display: block;">
         </div>
+
+        <!-- Botón para plano dinámico - Colocar en la sección del plano estático -->
+<div class="text-center" style="margin-top: 30px;">
+    <a href="/oceanica/plano" class="btn-interactive">
+        <i class="fas fa-map-marked-alt"></i> Ver Plano Interactivo
+    </a>
+</div>
+
         <p class="text-center" style="margin-top: 20px; font-size: 1.1rem; color: var(--gray);">
             Diseño urbanístico pensado para maximizar espacios y privacidad, con amplias áreas verdes y distribución estratégica.
         </p>
