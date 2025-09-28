@@ -997,7 +997,7 @@
                     <i class="fas fa-road"></i>
                 </div>
                 <h3>10 M</h3>
-                <p>Calles pavimentadas</p>
+                <p>Calles amplias</p>
             </div>
             <div class="feature-item">
                 <div class="feature-icon">
